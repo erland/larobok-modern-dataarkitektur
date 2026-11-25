@@ -1,6 +1,6 @@
 # Projektstatus
 
-Revision 65: steg 9.1c genomfört. Samlad redaktionell helhetsgranskning har kontrollerat disposition, kapitelövergångar och fastställd terminologi mot slutläsningen i revision 60–64. Korta övergångar har kompletterats i kapitel 11, 15, 16 och 18 med fyra förnyade interna godkännanden. Källregister, nio SVG-illustrationer och godkänt omslag oförändrade. Manusets redaktionella slutläsning är avslutad; faktisk PDF/EPUB-provexport och publiceringskontroll återstår.
+Revision 66: teknisk korrigering av typsnittskontrollen i byggflödena; manus oförändrat. Revision 65: steg 9.1c genomfört. Samlad redaktionell helhetsgranskning har kontrollerat disposition, kapitelövergångar och fastställd terminologi mot slutläsningen i revision 60–64. Korta övergångar har kompletterats i kapitel 11, 15, 16 och 18 med fyra förnyade interna godkännanden. Källregister, nio SVG-illustrationer och godkänt omslag oförändrade. Manusets redaktionella slutläsning är avslutad; faktisk PDF/EPUB-provexport och publiceringskontroll återstår.
 
 | Kapitel | Titel | Status |
 |---|---|---|
