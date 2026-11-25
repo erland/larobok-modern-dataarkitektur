@@ -1,6 +1,6 @@
 # Projektindex
 
-Modern dataarkitektur | factbook | revision 67 (omstart)
+Modern dataarkitektur | factbook | revision 68 (omstart)
 
 Samtliga 21 kapitel och inledning godkända. Steg 7.1a–c, 7.2, 7.3a–c samt strukturell verifiering 7.3d genomförda. Se docs/reviews/slutverifiering-7.3d.md för avgränsningar. Redaktionell slutläsning genomförd i revision 60–65; publiceringsgrind återstår. Källregister 86 poster. EPUB/PDF ej byggda.
 
@@ -31,3 +31,5 @@ Steg 9.1c: samlad redaktionell helhetsgranskning av kapitelordning, övergångar
 Revision 66: teknisk korrigering av typsnittskontrollen i Build Preview och Release. Manus och kapitelgodkännanden oförändrade. Provexport återstår.
 
 Revision 67: Inkscape tillagt som byggberoende i förhands- och releaseflöden, för att konvertera SVG-illustrationer till vektor-PDF. Manus oförändrat; ny provexport krävs.
+
+Revision 68: PDF-mall använder fontspec-familjenamnet `TeX Gyre Pagella`; Build Preview körs automatiskt för PR och fortsatt manuellt via workflow_dispatch. Manus, källor och illustrationer oförändrade. Publiceringskontroll återstår.
