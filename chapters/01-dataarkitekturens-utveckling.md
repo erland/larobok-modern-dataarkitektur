@@ -2,7 +2,7 @@
 
 En dataarkitektur formas av vilka frågor verksamheten behöver kunna besvara och av hur informationen uppstår. När en myndighet behöver sammanställa föregående års verksamhetsresultat ser kraven annorlunda ut än när den vill prioritera dagens kontrollinsatser eller utveckla ett AI-stöd som kan hitta relevanta uppgifter i dokument. De tre behoven kan existera samtidigt, även om de har uppstått vid olika tidpunkter.
 
-Dataarkitekturens utveckling kan därför förstås som en successiv breddning av vad organisationer vill kunna göra med sin information. Nya arkitekturmönster har vuxit fram för att hantera begränsningar i tidigare lösningar. Samtidigt har de ursprungliga behoven inte försvunnit.
+Dataarkitekturens utveckling kan därför förstås som en successiv breddning av vad organisationer vill kunna göra med sin information. Nya arkitekturmönster har vuxit fram för att hantera begränsningar i befintliga lösningar och möta nya behov. Samtidigt har de ursprungliga behoven inte försvunnit.
 
 ## Från samlad rapportering till bredare dataanvändning
 

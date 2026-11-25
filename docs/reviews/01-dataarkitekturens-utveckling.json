@@ -1,13 +1,13 @@
 {
   "blockers": [],
   "chapter": "01-dataarkitekturens-utveckling.md",
-  "chapter_sha256": "0bd3dcae05c7fdfe339a9e7c665988b8a66791706f7b74e100096b7750946f5f",
+  "chapter_sha256": "e03bc737a78d35ad3d49b379d0bea6318013d17bb1825c06b9fadd8d6c56bca9",
   "check_notes": {
     "audience": "Anpassat till erfarna IT-arkitekter i reglerade organisationer, fiktiv referensmyndighet.",
-    "consistency": "Koncentreringen behåller drivkrafter, historisk överblick och NAO-exempel; specialistberoendet fördjupas i kapitel 9 och självbetjäning i 12.",
-    "editorial": "Läsarfärdig text; inga arbetsmarkörer eller nya innehållsöverlappningar identifierade.",
+    "consistency": "Kontrollerad mot inledning och kapitel 1–3 samt kapitlens respektive avgränsningar.",
+    "editorial": "Läsarfärdig text utan arbetsinstruktioner till författare eller redaktör. Preciserat att nya arkitekturmönster både möter nya behov och begränsningar i befintliga lösningar.",
     "facts": "K001, K008, K014 och K033: tidigare dokumenterad granskning återanvänds; inga nya externa påståenden. NAO avser brittisk förvaltning 2019 och CIDR-artikeln är ett arkitekturförslag. Nya exempel är villkorad arkitektursyntes, inte empiriska effektpåståenden. Förändringsförmåga anges som begränsning när samordningen faktiskt orsakar ledtid, inte en automatisk följd av en liten schemaändring.",
-    "language": "Svenskt fackspråk och konsekvent terminologi; Förändringsförmåga anges som begränsning när samordningen faktiskt orsakar ledtid, inte en automatisk följd av en liten schemaändring.",
+    "language": "Slutläst och språkligt preciserad. Preciserat att nya arkitekturmönster både möter nya behov och begränsningar i befintliga lösningar.",
     "sources": "K001, K008, K014 och K033: tidigare dokumenterad granskning återanvänds; inga nya externa påståenden. NAO avser brittisk förvaltning 2019 och CIDR-artikeln är ett arkitekturförslag.",
     "structure": "Koncentreringen behåller drivkrafter, historisk överblick och NAO-exempel; specialistberoendet fördjupas i kapitel 9 och självbetjäning i 12."
   },
@@ -22,12 +22,13 @@
     "structure": "passed"
   },
   "corrections": [
-    "Förändringsförmåga anges som begränsning när samordningen faktiskt orsakar ledtid, inte en automatisk följd av en liten schemaändring."
+    "Förändringsförmåga anges som begränsning när samordningen faktiskt orsakar ledtid, inte en automatisk följd av en liten schemaändring.",
+    "Preciserat att nya arkitekturmönster både möter nya behov och begränsningar i befintliga lösningar."
   ],
   "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
-  "project_revision_at_review": 50,
+  "project_revision_at_review": 59,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Förnyad intern redaktionell granskning i steg 7.3b, basrevision 50. Hela kapitel 1 genomläst mot bokplan, canon, terminologi, inledning och dokumenterad faktakontroll samt jämfört med godkänd revision 45. Tidigare externa källkontroller återanvänds; ingen ny extern fulltextgranskning eller oberoende faktagranskning.",
-  "updated_at": "2026-11-25T15:39:05+00:00"
+  "summary": "Steg 9.1a.1: hela texten slutläst, korrigerad vid behov och återkontrollerad mot inledning, kapitelplan, terminologi och angränsande kapitel. Tidigare dokumenterad käll- och faktakontroll återanvänds; inga nya externa faktapåståenden införs. Godkännandet gäller intern redaktionell kvalitetsgranskning, inte oberoende faktagranskning.",
+  "updated_at": "2026-11-25T18:48:22+00:00"
 }

@@ -1,11 +1,11 @@
 {
-  "canonical_zip_name": "modern-dataarkitektur-omstart-r059.zip",
+  "canonical_zip_name": "modern-dataarkitektur-omstart-r060.zip",
   "chapters": {
     "count": 22,
     "hashes": {
-      "chapters/01-dataarkitekturens-utveckling.md": "0bd3dcae05c7fdfe339a9e7c665988b8a66791706f7b74e100096b7750946f5f",
-      "chapters/02-operativ-och-analytisk-datahantering.md": "434cc232009e9a9177d73a77e8ebecf56e179175089ebaa6362a50b6e397d91e",
-      "chapters/03-dataarkitekturens-dimensioner.md": "448d9ecf9faae153ca939668425056ec7c2876e196435f076390cc0f85b44622",
+      "chapters/01-dataarkitekturens-utveckling.md": "e03bc737a78d35ad3d49b379d0bea6318013d17bb1825c06b9fadd8d6c56bca9",
+      "chapters/02-operativ-och-analytisk-datahantering.md": "734377e16e7005e571f46e595e4ee992c7c077b4a0abc3afe5ee02683b559c77",
+      "chapters/03-dataarkitekturens-dimensioner.md": "3b343c7b885fcbfafe8b8b965b93045e4e41c525fcc3f8e458ce51e076201570",
       "chapters/04-data-warehouse.md": "badac234a7a0f667586f40159c0fbf8013b331abc3b37922888c95f05b4bbb7e",
       "chapters/05-data-lake.md": "b1414858ecf90f2e92863634e827386ed4203c29e9136a757090b7e9c38a2ba7",
       "chapters/06-data-lakehouse.md": "748d16c972872e87f11d4efff358a47ca776db294cc5cbf71fcd56ddb20b4328",
@@ -31,21 +31,25 @@
   "created_at": "2026-11-25T07:13:25Z",
   "last_operation": {
     "changed_files": [
-      "assets/cover/cover.png",
-      "assets/image-prompts/COVER-01.md",
-      "book.yaml",
-      "docs/bokspecifikation.md",
-      "docs/illustration-plan.md",
+      "chapters/00-inledning.md",
+      "chapters/01-dataarkitekturens-utveckling.md",
+      "chapters/02-operativ-och-analytisk-datahantering.md",
+      "chapters/03-dataarkitekturens-dimensioner.md",
+      "docs/kapitelplan.md",
       "docs/projektstatus.md",
+      "docs/reviews/00-inledning.json",
+      "docs/reviews/01-dataarkitekturens-utveckling.json",
+      "docs/reviews/02-operativ-och-analytisk-datahantering.json",
+      "docs/reviews/03-dataarkitekturens-dimensioner.json",
       "project-index.md"
     ],
-    "operation": "Steg 8.8: godkänt omslag lagrat och konfigurerat",
-    "source_revision": 58
+    "operation": "Steg 9.1a.1: slutläsning av inledning och kapitel 1–3",
+    "source_revision": 59
   },
-  "parent_revision": 58,
+  "parent_revision": 59,
   "project_id": "e3de759e-c3cf-4a30-9628-20931db7776b",
   "project_slug": "modern-dataarkitektur",
-  "revision": 59,
+  "revision": 60,
   "schema_version": 1,
   "template": false,
   "tracked_files": {
@@ -162,20 +166,20 @@
       "sha256": "dd0d9ed9e8ff1e921a04ed489f442b1541492b90cfdc7bff3e02d93f5125331b"
     },
     "chapters/00-inledning.md": {
-      "bytes": 3598,
-      "sha256": "4e2b5e256326e9fcd684c61189f8d6af915df53cb9d27082d4c294c7d90bd195"
+      "bytes": 3627,
+      "sha256": "ba63b35b607daa4d110c34f0cc5d5acf5c4bf8a8c09d85681a4b9bc7d9b3addd"
     },
     "chapters/01-dataarkitekturens-utveckling.md": {
-      "bytes": 9005,
-      "sha256": "0bd3dcae05c7fdfe339a9e7c665988b8a66791706f7b74e100096b7750946f5f"
+      "bytes": 9027,
+      "sha256": "e03bc737a78d35ad3d49b379d0bea6318013d17bb1825c06b9fadd8d6c56bca9"
     },
     "chapters/02-operativ-och-analytisk-datahantering.md": {
-      "bytes": 10637,
-      "sha256": "434cc232009e9a9177d73a77e8ebecf56e179175089ebaa6362a50b6e397d91e"
+      "bytes": 10651,
+      "sha256": "734377e16e7005e571f46e595e4ee992c7c077b4a0abc3afe5ee02683b559c77"
     },
     "chapters/03-dataarkitekturens-dimensioner.md": {
-      "bytes": 7913,
-      "sha256": "448d9ecf9faae153ca939668425056ec7c2876e196435f076390cc0f85b44622"
+      "bytes": 7952,
+      "sha256": "3b343c7b885fcbfafe8b8b965b93045e4e41c525fcc3f8e458ce51e076201570"
     },
     "chapters/04-data-warehouse.md": {
       "bytes": 13672,
@@ -298,32 +302,32 @@
       "sha256": "8097ccf7c54b12bd45e78b052cd27738eb3436fa9fc07309b94b4926fa61a2ed"
     },
     "docs/kapitelplan.md": {
-      "bytes": 6645,
-      "sha256": "a3e313a4641e9b2db350cb2076728f9ad0544bb1814482768b3efd12cfb09ca3"
+      "bytes": 6670,
+      "sha256": "51d26e3c6dd8b5d76d4398b7116664b1ed32ad32c88d38e73c01902c3899fc91"
     },
     "docs/projektstatus.md": {
-      "bytes": 1854,
-      "sha256": "41ce8631a6d6f66b85f21a8fb5d318a4fc1973c8965c1485c52291f7bae1768a"
+      "bytes": 1783,
+      "sha256": "51ea520912c26f8da79beeae589bba0dc191b5a3e86217a2c071fb6293ac5826"
     },
     "docs/quality-checklist.md": {
       "bytes": 2131,
       "sha256": "d8eac6669a45ab9c82a7e4cafdbc0594d925ff395fd4a42564fa00d0164c29c3"
     },
     "docs/reviews/00-inledning.json": {
-      "bytes": 2577,
-      "sha256": "65cdac88ad7783cf9188081767b07dfd7e2022690c6c007cabad8148b3218f27"
+      "bytes": 2566,
+      "sha256": "c1bb48636759e9ce1d1cc32ac1efc3fda75737fda2a0fad664bb45d51145d650"
     },
     "docs/reviews/01-dataarkitekturens-utveckling.json": {
-      "bytes": 2558,
-      "sha256": "a6141f451dc8bbbfab23b3fe465aa1ad3db5511bbbaec897f32148f220ab9b6a"
+      "bytes": 2673,
+      "sha256": "4cbbbb52ba9694aded9b03bc2e98d17eee8273fe47f038296ec12601ce516962"
     },
     "docs/reviews/02-operativ-och-analytisk-datahantering.json": {
-      "bytes": 2355,
-      "sha256": "25dedcae855a78d95e599e99d261fce072b6c516052243d30015a461527d522c"
+      "bytes": 2779,
+      "sha256": "93cdfd8fa1370a501a6cffd7f6ddba9ea3f6b9b516e43fbd949ba170a22d69d7"
     },
     "docs/reviews/03-dataarkitekturens-dimensioner.json": {
-      "bytes": 2844,
-      "sha256": "8ea4056f55b7138d72442ef90c1e1b194600a8139e0d12fa4c20d237059dd849"
+      "bytes": 2913,
+      "sha256": "1a37056ae782ee511e1badaf809339774ce11aecf5206f3efb1a1a3e5e1baceb"
     },
     "docs/reviews/04-data-warehouse.json": {
       "bytes": 2802,
@@ -494,8 +498,8 @@
       "sha256": "f46cb68df4c310e24d7ceb62ba1f6c4eed5c6bb9ff11c7c5ff85dd33b3094d58"
     },
     "project-index.md": {
-      "bytes": 1462,
-      "sha256": "8bcfbe786140c131ed0c6ceb59c6da56d63ac2483560bdbd14e4b8dc277df728"
+      "bytes": 1639,
+      "sha256": "88ab8e4aa0e7e8f36f63efb84cd5bc38711e9e356f9e618f975af746873e06c2"
     },
     "publishing/build-notes.md": {
       "bytes": 439,
@@ -518,8 +522,8 @@
       "sha256": "4fe482d302430c7962bc619147bf8d388e4466171e988db61fcf4664456241ec"
     },
     "revision-log.md": {
-      "bytes": 23356,
-      "sha256": "97e2f604fa444b2c76f9101a24a90cb218a516d36add60959665171b87a8b21e"
+      "bytes": 23937,
+      "sha256": "ccbddfd12df6479ebdc1a8b12cfd5ad4bad563b4873f587732e5305d07591df5"
     },
     "scripts/book_references.py": {
       "bytes": 4622,
@@ -558,5 +562,5 @@
       "sha256": "7bfc4efda9947a855c979019864423f80d47e531d92855d02f64643a0887208a"
     }
   },
-  "updated_at": "2026-11-25T18:12:43Z"
+  "updated_at": "2026-11-25T18:48:22Z"
 }

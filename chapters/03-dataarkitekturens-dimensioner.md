@@ -22,7 +22,7 @@ Ett operativt IT-stöd kan exempelvis publicera förändringar till en gemensam 
 
 Den tredje dimensionen handlar om hur konsumenter hittar, förstår och använder information. En analytiker kan behöva en frågebar tabell med historik, medan ett IT-stöd kan behöva ett avgränsat tjänstegränssnitt. En gemensam definition av ett verksamhetsmått kan behövas för att olika rapporter ska bli jämförbara.
 
-Valet av åtkomstform ska inte förväxlas med valet av fysisk lagring. En konsument kan exempelvis få åtkomst till en logisk vy över flera datalager utan att veta hur varje källa är lagrad. Det kräver dock att åtkomstlösningen kan uppfylla krav på bland annat prestanda, behörighet och informationsbetydelse.
+Valet av åtkomstform ska inte förväxlas med valet av fysisk lagring. En konsument kan exempelvis få åtkomst till en logisk vy över flera datalager utan att veta hur varje källa är lagrad. Det kräver dock att åtkomstlösningen uppfyller krav på bland annat prestanda, behörighet och tydliga informationsdefinitioner.
 
 ### Gemensamma plattformsförmågor
 
@@ -44,7 +44,7 @@ Fysisk lagring, logisk åtkomst, informationsansvar, teknisk förvaltning och st
 
 ## Från verksamhetsbehov till verifierbart arkitekturval
 
-Utgå från en observerad begränsning i den berörda arkitekturdimensionen. Vid långsam informationsförsörjning behöver orsaken exempelvis lokaliseras innan ett byte av lagringsprodukt övervägs; kapitel 9 analyserar sådana förändringsberoenden.
+Utgå från en observerad begränsning i den berörda arkitekturdimensionen. Vid långa ledtider för förändringar i informationsförsörjningen behöver orsaken exempelvis lokaliseras innan ett byte av lagringsprodukt övervägs; kapitel 9 analyserar sådana förändringsberoenden.
 
 Arkitekturval bör därför härledas från verksamhetsbehov via arkitekturdrivande krav, arkitekturmönster och nödvändiga plattformsförmågor till teknisk realisering. Produktalternativ bedöms mot dessa krav och förmågor, med återkoppling när teknisk genomförbarhet eller kostnad kräver att ett tidigare vägval omprövas. Kraven behöver vara tillräckligt konkreta för att verifieras; exempelvis en högsta tolererad fördröjning eller en mätbar ledtid för en schemaändring.
 

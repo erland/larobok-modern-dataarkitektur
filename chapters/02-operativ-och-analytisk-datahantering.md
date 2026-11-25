@@ -44,7 +44,7 @@ Detta är organisationens egen beskrivning av en lösning i en forskningsmiljö.
 
 ## Historik och informationsmodeller
 
-En kopia av ett operativt system är inte nödvändigtvis ett tillräckligt analysunderlag. Anta att ett ärendes ansvariga organisatoriska enhet ändras när en omorganisation genomförs. Om källsystemet endast behåller den senaste tilldelningen går det inte att i efterhand avgöra vilken enhet som ansvarade för ärendet vid en tidigare tidpunkt utan kompletterande historik.
+En kopia av data från ett operativt IT-stöd är inte nödvändigtvis ett tillräckligt analysunderlag. Anta att ett ärendes ansvariga organisatoriska enhet ändras när en omorganisation genomförs. Om källsystemet endast behåller den senaste tilldelningen går det inte att i efterhand avgöra vilken enhet som ansvarade för ärendet vid en tidigare tidpunkt utan kompletterande historik.
 
 För analys behöver organisationen bestämma vilken tidsbild som ska representeras. Det kan finnas en skillnad mellan när en förändring faktiskt gällde i verksamheten och när den registrerades i systemet. En retroaktiv rättelse kan därför påverka historiska resultat. En rapport som ska kunna återskapas kan behöva bevara även information om vilken dataversion och vilka beräkningsregler som användes.
 
@@ -62,7 +62,7 @@ Om analysresultatet hämtas synkront från en separat tjänst blir tjänsten ett
 
 HTAP (Hybrid Transactional/Analytical Processing) är en inriktning där transaktions- och analysbearbetning kan stödjas i en gemensam databasmiljö. Kemper och Neumann presenterade 2011 forskningssystemet HyPer, där analytiska frågor kördes mot konsistenta ögonblicksbilder av transaktionsdata. Syftet var att möjliggöra samtidiga arbetslaster och minska aktualitetsproblemen vid överföring mellan separata system [K040]. Det är ett dokumenterat exempel på en teknisk möjlighet, inte en garanti för att alla moderna hybridlösningar klarar en organisations krav.
 
-Gemensam bearbetning är särskilt intressant när analysen måste ligga nära transaktionernas aktuella tillstånd. Även här behöver resursisolering och påverkan vid fel verifieras; en konsistent ögonblicksbild innebär inte i sig garanterad svarstid. Den undanröjer dock inte behovet av informationsintegration över systemgränser, historik eller ändamålsenliga modeller. En hybrid databas kan därför komplettera ett gemensamt analyslager snarare än ersätta det.
+Gemensam bearbetning är särskilt intressant när analysen måste ligga nära transaktionernas aktuella tillstånd. Även här behöver resursisolering och påverkan vid fel verifieras; en konsistent ögonblicksbild innebär inte i sig garanterad svarstid. HTAP undanröjer dock inte behovet av informationsintegration över systemgränser, historik eller ändamålsenliga modeller. En hybrid databas kan därför komplettera ett gemensamt analyslager snarare än ersätta det.
 
 ## Arkitekturval utifrån arbetslasten
 

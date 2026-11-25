@@ -1,14 +1,14 @@
 {
   "blockers": [],
   "chapter": "02-operativ-och-analytisk-datahantering.md",
-  "chapter_sha256": "434cc232009e9a9177d73a77e8ebecf56e179175089ebaa6362a50b6e397d91e",
+  "chapter_sha256": "734377e16e7005e571f46e595e4ee992c7c077b4a0abc3afe5ee02683b559c77",
   "check_notes": {
     "audience": "Beslutsorienterad för erfarna IT-arkitekter.",
-    "consistency": "Inledning och kapitel 1 bevarade; överföringsmönster och modellering hänvisas till kapitel 9 respektive 4.",
-    "editorial": "Ingen onödig repetition eller arbetsnotering i kapitlet.",
+    "consistency": "Kontrollerad mot inledning och kapitel 1–3 samt kapitlens respektive avgränsningar.",
+    "editorial": "Läsarfärdig text utan arbetsinstruktioner till författare eller redaktör. Förtydligat att en datakopia inte automatiskt utgör ett historiskt analysunderlag och preciserat HTAP-referensen.",
     "facts": "Källpåståenden stöds av granskade avsnitt; rekommendationer och hypotetiska exempel skiljs från empiriska resultat. I steg 8.7 tillkom endast en illustrativ figur med beskrivande bildtext utifrån kapitlet; tidigare sakgranskning återanvänds.",
     "illustrations": "IMG-02-01: Separerad arbetslast, transaktioner och analytiska frågor samt isolering som avvägning. SVG-validering och visuell kontroll i färg/gråskala vid gemensam förhandsbredd. Faktisk exportkontroll återstår.",
-    "language": "Preciserad resursterminologi.",
+    "language": "Slutläst och språkligt preciserad. Förtydligat att en datakopia inte automatiskt utgör ett historiskt analysunderlag och preciserat HTAP-referensen.",
     "sources": "K029 originalblogg avsnitt Data Storage och Extracting Data; K031 originalartikel s. 553 inklusive sidbild; K040 författarnas abstract i TUM:s register. Källhänvisningar och löptext oförändrade; ingen ny extern granskning.",
     "structure": "OLTP/OLAP, isolering, historik, aktualitet och beslutskriterier i logisk ordning."
   },
@@ -26,11 +26,12 @@
     "Preciserat I/O-kapacitet.",
     "Förtydligat asynkron replikfördröjning och CERN:s dagliga uppdatering.",
     "Förtydligat att HTAP och konsistenta snapshots inte garanterar resursisolering eller svarstid.",
-    "Infogat IMG-02-01 med beskrivande bildtext enligt illustrationsplanen."
+    "Infogat IMG-02-01 med beskrivande bildtext enligt illustrationsplanen.",
+    "Förtydligat att en datakopia inte automatiskt utgör ett historiskt analysunderlag och preciserat HTAP-referensen."
   ],
-  "project_revision_at_review": 57,
+  "project_revision_at_review": 59,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Förnyat internt godkännande efter illustrationens integrering, steg 8.7. Hela kapitlet granskat mot bokplan, canon, inledning, kapitel 1 och källpolicy; originalkällornas relevanta avsnitt kontrollerade. Intern redaktionell granskning, inte oberoende vetenskaplig granskning.",
-  "updated_at": "2026-11-25T17:47:30+00:00"
+  "summary": "Steg 9.1a.1: hela texten slutläst, korrigerad vid behov och återkontrollerad mot inledning, kapitelplan, terminologi och angränsande kapitel. Tidigare dokumenterad käll- och faktakontroll återanvänds; inga nya externa faktapåståenden införs. Godkännandet gäller intern redaktionell kvalitetsgranskning, inte oberoende faktagranskning.",
+  "updated_at": "2026-11-25T18:48:22+00:00"
 }

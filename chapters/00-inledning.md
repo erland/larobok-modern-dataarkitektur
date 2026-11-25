@@ -10,7 +10,7 @@ Boken vänder sig främst till IT-arkitekter i större reglerade organisationer,
 
 Genom boken återkommer en fiktiv myndighet med verksamhetskritiska IT-stöd, ett centralt Data Warehouse och etablerade flöden för informationsförsörjning. Den behöver kunna utveckla sin analysförmåga utan att äventyra den operativa verksamheten, informationssäkerheten eller möjligheten att leva upp till regulatoriska krav. Scenariot används för att konkretisera arkitekturbeslut och beskriver inte en viss verklig myndighet.
 
-Bokens kunskapsgrund är forskning, teknisk dokumentation, oberoende granskningar och erfarenheter från organisationer som utvecklat sin datahantering. Erfarenheter från en organisation är dock inte i sig ett bevis på att samma lösning fungerar i en annan. Därför uppmärksammas både framgångar och problem, liksom under vilka förutsättningar resultaten har uppnåtts. Källhänvisningarna ger möjlighet att fördjupa sig i underlaget och skilja dokumenterade resultat från bokens egna arkitekturbedömningar.
+Bokens kunskapsgrund är forskning, teknisk dokumentation, oberoende granskningar och erfarenheter från organisationer som utvecklat sin datahantering. Erfarenheter från en organisation är dock inte i sig ett bevis på att samma lösning fungerar i en annan. Därför uppmärksammas vad som har fungerat, vilka problem som har uppstått och under vilka förutsättningar erfarenheterna kan vara relevanta. Källhänvisningarna ger möjlighet att fördjupa sig i underlaget och skilja dokumenterade resultat från bokens egna arkitekturbedömningar.
 
 ## Så kan boken användas
 

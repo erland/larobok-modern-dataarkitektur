@@ -1,6 +1,6 @@
 # Kapitelplan
 
-Inledning: syfte, målgrupp och läsanvisning. Automatiskt redaktionellt godkänd (revision 3, omstart).
+Inledning: syfte, målgrupp och läsanvisning. Automatiskt redaktionellt godkänd, slutläst på nytt i revision 60 (9.1a.1).
 
 ## Grunder (4 000 ord)
 
@@ -8,19 +8,19 @@ Inledning: syfte, målgrupp och läsanvisning. Automatiskt redaktionellt godkän
 
 Unikt innehåll och avgränsning: Historik, förändrade behov, AI och självbetjäning; inte teknikdetaljer.
 
-Källor: K001, K008, K014, K033. Status: approved_auto, revision 51 (förnyad granskning 7.3b).
+Källor: K001, K008, K014, K033. Status: approved_auto, revision 60 (förnyad slutläsning 9.1a.1).
 
 ### 2. Operativ och analytisk datahantering
 
 Unikt innehåll och avgränsning: OLTP/OLAP, isolering, historik, aktualitet; inte överföringsmönster.
 
-Källor: K029, K031, K040. K009 sparas till senare jämförelse. Status: approved_auto, revision 58 (illustrationsintegrering 8.7).
+Källor: K029, K031, K040. K009 sparas till senare jämförelse. Status: approved_auto, revision 60 (förnyad slutläsning 9.1a.1).
 
 ### 3. Dataarkitekturens dimensioner och centrala vägval
 
 Unikt innehåll och avgränsning: Lagring, försörjning, åtkomst, plattform, ansvar och centralisering; ingen rangordning.
 
-Källor: K006, K008, K024. Status: approved_auto, revision 58 (illustrationsintegrering 8.7).
+Källor: K006, K008, K024. Status: approved_auto, revision 60 (förnyad slutläsning 9.1a.1).
 
 ## Lagring och bearbetning (11 000 ord)
 

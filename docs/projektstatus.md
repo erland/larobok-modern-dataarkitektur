@@ -1,6 +1,6 @@
 # Projektstatus
 
-Revision 59: användargodkänt omslag lagrat och konfigurerat.  samtliga nio SVG-illustrationer samgranskade och integrerade; nio kapitelgodkännanden förnyade. Tidigare strukturell verifiering: strukturell slutverifiering 7.3d genomförd. Inledning och samtliga 21 numrerade kapitel har giltiga godkännanden. Fullständig läsarfärdig slutläsning och publiceringskontroller återstår.
+Revision 60: steg 9.1a.1 genomfört. Inledning och kapitel 1–3 slutlästa och språkligt preciserade, med fyra förnyade interna redaktionella godkännanden. Övriga kapitel, källregister, nio SVG-illustrationer och godkänt omslag oförändrade. Slutläsning av kapitel 4–21 och publiceringskontroller återstår.
 
 | Kapitel | Titel | Status |
 |---|---|---|

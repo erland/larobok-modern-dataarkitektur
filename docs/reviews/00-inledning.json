@@ -1,12 +1,12 @@
 {
   "blockers": [],
   "chapter": "00-inledning.md",
-  "chapter_sha256": "4e2b5e256326e9fcd684c61189f8d6af915df53cb9d27082d4c294c7d90bd195",
+  "chapter_sha256": "ba63b35b607daa4d110c34f0cc5d5acf5c4bf8a8c09d85681a4b9bc7d9b3addd",
   "check_notes": {
     "audience": "Erfarna arkitekter, utan krav på specialistkunskaper om dataplattformar.",
-    "consistency": "Stämmer med bokspecifikation, innehålls-canon, terminologi och kapitelplan.",
-    "editorial": "Inga interna arbetsnoteringar, onödiga tekniska fördjupningar eller utfyllnadsavsnitt.",
-    "language": "Saklig svensk prosa, mindre preciseringar genomförda.",
+    "consistency": "Kontrollerad mot inledning och kapitel 1–3 samt kapitlens respektive avgränsningar.",
+    "editorial": "Läsarfärdig text utan arbetsinstruktioner till författare eller redaktör. Förtydligad skillnad mellan dokumenterade erfarenheter och överförbara slutsatser.",
+    "language": "Slutläst och språkligt preciserad. Förtydligad skillnad mellan dokumenterade erfarenheter och överförbara slutsatser.",
     "structure": "Anslag, syfte, målgrupp, kunskapsgrund och läsanvisning i sammanhängande ordning."
   },
   "checks": {
@@ -22,14 +22,15 @@
   "corrections": [
     "Förtydligat fiktivt scenario i anslaget.",
     "Förtydligat kunskapsgrundens oberoende granskningar och lärdomar från framgångar och problem.",
-    "Ersatt uppslagsverk med referens för en mer precis beskrivning av läsanvändning."
+    "Ersatt uppslagsverk med referens för en mer precis beskrivning av läsanvändning.",
+    "Förtydligad skillnad mellan dokumenterade erfarenheter och överförbara slutsatser."
   ],
   "fact_justification": "Inga externa verifieringskrävande faktapåståenden. Uppgifter om bokens innehåll och disposition kontrollerade mot bokspecifikation, canon och samtliga sex delar i kapitelplanen. Myndighetsexemplet är uttryckligen fiktivt.",
   "illustration_justification": "Inga illustrationer används; överensstämmer med illustrationsplanen.",
-  "project_revision_at_review": 2,
+  "project_revision_at_review": 59,
   "review_mode": "auto",
   "source_justification": "Inledningen beskriver bokens avsedda kunskapsgrund, källkritiska metod och fiktiva scenario; den åberopar inga externa forskningsresultat, rättskällor, statistik eller andra källbundna sakuppgifter. Källinventeringens 39 kandidater är fortsatt preliminära.",
   "status": "approved_auto",
-  "summary": "Hela inledningen har lästs före och efter en korrigeringsomgång. Språk och struktur är koncentrerade, målgruppen och förkunskaperna framgår, dispositionen stämmer med kapitelplanen, och texten är läsarfärdig. Inledningen markerar det fiktiva scenariot redan i anslaget, lyfter oberoende granskningar och både framgångar och problem samt använder referens i stället för uppslagsverk. Inga tekniska fördjupningar som hör hemma i senare kapitel har lagts till. Inga blockerare kvarstår för inledningen. Godkännandet är intern redaktionell granskning, inte oberoende faktagranskning.",
-  "updated_at": "2026-11-25T07:22:17+00:00"
+  "summary": "Steg 9.1a.1: hela texten slutläst, korrigerad vid behov och återkontrollerad mot inledning, kapitelplan, terminologi och angränsande kapitel. Tidigare dokumenterad käll- och faktakontroll återanvänds; inga nya externa faktapåståenden införs. Godkännandet gäller intern redaktionell kvalitetsgranskning, inte oberoende faktagranskning.",
+  "updated_at": "2026-11-25T18:48:22+00:00"
 }
