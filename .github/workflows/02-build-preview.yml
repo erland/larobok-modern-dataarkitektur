@@ -19,7 +19,7 @@ jobs:
       - name: Install XeLaTeX and PDF tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends texlive-xetex texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended lmodern fonts-texgyre poppler-utils
+          sudo apt-get install -y --no-install-recommends texlive-xetex texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended lmodern fonts-texgyre poppler-utils inkscape
           fc-cache -f
           fc-list --format='%{family}\n' | grep -Fqi 'TeX Gyre Pagella'
       - name: Build EPUB and PDF
