@@ -1,16 +1,16 @@
 {
-  "canonical_zip_name": "modern-dataarkitektur-omstart-r060.zip",
+  "canonical_zip_name": "modern-dataarkitektur-omstart-r061.zip",
   "chapters": {
     "count": 22,
     "hashes": {
       "chapters/01-dataarkitekturens-utveckling.md": "e03bc737a78d35ad3d49b379d0bea6318013d17bb1825c06b9fadd8d6c56bca9",
       "chapters/02-operativ-och-analytisk-datahantering.md": "734377e16e7005e571f46e595e4ee992c7c077b4a0abc3afe5ee02683b559c77",
       "chapters/03-dataarkitekturens-dimensioner.md": "3b343c7b885fcbfafe8b8b965b93045e4e41c525fcc3f8e458ce51e076201570",
-      "chapters/04-data-warehouse.md": "badac234a7a0f667586f40159c0fbf8013b331abc3b37922888c95f05b4bbb7e",
-      "chapters/05-data-lake.md": "b1414858ecf90f2e92863634e827386ed4203c29e9136a757090b7e9c38a2ba7",
-      "chapters/06-data-lakehouse.md": "748d16c972872e87f11d4efff358a47ca776db294cc5cbf71fcd56ddb20b4328",
-      "chapters/07-specialiserade-datalager.md": "dedf597be256acb1b7b493953cb349b30697228a16e8b2a17612ac4f751f71f1",
-      "chapters/08-jamforande-analys.md": "35e9e05f8212531340cdb54726e63ac6eca68385a134d3406d141d90a2402024",
+      "chapters/04-data-warehouse.md": "6390e55651452907f4353511bf1a35751fa24db1a9465dd8eb60bdaa9b5f9533",
+      "chapters/05-data-lake.md": "87f4d976be0d4f6b0f288b8a804f18759af0655f7470289907ce3d2f972e146c",
+      "chapters/06-data-lakehouse.md": "7251896d872bdb534f3ce4922f9b8cff1fb3d3e367002a1ca232bb1a03898362",
+      "chapters/07-specialiserade-datalager.md": "cd0179f242b904a2729a28ea11fca746ceba0f3a3fca76bf953cddb7de271e61",
+      "chapters/08-jamforande-analys.md": "be27a901addea78d861b3ffa2cba78795529b90522a4b62c766dfa25ec70c869",
       "chapters/09-informationsforsorjning.md": "8407be328bc1381d1371798bd72f373c6e0b9b6ce21053f439c10b087129b05f",
       "chapters/10-dataprodukter.md": "206af899746716a0e6c99eee5a1be19550b727f667a5ca5a23aabad1679edb52",
       "chapters/11-datadelning.md": "8e6ef9018af72aa870c35019d5b97927d9cd6887bba609799f591de72c38c0e4",
@@ -31,25 +31,27 @@
   "created_at": "2026-11-25T07:13:25Z",
   "last_operation": {
     "changed_files": [
-      "chapters/00-inledning.md",
-      "chapters/01-dataarkitekturens-utveckling.md",
-      "chapters/02-operativ-och-analytisk-datahantering.md",
-      "chapters/03-dataarkitekturens-dimensioner.md",
+      "chapters/04-data-warehouse.md",
+      "chapters/05-data-lake.md",
+      "chapters/06-data-lakehouse.md",
+      "chapters/07-specialiserade-datalager.md",
+      "chapters/08-jamforande-analys.md",
       "docs/kapitelplan.md",
       "docs/projektstatus.md",
-      "docs/reviews/00-inledning.json",
-      "docs/reviews/01-dataarkitekturens-utveckling.json",
-      "docs/reviews/02-operativ-och-analytisk-datahantering.json",
-      "docs/reviews/03-dataarkitekturens-dimensioner.json",
+      "docs/reviews/04-data-warehouse.json",
+      "docs/reviews/05-data-lake.json",
+      "docs/reviews/06-data-lakehouse.json",
+      "docs/reviews/07-specialiserade-datalager.json",
+      "docs/reviews/08-jamforande-analys.json",
       "project-index.md"
     ],
-    "operation": "Steg 9.1a.1: slutläsning av inledning och kapitel 1–3",
-    "source_revision": 59
+    "operation": "Steg 9.1a.2: slutläsning och korrigering av kapitel 4–8",
+    "source_revision": 60
   },
-  "parent_revision": 59,
+  "parent_revision": 60,
   "project_id": "e3de759e-c3cf-4a30-9628-20931db7776b",
   "project_slug": "modern-dataarkitektur",
-  "revision": 60,
+  "revision": 61,
   "schema_version": 1,
   "template": false,
   "tracked_files": {
@@ -182,24 +184,24 @@
       "sha256": "3b343c7b885fcbfafe8b8b965b93045e4e41c525fcc3f8e458ce51e076201570"
     },
     "chapters/04-data-warehouse.md": {
-      "bytes": 13672,
-      "sha256": "badac234a7a0f667586f40159c0fbf8013b331abc3b37922888c95f05b4bbb7e"
+      "bytes": 13688,
+      "sha256": "6390e55651452907f4353511bf1a35751fa24db1a9465dd8eb60bdaa9b5f9533"
     },
     "chapters/05-data-lake.md": {
-      "bytes": 10517,
-      "sha256": "b1414858ecf90f2e92863634e827386ed4203c29e9136a757090b7e9c38a2ba7"
+      "bytes": 10521,
+      "sha256": "87f4d976be0d4f6b0f288b8a804f18759af0655f7470289907ce3d2f972e146c"
     },
     "chapters/06-data-lakehouse.md": {
-      "bytes": 13144,
-      "sha256": "748d16c972872e87f11d4efff358a47ca776db294cc5cbf71fcd56ddb20b4328"
+      "bytes": 13215,
+      "sha256": "7251896d872bdb534f3ce4922f9b8cff1fb3d3e367002a1ca232bb1a03898362"
     },
     "chapters/07-specialiserade-datalager.md": {
-      "bytes": 12644,
-      "sha256": "dedf597be256acb1b7b493953cb349b30697228a16e8b2a17612ac4f751f71f1"
+      "bytes": 12659,
+      "sha256": "cd0179f242b904a2729a28ea11fca746ceba0f3a3fca76bf953cddb7de271e61"
     },
     "chapters/08-jamforande-analys.md": {
-      "bytes": 12797,
-      "sha256": "35e9e05f8212531340cdb54726e63ac6eca68385a134d3406d141d90a2402024"
+      "bytes": 12803,
+      "sha256": "be27a901addea78d861b3ffa2cba78795529b90522a4b62c766dfa25ec70c869"
     },
     "chapters/09-informationsforsorjning.md": {
       "bytes": 15251,
@@ -302,12 +304,12 @@
       "sha256": "8097ccf7c54b12bd45e78b052cd27738eb3436fa9fc07309b94b4926fa61a2ed"
     },
     "docs/kapitelplan.md": {
-      "bytes": 6670,
-      "sha256": "51d26e3c6dd8b5d76d4398b7116664b1ed32ad32c88d38e73c01902c3899fc91"
+      "bytes": 6660,
+      "sha256": "9359b80299e0912e72b8332e3ebbb0d7396d37abce477718ced26f4a8848111d"
     },
     "docs/projektstatus.md": {
-      "bytes": 1783,
-      "sha256": "51ea520912c26f8da79beeae589bba0dc191b5a3e86217a2c071fb6293ac5826"
+      "bytes": 1835,
+      "sha256": "4f5cdec302653edbccced9ef19cd9cc9e80c7985b36eb70eb5b9250ae8e1fb41"
     },
     "docs/quality-checklist.md": {
       "bytes": 2131,
@@ -330,24 +332,24 @@
       "sha256": "1a37056ae782ee511e1badaf809339774ce11aecf5206f3efb1a1a3e5e1baceb"
     },
     "docs/reviews/04-data-warehouse.json": {
-      "bytes": 2802,
-      "sha256": "a40dafbb972368bc5ce89bd06a143eb287fd82517a4abe8e5fc195e1c213cb72"
+      "bytes": 2466,
+      "sha256": "6abe4e1ef22d9a1ca57d3f93b8907e5fcdf9d60a7ac5c412c876da7e6075a681"
     },
     "docs/reviews/05-data-lake.json": {
-      "bytes": 2761,
-      "sha256": "024488345849c46ae674cfd057785eacf9470f1824993bc5eb46ad0ebd26e48c"
+      "bytes": 2479,
+      "sha256": "2e8d5f6b6502174c1bf528f23a504dbb957944128924e9e60ac9b1069fca87eb"
     },
     "docs/reviews/06-data-lakehouse.json": {
-      "bytes": 3244,
-      "sha256": "4309f7e69767f6a0a77f152a14e84616669d7b830b00e4b9568225582c33e57a"
+      "bytes": 3904,
+      "sha256": "4f35c21f798972ca3f9fd951d881f88f3aa553b24d39815118f930c4550481e7"
     },
     "docs/reviews/07-specialiserade-datalager.json": {
-      "bytes": 2371,
-      "sha256": "5fd254932de8a8cfa1567a55a41603be23e2d10f63b4f9de2409f1a6db83836f"
+      "bytes": 3318,
+      "sha256": "1f103db2d740f26ed6852efe123a589c67f92652032794e64f688395055e23e9"
     },
     "docs/reviews/08-jamforande-analys.json": {
-      "bytes": 2620,
-      "sha256": "e695cf5815ad62938db8f18faf41d0594365690a684e3268af98e22eb00e83f6"
+      "bytes": 2396,
+      "sha256": "7bc34f78f1ce2353b9bd9d35f0d59041c6d2542c97bf7448bd09e551ac4e0c44"
     },
     "docs/reviews/09-informationsforsorjning.json": {
       "bytes": 3118,
@@ -498,8 +500,8 @@
       "sha256": "f46cb68df4c310e24d7ceb62ba1f6c4eed5c6bb9ff11c7c5ff85dd33b3094d58"
     },
     "project-index.md": {
-      "bytes": 1639,
-      "sha256": "88ab8e4aa0e7e8f36f63efb84cd5bc38711e9e356f9e618f975af746873e06c2"
+      "bytes": 1852,
+      "sha256": "3b865c9138a3e5e38dcec4bdb47c51489bfbd8c8ebfc6e0c56b4466fc00b592c"
     },
     "publishing/build-notes.md": {
       "bytes": 439,
@@ -522,8 +524,8 @@
       "sha256": "4fe482d302430c7962bc619147bf8d388e4466171e988db61fcf4664456241ec"
     },
     "revision-log.md": {
-      "bytes": 23937,
-      "sha256": "ccbddfd12df6479ebdc1a8b12cfd5ad4bad563b4873f587732e5305d07591df5"
+      "bytes": 24516,
+      "sha256": "f9dab4559ca562840eb9fd765e4d0cdd0999c16818acaa7a00165f06432f8564"
     },
     "scripts/book_references.py": {
       "bytes": 4622,
@@ -562,5 +564,5 @@
       "sha256": "7bfc4efda9947a855c979019864423f80d47e531d92855d02f64643a0887208a"
     }
   },
-  "updated_at": "2026-11-25T18:48:22Z"
+  "updated_at": "2026-11-25T18:54:08Z"
 }

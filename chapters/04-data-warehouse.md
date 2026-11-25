@@ -1,6 +1,6 @@
 # 4. Data Warehouse
 
-Ett Data Warehouse kan ha en central roll i en modern dataarkitektur även när organisationen behöver hantera nya informationsformat, kortare ledtider och fler typer av analys. Det avgörande är vilka uppgifter datalagret ska lösa, inte hur länge arkitekturkonceptet har funnits.
+Ett Data Warehouse kan ha en central roll i en modern dataarkitektur även när organisationen behöver hantera nya informationsformat, kortare ledtider och fler typer av analys. Avgörande är vilka uppgifter datalagret ska lösa, inte hur länge arkitekturkonceptet har funnits.
 
 Ett Data Warehouse, här förkortat DWH, är ett analytiskt datalager där information organiseras för bland annat uppföljning, jämförelser och analys över tid. I ett organisationsgemensamt DWH kan information från flera operativa IT-stöd sammanföras till en användbar helhet. Det kräver mer än att data lagras i samma databas: betydelsen av uppgifterna måste också kunna förenas.
 
@@ -18,7 +18,7 @@ En vanlig arkitektur skiljer mellan mottagning, integration och konsumtion. Orac
 
 I referensmyndigheten finns redan systemspecifika mottagningszoner. Ett ärendehanteringssystem levererar exempelvis ärenden och beslut, medan ett ekonomisystem levererar betalningar. Att dessa uppgifter finns i samma datalagermiljö innebär inte att det går att summera betalningar per beslut utan vidare. Relationerna mellan ärenden, beslut och betalningar behöver etableras, och det måste vara tydligt hur delbetalningar, omprövningar och rättelser behandlas.
 
-Det integrerade lagrets värde ligger därför i att hantera sådana samband och göra reglerna återanvändbara. En Data Mart kan därefter presentera informationen i en struktur som är lämplig för exempelvis ekonomisk uppföljning. Den kan bestå av fysiska tabeller, vyer eller en kombination. Fysisk materialisering kan motiveras av svarstidskrav, men innebär samtidigt att ytterligare data behöver hållas aktuella.
+Det integrerade lagrets värde ligger därför i att hantera sådana samband och göra reglerna återanvändbara. En Data Mart kan därefter presentera informationen i en struktur som är lämplig för exempelvis ekonomisk uppföljning. Den kan bestå av fysiska tabeller, vyer eller en kombination. Fysisk materialisering kan motiveras av svarstidskrav, men innebär samtidigt att ytterligare lagrade representationer behöver hållas aktuella.
 
 En arkitektur där varje rapport hämtar information direkt från mottagningszoner kan fungera för avgränsade behov. Risken uppstår när samma integrationsregler implementeras oberoende av varandra i många rapporter. En ändrad definition kan då behöva införas på flera ställen och leda till olika resultat under övergången.
 

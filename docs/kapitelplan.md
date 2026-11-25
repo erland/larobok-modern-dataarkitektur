@@ -28,31 +28,31 @@ Källor: K006, K008, K024. Status: approved_auto, revision 60 (förnyad slutläs
 
 Unikt innehåll och avgränsning: Stage, integrerade lager, marts, dimensioner, normalisering, Data Vault, moderna motorer.
 
-Källor: K031 (tidigare kapitel), K041–K045. K032 och K009 sparas till jämförelsekapitlet. Status: approved_auto, revision 58 (illustrationsintegrering 8.7).
+Källor: K031 (tidigare kapitel), K041–K045. K032 och K009 sparas till jämförelsekapitlet. Status: approved_auto, revision 61 (slutläsning 9.1a.2).
 
 ### 5. Data Lake
 
 Unikt innehåll och avgränsning: Objektlagring, filsystem, schema, zoner, metadata och Data Swamp.
 
-Källor: K033, K034, K046, K047. K035 kvar som ej använd kandidat. Status: approved_auto, revision 58 (illustrationsintegrering 8.7).
+Källor: K033, K034, K046, K047. K035 kvar som ej använd kandidat. Status: approved_auto, revision 61 (slutläsning 9.1a.2).
 
 ### 6. Data Lakehouse
 
 Unikt innehåll och avgränsning: Parquet, Iceberg, Delta, Hudi, transaktioner, snapshots, kataloger, medallion, drift.
 
-Källor: K001, K002, K048–K056. K009 sparas till kapitel 8. Status: approved_auto, revision 58 (illustrationsintegrering 8.7).
+Källor: K001, K002, K048–K056. K009 sparas till kapitel 8. Status: approved_auto, revision 61 (slutläsning 9.1a.2).
 
 ### 7. Specialiserade och kompletterande datalager
 
 Unikt innehåll och avgränsning: ODS, realtidsanalys, HTAP, sök, dokument, graf, vektor, feature stores, masterdata.
 
-Källor: K030, K057–K066. K029 och K040 behandlas i kapitel 2. Status: approved_auto, revision 17.
+Källor: K030, K057–K066. K029 och K040 behandlas i kapitel 2. Status: approved_auto, revision 61 (slutläsning 9.1a.2).
 
 ### 8. Jämförande analys av lagringsarkitekturer
 
 Unikt innehåll och avgränsning: Arbetslast, prestanda, kostnad, kompetens, behålla/ersätta/komplettera; inga upprepade teknikbeskrivningar.
 
-Källor: K002, K009, K032, K036. Status: approved_auto, revision 51 (förnyad granskning 7.3b).
+Källor: K002, K009, K032, K036. Status: approved_auto, revision 61 (slutläsning 9.1a.2).
 
 ## Informationsförsörjning (9 000 ord)
 

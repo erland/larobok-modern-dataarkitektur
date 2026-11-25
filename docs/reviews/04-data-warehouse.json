@@ -1,16 +1,16 @@
 {
   "blockers": [],
   "chapter": "04-data-warehouse.md",
-  "chapter_sha256": "badac234a7a0f667586f40159c0fbf8013b331abc3b37922888c95f05b4bbb7e",
+  "chapter_sha256": "6390e55651452907f4353511bf1a35751fa24db1a9465dd8eb60bdaa9b5f9533",
   "check_notes": {
-    "audience": "Anpassat till erfarna IT-arkitekter i reglerade organisationer, fiktiv referensmyndighet.",
-    "consistency": "Mottagning, integrerat lager, Data Mart, tre modelleringsansatser och historik har olika funktioner. Kapitel 8 behåller den breda jämförelsen.",
-    "editorial": "Läsarfärdig text; inga arbetsmarkörer eller nya innehållsöverlappningar identifierade.",
-    "facts": "K041–K045: tidigare granskade metod- och produktbeskrivningar. Snowflake-exemplet återges som teknisk princip, inte produktval eller effektmätning. Nya exempel är villkorad arkitektursyntes, inte empiriska effektpåståenden. Ingen ytterligare korrigering; harmoniseringen till mottagningszon är semantiskt neutral. I steg 8.7 tillkom endast en illustrativ figur med beskrivande bildtext utifrån kapitlet; tidigare sakgranskning återanvänds.",
+    "audience": "Erfarna IT-arkitekter i reglerade organisationer; begrepp förklaras i sitt sammanhang.",
+    "consistency": "Kontrollerat mot del II (kapitel 4–8) och angränsande kapitel, med tydlig avgränsning mellan lagring, modellering, motorer och arkitekturval.",
+    "editorial": "Läsarfärdig text; hänvisningar och tabeller bevarade utan arbetsmarkörer.",
+    "facts": "Tidigare faktakontroller återanvänds; enbart redaktionella preciseringar utan nya externa sakpåståenden.",
     "illustrations": "IMG-04-01: Mottagning, integration, historik och Data Marts som logiska funktioner. SVG-validering och visuell kontroll i färg/gråskala vid gemensam förhandsbredd. Faktisk exportkontroll återstår.",
-    "language": "Svenskt fackspråk och konsekvent terminologi; Ingen ytterligare korrigering; harmoniseringen till mottagningszon är semantiskt neutral.",
+    "language": "Språklig slutläsning genomförd. Preciserade hur materialiserade representationer hålls aktuella och stramade upp inledningsformuleringen.",
     "sources": "K041–K045: tidigare granskade metod- och produktbeskrivningar. Snowflake-exemplet återges som teknisk princip, inte produktval eller effektmätning. Källhänvisningar och löptext oförändrade; ingen ny extern granskning.",
-    "structure": "Mottagning, integrerat lager, Data Mart, tre modelleringsansatser och historik har olika funktioner. Kapitel 8 behåller den breda jämförelsen."
+    "structure": "Inledning, teknisk fördjupning, avvägningar och avslutande beslutskriterier i logisk ordning."
   },
   "checks": {
     "audience": "passed",
@@ -24,11 +24,12 @@
   },
   "corrections": [
     "Ingen ytterligare korrigering; harmoniseringen till mottagningszon är semantiskt neutral.",
-    "Infogat IMG-04-01 med beskrivande bildtext enligt illustrationsplanen."
+    "Infogat IMG-04-01 med beskrivande bildtext enligt illustrationsplanen.",
+    "Preciserade hur materialiserade representationer hålls aktuella och stramade upp inledningsformuleringen."
   ],
-  "project_revision_at_review": 57,
+  "project_revision_at_review": 60,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Förnyat internt godkännande efter illustrationens integrering, steg 8.7. Förnyad intern redaktionell granskning i steg 7.3b, basrevision 50. Hela kapitel 4 genomläst mot bokplan, canon, terminologi, inledning och dokumenterad faktakontroll samt jämfört med godkänd revision 45. Tidigare externa källkontroller återanvänds; ingen ny extern fulltextgranskning eller oberoende faktagranskning.",
-  "updated_at": "2026-11-25T17:47:33+00:00"
+  "summary": "Steg 9.1a.2: kapitel 04 slutläst och omgranskat i sin helhet mot del II, kapitelplan, inledning, terminologi och angränsande kapitel. Begränsade språkliga preciseringar införda och återkontrollerade. Ingen ny oberoende fulltext- eller faktagranskning genomförd; tidigare dokumenterade källkontroller återanvänds. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T18:54:08+00:00"
 }

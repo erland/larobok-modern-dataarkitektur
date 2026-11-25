@@ -1,15 +1,16 @@
 {
   "blockers": [],
   "chapter": "08-jamforande-analys.md",
-  "chapter_sha256": "35e9e05f8212531340cdb54726e63ac6eca68385a134d3406d141d90a2402024",
+  "chapter_sha256": "be27a901addea78d861b3ffa2cba78795529b90522a4b62c766dfa25ec70c869",
   "check_notes": {
-    "audience": "Anpassat till erfarna IT-arkitekter i reglerade organisationer, fiktiv referensmyndighet.",
-    "consistency": "Kvalitativ jämförelse och beslutskriterier kompletteras med illustrativ femårskalkyl. Kapitel 20 använder samma bedömningsdimensioner.",
-    "editorial": "Läsarfärdig text; inga arbetsmarkörer eller nya innehållsöverlappningar identifierade.",
-    "facts": "K002, K009, K032, K036: tidigare dokumenterad granskning; K009/K032 inte fulltextgranskade. Testresultat i LHBench är historiska och avgränsade. Nya exempel är villkorad arkitektursyntes, inte empiriska effektpåståenden. Kontrollberäknat 41 och 51 mnkr vid 60 ändringar, 61 mnkr vid 160. Förändringskostnaden räknas inte dubbelt; antaganden, lika servicenivå och begränsningar tydliga. Ingen textändring behövs.",
-    "language": "Svenskt fackspråk och konsekvent terminologi; Kontrollberäknat 41 och 51 mnkr vid 60 ändringar, 61 mnkr vid 160. Förändringskostnaden räknas inte dubbelt; antaganden, lika servicenivå och begränsningar tydliga. Ingen textändring behövs.",
+    "audience": "Erfarna IT-arkitekter i reglerade organisationer; begrepp förklaras i sitt sammanhang.",
+    "consistency": "Kontrollerat mot del II (kapitel 4–8) och angränsande kapitel, med tydlig avgränsning mellan lagring, modellering, motorer och arkitekturval.",
+    "editorial": "Läsarfärdig text; hänvisningar och tabeller bevarade utan arbetsmarkörer.",
+    "facts": "Tidigare faktakontroller återanvänds; enbart redaktionella preciseringar utan nya externa sakpåståenden.",
+    "illustrations": "Ingen illustration i kapitlet enligt tidigare godkänd plan.",
+    "language": "Språklig slutläsning genomförd. Preciserade att kalkylens siffror är illustrativa och att frigjord arbetstid inte utan vidare är en budgetbesparing.",
     "sources": "K002, K009, K032, K036: tidigare dokumenterad granskning; K009/K032 inte fulltextgranskade. Testresultat i LHBench är historiska och avgränsade.",
-    "structure": "Kvalitativ jämförelse och beslutskriterier kompletteras med illustrativ femårskalkyl. Kapitel 20 använder samma bedömningsdimensioner."
+    "structure": "Inledning, teknisk fördjupning, avvägningar och avslutande beslutskriterier i logisk ordning."
   },
   "checks": {
     "audience": "passed",
@@ -22,12 +23,13 @@
     "structure": "passed"
   },
   "corrections": [
-    "Kontrollberäknat 41 och 51 mnkr vid 60 ändringar, 61 mnkr vid 160. Förändringskostnaden räknas inte dubbelt; antaganden, lika servicenivå och begränsningar tydliga. Ingen textändring behövs."
+    "Kontrollberäknat 41 och 51 mnkr vid 60 ändringar, 61 mnkr vid 160. Förändringskostnaden räknas inte dubbelt; antaganden, lika servicenivå och begränsningar tydliga. Ingen textändring behövs.",
+    "Preciserade att kalkylens siffror är illustrativa och att frigjord arbetstid inte utan vidare är en budgetbesparing."
   ],
   "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
-  "project_revision_at_review": 50,
+  "project_revision_at_review": 60,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Förnyad intern redaktionell granskning i steg 7.3b, basrevision 50. Hela kapitel 8 genomläst mot bokplan, canon, terminologi, inledning och dokumenterad faktakontroll samt jämfört med godkänd revision 45. Tidigare externa källkontroller återanvänds; ingen ny extern fulltextgranskning eller oberoende faktagranskning.",
-  "updated_at": "2026-11-25T15:39:18+00:00"
+  "summary": "Steg 9.1a.2: kapitel 08 slutläst och omgranskat i sin helhet mot del II, kapitelplan, inledning, terminologi och angränsande kapitel. Begränsade språkliga preciseringar införda och återkontrollerade. Ingen ny oberoende fulltext- eller faktagranskning genomförd; tidigare dokumenterade källkontroller återanvänds. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T18:54:08+00:00"
 }

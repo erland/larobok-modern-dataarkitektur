@@ -56,7 +56,7 @@ Beräkna kostnader för ett basscenario och alternativa belastnings- och tillvä
 
 ### Ett illustrativt femårsexempel
 
-Anta att referensmyndigheten jämför vidareutveckling av sitt Data Warehouse (A) med en kompletterande Lakehouse-miljö (B). Båda alternativen antas kunna uppfylla samma krav för de arbetslaster som jämförs. Siffrorna nedan är konstruerade räkneantaganden, inte marknadspriser eller prognoser. Beloppen anges i miljoner kronor, i fast prisnivå, utan diskontering.
+Anta att referensmyndigheten jämför vidareutveckling av sitt Data Warehouse (A) med en kompletterande Lakehouse-miljö (B). Båda alternativen antas kunna uppfylla samma krav för de arbetslaster som jämförs. Siffrorna nedan är illustrativa räkneantaganden, inte marknadspriser eller prognoser. Beloppen anges i miljoner kronor, i fast prisnivå, utan diskontering.
 
 | Kostnadspost | A | B |
 |---|---:|---:|
@@ -71,7 +71,7 @@ Förändringsarbetet motsvarar i exemplet 60 leveransändringar per år med 40 r
 
 B är tio miljoner kronor dyrare över fem år trots det antagna lägre förändringsarbetet. Om antalet ändringar ökar till 160 per år, medan timåtgång och övriga kostnader är oförändrade, blir femårskostnaden 61 miljoner för båda alternativen. Denna brytpunkt är endast en känslighetsanalys: kapacitetsbehov och kostnader kan i verkligheten förändras med volymen. Vid teknikvalet behöver myndigheten även undersöka om samma minskning av timåtgång kan uppnås i A genom bättre självbetjäning. Om B dessutom möjliggör ett nytt verksamhetsbehov bör den nyttan bedömas separat, inte antas ingå i kostnadsjämförelsen.
 
-Frigjorda arbetstimmar är inte automatiskt en minskad budget. De kan i stället ge kapacitet för fler förändringar. Väntetid mellan team bör mätas separat från aktiv arbetstid. Vid en verklig investering bör även tidpunkten för utgifter, riskintervall och eventuella restvärden ingå i kalkylen.
+Frigjorda arbetstimmar innebär inte automatiskt en budgetbesparing. De kan i stället ge kapacitet för fler förändringar. Väntetid mellan team bör mätas separat från aktiv arbetstid. Vid en verklig investering bör även tidpunkten för utgifter, riskintervall och eventuella restvärden ingå i kalkylen.
 
 ## Säkerhet och handlingsfrihet som urvalsvillkor
 

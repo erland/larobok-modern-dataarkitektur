@@ -1,16 +1,16 @@
 {
   "blockers": [],
   "chapter": "05-data-lake.md",
-  "chapter_sha256": "b1414858ecf90f2e92863634e827386ed4203c29e9136a757090b7e9c38a2ba7",
+  "chapter_sha256": "87f4d976be0d4f6b0f288b8a804f18759af0655f7470289907ce3d2f972e146c",
   "check_notes": {
-    "audience": "Anpassat till erfarna IT-arkitekter i reglerade organisationer, fiktiv referensmyndighet.",
-    "consistency": "Flexibel lagring, HDFS/objektlagring, schematolkning, zoner och metadata har tydliga avgränsningar mot kapitel 6 och 16.",
-    "editorial": "Läsarfärdig text; inga arbetsmarkörer eller nya innehållsöverlappningar identifierade.",
-    "facts": "K033, K034, K046, K047: tidigare kontrollerade avsnitt respektive abstract. K033:s omkastade schemaetiketter i tabell används inte. Ingen generell prestandagaranti. Nya exempel är villkorad arkitektursyntes, inte empiriska effektpåståenden. Ingen ytterligare korrigering; driftplats är förenlig med fastställd terminologi. I steg 8.7 tillkom endast en illustrativ figur med beskrivande bildtext utifrån kapitlet; tidigare sakgranskning återanvänds.",
+    "audience": "Erfarna IT-arkitekter i reglerade organisationer; begrepp förklaras i sitt sammanhang.",
+    "consistency": "Kontrollerat mot del II (kapitel 4–8) och angränsande kapitel, med tydlig avgränsning mellan lagring, modellering, motorer och arkitekturval.",
+    "editorial": "Läsarfärdig text; hänvisningar och tabeller bevarade utan arbetsmarkörer.",
+    "facts": "Tidigare faktakontroller återanvänds; enbart redaktionella preciseringar utan nya externa sakpåståenden.",
     "illustrations": "IMG-05-01: Gemensam lagring, logiska zoner och separata motorer; zonerna är exempel. SVG-validering och visuell kontroll i färg/gråskala vid gemensam förhandsbredd. Faktisk exportkontroll återstår.",
-    "language": "Svenskt fackspråk och konsekvent terminologi; Ingen ytterligare korrigering; driftplats är förenlig med fastställd terminologi.",
+    "language": "Språklig slutläsning genomförd. Förtydligade innebörden av senarelagd gemensam modellering samt gemensamma nätverks- och lagringsberoenden.",
     "sources": "K033, K034, K046, K047: tidigare kontrollerade avsnitt respektive abstract. K033:s omkastade schemaetiketter i tabell används inte. Ingen generell prestandagaranti. Källhänvisningar och löptext oförändrade; ingen ny extern granskning.",
-    "structure": "Flexibel lagring, HDFS/objektlagring, schematolkning, zoner och metadata har tydliga avgränsningar mot kapitel 6 och 16."
+    "structure": "Inledning, teknisk fördjupning, avvägningar och avslutande beslutskriterier i logisk ordning."
   },
   "checks": {
     "audience": "passed",
@@ -24,11 +24,12 @@
   },
   "corrections": [
     "Ingen ytterligare korrigering; driftplats är förenlig med fastställd terminologi.",
-    "Infogat IMG-05-01 med beskrivande bildtext enligt illustrationsplanen."
+    "Infogat IMG-05-01 med beskrivande bildtext enligt illustrationsplanen.",
+    "Förtydligade innebörden av senarelagd gemensam modellering samt gemensamma nätverks- och lagringsberoenden."
   ],
-  "project_revision_at_review": 57,
+  "project_revision_at_review": 60,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Förnyat internt godkännande efter illustrationens integrering, steg 8.7. Förnyad intern redaktionell granskning i steg 7.3b, basrevision 50. Hela kapitel 5 genomläst mot bokplan, canon, terminologi, inledning och dokumenterad faktakontroll samt jämfört med godkänd revision 45. Tidigare externa källkontroller återanvänds; ingen ny extern fulltextgranskning eller oberoende faktagranskning.",
-  "updated_at": "2026-11-25T17:47:35+00:00"
+  "summary": "Steg 9.1a.2: kapitel 05 slutläst och omgranskat i sin helhet mot del II, kapitelplan, inledning, terminologi och angränsande kapitel. Begränsade språkliga preciseringar införda och återkontrollerade. Ingen ny oberoende fulltext- eller faktagranskning genomförd; tidigare dokumenterade källkontroller återanvänds. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T18:54:08+00:00"
 }

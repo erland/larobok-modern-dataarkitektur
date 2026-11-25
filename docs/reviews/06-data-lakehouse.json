@@ -1,12 +1,16 @@
 {
   "blockers": [],
   "chapter": "06-data-lakehouse.md",
-  "chapter_sha256": "748d16c972872e87f11d4efff358a47ca776db294cc5cbf71fcd56ddb20b4328",
+  "chapter_sha256": "7251896d872bdb534f3ce4922f9b8cff1fb3d3e367002a1ca232bb1a03898362",
   "check_notes": {
-    "editorial": "Avgränsat mot kapitel 5, 8, 12, 16–18; viss nödvändig koppling till zoner och säkerhet.",
-    "facts": "Kontrollerat tabelltillstånd, transaktionsomfattning, schema och partitionering, logg, samtidighet, Hudi-frågetyper och drift. Inga empiriska generaliseringar. I steg 8.7 tillkom endast en illustrativ figur med beskrivande bildtext utifrån kapitlet; tidigare sakgranskning återanvänds.",
+    "audience": "Erfarna IT-arkitekter i reglerade organisationer; begrepp förklaras i sitt sammanhang.",
+    "consistency": "Kontrollerat mot del II (kapitel 4–8) och angränsande kapitel, med tydlig avgränsning mellan lagring, modellering, motorer och arkitekturval.",
+    "editorial": "Läsarfärdig text; hänvisningar och tabeller bevarade utan arbetsmarkörer.",
+    "facts": "Tidigare faktakontroller återanvänds; enbart redaktionella preciseringar utan nya externa sakpåståenden.",
     "illustrations": "IMG-06-01: Tabellformat, metadata, motorer och kompatibel skrivning. SVG-validering och visuell kontroll i färg/gråskala vid gemensam förhandsbredd. Faktisk exportkontroll återstår.",
-    "sources": "K001 CIDR-post och sammanfattning, K002 resultatsida, K048–K056 relevanta originaldokumentationsavsnitt. Ingen ny fulltextgranskning av forskningsartiklarna. Källhänvisningar och löptext oförändrade; ingen ny extern granskning."
+    "language": "Språklig slutläsning genomförd. Förtydligade att det är tabellformatet som ger versionshanterad tabellstruktur och att formatet inte är en frågemotor.",
+    "sources": "K001 CIDR-post och sammanfattning, K002 resultatsida, K048–K056 relevanta originaldokumentationsavsnitt. Ingen ny fulltextgranskning av forskningsartiklarna. Källhänvisningar och löptext oförändrade; ingen ny extern granskning.",
+    "structure": "Inledning, teknisk fördjupning, avvägningar och avslutande beslutskriterier i logisk ordning."
   },
   "checks": {
     "audience": "passed",
@@ -29,11 +33,12 @@
     "En motor som Apache Spark kan användas för distribuerad bearbetning [K054], medan en SQL-frågemotor som Trino kan vara ett alternativ för interaktiv analys [K055].",
     "Versionshanteringen kan göra det möjligt att läsa ett äldre tabelltillstånd, ofta kallat time travel, så länge nödvändig metadata och datafiler finns kvar.",
     "Icebergs underhållsdokumentation beskriver exempelvis omskrivning av datafiler och utfasning av snapshots [K056]. Underhållsarbetet förbrukar beräkningsresurser",
-    "Infogat IMG-06-01 med beskrivande bildtext enligt illustrationsplanen."
+    "Infogat IMG-06-01 med beskrivande bildtext enligt illustrationsplanen.",
+    "Förtydligade att det är tabellformatet som ger versionshanterad tabellstruktur och att formatet inte är en frågemotor."
   ],
-  "project_revision_at_review": 57,
+  "project_revision_at_review": 60,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Förnyat internt godkännande efter illustrationens integrering, steg 8.7. Kapitel 6 granskat, korrigerat och återläst mot bokplan och tekniska originalkällor. Intern redaktionell granskning.",
-  "updated_at": "2026-11-25T17:47:36+00:00"
+  "summary": "Steg 9.1a.2: kapitel 06 slutläst och omgranskat i sin helhet mot del II, kapitelplan, inledning, terminologi och angränsande kapitel. Begränsade språkliga preciseringar införda och återkontrollerade. Ingen ny oberoende fulltext- eller faktagranskning genomförd; tidigare dokumenterade källkontroller återanvänds. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T18:54:08+00:00"
 }

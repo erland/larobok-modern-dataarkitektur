@@ -8,7 +8,7 @@ En Data Lake är en miljö för att samla och bearbeta heterogena data utan att 
 
 För referensmyndigheten kan den flexibla lagringen exempelvis omfatta tabulära utdrag ur ärendesystem, JSON-meddelanden, XML-dokument, bilder och text. En bearbetningsmotor som läser strukturerade data behöver inte kunna tolka innehållet i en bild. Olika bearbetningsverktyg kan i stället utnyttja samma lagringsgrund där det är lämpligt. Ett dokument kan exempelvis bearbetas för att extrahera text, identifiera uppgifter och skapa ett tabulärt analysunderlag. Dokumentet och analysunderlaget har då olika funktioner och kan behöva olika åtkomstregler.
 
-Flexibiliteten består inte i att informationen saknar struktur. En XML-fil har en struktur, och ett fotografi har ett tekniskt format. Det som kan senareläggas är valet av den informationsmodell som behövs för en viss bearbetning. Den ursprungliga representationen kan därmed användas för nya frågor, under förutsättning att informationen fortfarande får bevaras och användas.
+Flexibiliteten består inte i att informationen saknar struktur. En XML-fil har en struktur, och ett fotografi har ett tekniskt format. Det som kan senareläggas är valet av den gemensamma informationsmodell som behövs för en viss bearbetning. Den ursprungliga representationen kan därmed användas för nya frågor, under förutsättning att informationen fortfarande får bevaras och användas.
 
 ## Distribuerade filsystem och objektlagring
 
@@ -18,7 +18,7 @@ Objektlagring erbjuder i stället ett gränssnitt där data hanteras som objekt 
 
 Arkitekten behöver därför bedöma lagringsgränssnittet tillsammans med de motorer som ska läsa och skriva information. Att två produkter erbjuder ett liknande objekt-API betyder inte att alla operationer, säkerhetsfunktioner eller prestandaegenskaper är identiska. Objektlagring kan realiseras i egen drift eller som extern tjänst; valet av lagringsprincip avgör inte i sig driftplatsen.
 
-En separat lagringstjänst kan göra det möjligt att tillföra beräkningsresurser utan att samtidigt utöka lagringskapaciteten. Men den introducerar också ett gemensamt beroende av nätverk och lagringstjänstens kapacitet. Utvärderingen bör omfatta både stora sekventiella läsningar och många samtidiga mindre operationer. Om varje händelse sparas som ett separat litet objekt kan antalet metadata- och åtkomstoperationer bli stort i förhållande till datavolymen. Att gruppera information i större filer kan då vara lämpligt, med en avvägning mot aktualitet och möjligheten att hitta enskilda poster.
+En separat lagringstjänst kan göra det möjligt att tillföra beräkningsresurser utan att samtidigt utöka lagringskapaciteten. Samtidigt uppstår ett gemensamt beroende av nätverket och lagringstjänstens kapacitet. Utvärderingen bör omfatta både stora sekventiella läsningar och många samtidiga mindre operationer. Om varje händelse sparas som ett separat litet objekt kan antalet metadata- och åtkomstoperationer bli stort i förhållande till datavolymen. Att gruppera information i större filer kan då vara lämpligt, med en avvägning mot aktualitet och möjligheten att hitta enskilda poster.
 
 ## Schema-on-read och schema-on-write
 

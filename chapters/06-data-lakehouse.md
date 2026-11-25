@@ -6,7 +6,7 @@ Anta att referensmyndigheten har etablerat flexibel lagring för dokument, händ
 
 Armbrust med flera presenterade 2021 Lakehouse som ett arkitekturmönster där öppna dataformat, avancerad analys och datalagerfunktionalitet förenas [K001]. Ambitionen är att minska behovet av parallella analytiska lagringsmiljöer. Det är ett arkitekturförslag, inte ett belägg för att alla Data Warehouse kan ersättas med bättre resultat.
 
-En viktig skillnad mot en enklare Data Lake är möjligheten att behandla en samling filer som en sammanhängande, versionshanterad tabell. En analys ska inte behöva avgöra vilka filer som råkar finnas i en katalog vid lästillfället. Den ska kunna utgå från ett definierat tabelltillstånd, även när andra processer uppdaterar informationen.
+En viktig skillnad mot en enklare Data Lake är möjligheten att med ett tabellformat behandla en samling filer som en sammanhängande, versionshanterad tabell. En analys ska inte behöva avgöra vilka filer som råkar finnas i en katalog vid lästillfället. Den ska kunna utgå från ett definierat tabelltillstånd, även när andra processer uppdaterar informationen.
 
 Tre nivåer behöver hållas isär:
 
@@ -60,7 +60,7 @@ En egen utvärdering bör därför omfatta läsning, skrivning, uppdatering, bor
 
 ## Frågemotorer och kataloger
 
-Ett tabellformat är inte en frågemotor. En motor som Apache Spark kan användas för distribuerad bearbetning [K054], medan en SQL-frågemotor som Trino kan vara ett alternativ för interaktiv analys [K055]. Andra motorer kan vara lämpliga för mindre arbetslaster eller specialiserade uppgifter. Exemplen är teknikroller, inte en rekommendation om en viss produktkombination.
+Ett tabellformat beskriver tabellens filer och metadata; det är inte i sig en frågemotor. En motor som Apache Spark kan användas för distribuerad bearbetning [K054], medan en SQL-frågemotor som Trino kan vara ett alternativ för interaktiv analys [K055]. Andra motorer kan vara lämpliga för mindre arbetslaster eller specialiserade uppgifter. Exemplen är teknikroller, inte en rekommendation om en viss produktkombination.
 
 Separat skalning av beräkningsresurser gör det möjligt att dimensionera olika arbetslaster oberoende av lagringsvolymen. Det innebär dock inte fullständig resursisolering. Gemensam objektlagring, nätverk och katalogtjänster kan fortfarande bli flaskhalsar. För rapportering med höga krav på förutsägbara svarstider kan särskild kapacitet, optimerade tabeller eller kompletterande serving-lager behövas.
 
