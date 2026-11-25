@@ -112,13 +112,13 @@ Källor: K004, K012, K014, K015, K034, K083, K084. Status: approved_auto, revisi
 
 Unikt innehåll och avgränsning: Klassning, sekretess, ändamål, behörighet, maskering, kryptering, revision, bevarande och gallring.
 
-Källor: K020, K021, K085–K089. Status: approved_auto, revision 52 (förnyad granskning 7.3c).
+Källor: K020, K021, K085–K089. Status: approved_auto, revision 64 (slutläsning 9.1b.2).
 
 ### 18. Driftsmiljöer, portabilitet och teknisk handlingsfrihet
 
 Unikt innehåll och avgränsning: Lokal drift, moln, hybrid, öppna format, suveränitet, alternativ driftplats, faktisk flyttbarhet.
 
-Källor: K036, K037, K049, K090–K093. Status: approved_auto, revision 39.
+Källor: K036, K037, K049, K090–K093. Status: approved_auto, revision 64 (slutläsning 9.1b.2).
 
 ## Arkitekturval och förflyttning (9 000 ord)
 
@@ -126,17 +126,17 @@ Källor: K036, K037, K049, K090–K093. Status: approved_auto, revision 39.
 
 Unikt innehåll och avgränsning: BI, operativ analys, ML, RAG, agenter och informationslämplighet.
 
-Källor: K022, K023, K094. Status: approved_auto, revision 58 (illustrationsintegrering 8.7).
+Källor: K022, K023, K094. Status: approved_auto, revision 64 (slutläsning 9.1b.2).
 
 ### 20. Referensarkitekturer och val av teknikplattformar
 
 Unikt innehåll och avgränsning: Fem kombinerbara alternativ: moderniserat DWH, lakehouse, multilager, domänorienterat, federerat/hybrid; TCO och verifiering.
 
-Källor: K002, K003, K009, K032, K036. Tidigare verifierade källor återanvänds; inga nya empiriska resultat hävdas. Status: approved_auto, revision 58 (illustrationsintegrering 8.7).
+Källor: K002, K003, K009, K032, K036. Tidigare verifierade källor återanvänds; inga nya empiriska resultat hävdas. Status: approved_auto, revision 64 (slutläsning 9.1b.2).
 
 ### 21. Strategi för stegvis modernisering
 
 Unikt innehåll och avgränsning: Prioritering, piloter, nytta, samexistens, migrering, återgång, avveckling, kompetens och stoppkriterier.
 
-Källor: K007, K015, K036. Tidigare dokumenterad källkontroll återanvänds. Status: approved_auto, revision 52 (förnyad granskning 7.3c).
+Källor: K007, K015, K036. Tidigare dokumenterad källkontroll återanvänds. Status: approved_auto, revision 64 (slutläsning 9.1b.2).
 

@@ -1,15 +1,16 @@
 {
   "blockers": [],
   "chapter": "17-informationssakerhet.md",
-  "chapter_sha256": "c1296418bffbf62cc7b0faa208f2413201b504698f44102a6d2ec4fdce341b76",
+  "chapter_sha256": "a9b7e1fe98656714ed89aab243668bb94d8450996815be4e92faad4392a2dbd0",
   "check_notes": {
-    "audience": "Erfarna IT-arkitekter i reglerade organisationer; fiktiv referensmyndighet.",
-    "consistency": "Rättsliga skyldigheter skiljs från arkitekturmål; preciserat tidpunkten för konsekvensbedömning och villkoret för säkerhetskopior.",
-    "editorial": "Rättsliga skyldigheter skiljs från arkitekturmål; preciserat tidpunkten för konsekvensbedömning och villkoret för säkerhetskopior.",
-    "facts": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Förnyat stickprov mot riksdagens TF 2 kap. 6–7, 13 §§ och OSL 8 kap. 2 § samt IMY:s vägledning om konsekvensbedömning före behandling. Övriga rättskällor enligt tidigare kontroll; ingen juridisk expertgranskning.Rättsliga skyldigheter skiljs från arkitekturmål; preciserat tidpunkten för konsekvensbedömning och villkoret för säkerhetskopior.",
-    "language": "Rättsliga skyldigheter skiljs från arkitekturmål; preciserat tidpunkten för konsekvensbedömning och villkoret för säkerhetskopior.",
-    "sources": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Förnyat stickprov mot riksdagens TF 2 kap. 6–7, 13 §§ och OSL 8 kap. 2 § samt IMY:s vägledning om konsekvensbedömning före behandling. Övriga rättskällor enligt tidigare kontroll; ingen juridisk expertgranskning.",
-    "structure": "Rättsliga skyldigheter skiljs från arkitekturmål; preciserat tidpunkten för konsekvensbedömning och villkoret för säkerhetskopior."
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Kontrollerat mot informationssäkerhet, driftsmiljöer, AI-tillämpningar, referensarkitekturer och stegvis modernisering.",
+    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya överlappningar.",
+    "facts": "Redaktionella förtydliganden utan nya externa sakpåståenden; tidigare kontroller återanvänds. Ingen ny juridisk expertgranskning.",
+    "illustrations": "Inga illustrationer enligt bokspecifikation.",
+    "language": "Förtydligat sammanslagna informationsrisker och preciserat hanteringen av gallrings- och rättelseåtgärder efter återställning från säkerhetskopia.",
+    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare kontroller återanvänds.",
+    "structure": "Kapitlets disposition och relation till angränsande kapitel bevarade."
   },
   "checks": {
     "audience": "passed",
@@ -22,12 +23,13 @@
     "structure": "passed"
   },
   "corrections": [
-    "Rättsliga skyldigheter skiljs från arkitekturmål; preciserat tidpunkten för konsekvensbedömning och villkoret för säkerhetskopior."
+    "Rättsliga skyldigheter skiljs från arkitekturmål; preciserat tidpunkten för konsekvensbedömning och villkoret för säkerhetskopior.",
+    "Förtydligat sammanslagna informationsrisker och preciserat hanteringen av gallrings- och rättelseåtgärder efter återställning från säkerhetskopia."
   ],
   "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
-  "project_revision_at_review": 51,
+  "project_revision_at_review": 63,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Förnyad intern redaktionell granskning 7.3c, basrevision 51, kapitel 17. Jämförelse med revision 45 och dokumenterad faktakontroll.",
-  "updated_at": "2026-11-25T16:13:40+00:00"
+  "summary": "Steg 9.1b.2: kapitel 17 slutläst i sin helhet mot kapitel 17–21, kapitelplanen och angränsande resonemang. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende juridisk eller extern faktagranskning genomförd. Internt redaktionellt godkännande.",
+  "updated_at": "2026-11-25T19:50:09+00:00"
 }

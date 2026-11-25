@@ -1,16 +1,16 @@
 {
   "blockers": [],
   "chapter": "20-referensarkitekturer.md",
-  "chapter_sha256": "e20f9cb89f7d4a86c9722203dbdb6717f8b6f242decd4e806e17eae1a2617e66",
+  "chapter_sha256": "495ba230a4d1cb32676371f05e8e25a536cf989df94a6507666b2471481cb59c",
   "check_notes": {
-    "audience": "Erfarna IT-arkitekter i reglerade organisationer; fiktiv referensmyndighet.",
-    "consistency": "Fem kombinerbara tjänstekedjor och villkorad målhypotes; preciserat att federerad åtkomst har en svarsväg tillbaka till konsumenten.",
-    "editorial": "Fem kombinerbara tjänstekedjor och villkorad målhypotes; preciserat att federerad åtkomst har en svarsväg tillbaka till konsumenten.",
-    "facts": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Ingen ny extern fulltextgranskning.Fem kombinerbara tjänstekedjor och villkorad målhypotes; preciserat att federerad åtkomst har en svarsväg tillbaka till konsumenten. I steg 8.7 tillkom endast en illustrativ figur med beskrivande bildtext utifrån kapitlet; tidigare sakgranskning återanvänds.",
-    "illustrations": "IMG-20-01: Kombinerad arkitektur, villkorad Lakehouse-prövning och direktåtkomst. SVG-validering och visuell kontroll i färg/gråskala vid gemensam förhandsbredd. Faktisk exportkontroll återstår.",
-    "language": "Fem kombinerbara tjänstekedjor och villkorad målhypotes; preciserat att federerad åtkomst har en svarsväg tillbaka till konsumenten.",
-    "sources": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Ingen ny extern fulltextgranskning. Källhänvisningar och löptext oförändrade; ingen ny extern granskning.",
-    "structure": "Fem kombinerbara tjänstekedjor och villkorad målhypotes; preciserat att federerad åtkomst har en svarsväg tillbaka till konsumenten."
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Kontrollerat mot informationssäkerhet, driftsmiljöer, AI-tillämpningar, referensarkitekturer och stegvis modernisering.",
+    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya överlappningar.",
+    "facts": "Redaktionella förtydliganden utan nya externa sakpåståenden; tidigare kontroller återanvänds. Ingen ny juridisk expertgranskning.",
+    "illustrations": "IMG-20-01 och bildtext bevarade; visuell PDF/EPUB-exportkontroll återstår.",
+    "language": "Tydligare referens mellan informationsleveranser och gemensamma analysmodeller samt mer avgränsad formulering av målhypotesen.",
+    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare kontroller återanvänds.",
+    "structure": "Kapitlets disposition och relation till angränsande kapitel bevarade."
   },
   "checks": {
     "audience": "passed",
@@ -24,11 +24,12 @@
   },
   "corrections": [
     "Fem kombinerbara tjänstekedjor och villkorad målhypotes; preciserat att federerad åtkomst har en svarsväg tillbaka till konsumenten.",
-    "Infogat IMG-20-01 med beskrivande bildtext enligt illustrationsplanen."
+    "Infogat IMG-20-01 med beskrivande bildtext enligt illustrationsplanen.",
+    "Tydligare referens mellan informationsleveranser och gemensamma analysmodeller samt mer avgränsad formulering av målhypotesen."
   ],
-  "project_revision_at_review": 57,
+  "project_revision_at_review": 63,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Förnyat internt godkännande efter illustrationens integrering, steg 8.7. Förnyad intern redaktionell granskning 7.3c, basrevision 51, kapitel 20. Jämförelse med revision 45 och dokumenterad faktakontroll.",
-  "updated_at": "2026-11-25T17:47:42+00:00"
+  "summary": "Steg 9.1b.2: kapitel 20 slutläst i sin helhet mot kapitel 17–21, kapitelplanen och angränsande resonemang. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende juridisk eller extern faktagranskning genomförd. Internt redaktionellt godkännande.",
+  "updated_at": "2026-11-25T19:50:09+00:00"
 }

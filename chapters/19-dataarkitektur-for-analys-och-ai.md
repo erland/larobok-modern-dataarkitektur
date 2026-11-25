@@ -1,6 +1,6 @@
 # 19. Dataarkitektur för verksamhetsutveckling, analys och AI
 
-En myndighet som vill använda AI i sin verksamhet behöver inte nödvändigtvis ersätta sin analytiska arkitektur. Däremot behöver informationen kunna användas på fler sätt än i återkommande rapporter. En handläggare kan behöva en aktuell sammanställning i sitt operativa IT-stöd, en analytiker ett historiskt träningsunderlag och en AI-assistent tillgång till gällande styrdokument. Dessa behov ställer olika krav på informationsförsörjningen.
+En myndighet som vill använda AI i sin verksamhet behöver inte nödvändigtvis ersätta sin analytiska arkitektur. Informationen behöver däremot kunna användas på fler sätt än i återkommande rapporter. En handläggare kan behöva en aktuell sammanställning i sitt operativa IT-stöd, en analytiker ett historiskt träningsunderlag och en AI-assistent tillgång till gällande styrdokument. Dessa behov ställer olika krav på informationsförsörjningen.
 
 ## Från analysmiljö till verksamhetsnära konsumtion
 
@@ -30,7 +30,7 @@ Utvärdering behöver skilja mellan återvinningens kvalitet och genereringens k
 
 En AI-assistent som hjälper en handläggare att sammanfatta ett ärende kan använda både dokument och strukturerade uppgifter. En agent som dessutom får utföra åtgärder behöver tillgång till kontrollerade verksamhetsfunktioner, inte bara till ett analytiskt datalager. Läsning av information och ändring av verksamhetstillstånd bör vara separata befogenheter. Ändringar ska gå genom ansvariga operativa IT-stöds gränssnitt och deras valideringsregler. Mandat, godkännandepunkter och spårbarhet bör anpassas efter åtgärdens konsekvenser. Det operativa IT-stödet behöver själv kontrollera behörighet och aktuellt tillstånd vid varje åtgärd; en tidigare behörighetskontrollerad läsning är inte ett tillräckligt underlag för en senare ändring.
 
-Specialiserade AI-tjänster, såsom transkribering, klassificering eller dokumenttolkning, behöver inte vara assistenter eller agenter. De kan anropas från befintliga IT-stöd som en avgränsad funktion. Resultatet behöver då kopplas till rätt informationsobjekt och vid behov till modellversion, källmaterial och granskningsstatus. AI-genererade uppgifter ska inte utan vidare behandlas som verifierade sakuppgifter. Exempelvis kan ett automatiskt extraherat belopp behöva kontrolleras mot originalhandlingen innan det används i ett beslut.
+Specialiserade AI-tjänster, såsom transkribering, klassificering eller dokumenttolkning, behöver inte vara assistenter eller agenter. De kan anropas från befintliga IT-stöd som en avgränsad funktion. Resultatet behöver då kopplas till rätt informationsobjekt och vid behov till modellversion, källmaterial och granskningsstatus. AI-genererade uppgifter behöver kontrolleras innan de behandlas som verifierade sakuppgifter. Exempelvis kan ett automatiskt extraherat belopp behöva kontrolleras mot originalhandlingen innan det används i ett beslut.
 
 ## Informationsflöden i fyra verksamhetsnära tillämpningar
 

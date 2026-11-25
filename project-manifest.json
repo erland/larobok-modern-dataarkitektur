@@ -1,5 +1,5 @@
 {
-  "canonical_zip_name": "modern-dataarkitektur-omstart-r063.zip",
+  "canonical_zip_name": "modern-dataarkitektur-omstart-r064.zip",
   "chapters": {
     "count": 22,
     "hashes": {
@@ -19,11 +19,11 @@
       "chapters/14-data-fabric.md": "1bee8c04317870e8a69c3e49f3d7b6d3ae6a276fa330bdbf753ff1a1ff9520aa",
       "chapters/15-organisatoriska-arkitekturval.md": "ae9ef3900b277952ecce94ec1faa25ee303a9e044c97ff8acf83f852fe36c962",
       "chapters/16-datastyrning.md": "d510eb7867e5fb51597f54b611425595c796d056f8db13c45533b949bed23428",
-      "chapters/17-informationssakerhet.md": "c1296418bffbf62cc7b0faa208f2413201b504698f44102a6d2ec4fdce341b76",
-      "chapters/18-driftsmiljoer.md": "832e524d37b5d31f4da8d5f2552b89ab77590f584a9c9e20f64c7bba3e9fa5f2",
-      "chapters/19-dataarkitektur-for-analys-och-ai.md": "8d162478a8459a5b30a058ba64dbc768d6d558766f0e90354b27b8bf148df5da",
-      "chapters/20-referensarkitekturer.md": "e20f9cb89f7d4a86c9722203dbdb6717f8b6f242decd4e806e17eae1a2617e66",
-      "chapters/21-stegvis-modernisering.md": "bc79a8499a33bd2fbff0e6bb1d300280746a70be3499c2883d91d625e0cc060d",
+      "chapters/17-informationssakerhet.md": "a9b7e1fe98656714ed89aab243668bb94d8450996815be4e92faad4392a2dbd0",
+      "chapters/18-driftsmiljoer.md": "471b0586f18826ab4636a30198b32d879713d99c7bd6a915181296292a65b1e7",
+      "chapters/19-dataarkitektur-for-analys-och-ai.md": "8046cf067a96f4b0822df58bb25108f08336c3a09f05b7c2b3c16502d0d1ce43",
+      "chapters/20-referensarkitekturer.md": "495ba230a4d1cb32676371f05e8e25a536cf989df94a6507666b2471481cb59c",
+      "chapters/21-stegvis-modernisering.md": "5fccb8c5c16a1211e120c36a75d4faf923f75fce7c1423e2138e7738978002d0",
       "chapters/99-kallregister.md": "0c2fef3dd331d05188b0edc1761080eb2bda52d82b9336356170e3d0d7cdbc8e"
     },
     "latest": 99
@@ -31,27 +31,27 @@
   "created_at": "2026-11-25T07:13:25Z",
   "last_operation": {
     "changed_files": [
-      "chapters/12-dataplattformar.md",
-      "chapters/13-data-mesh.md",
-      "chapters/14-data-fabric.md",
-      "chapters/15-organisatoriska-arkitekturval.md",
-      "chapters/16-datastyrning.md",
+      "chapters/17-informationssakerhet.md",
+      "chapters/18-driftsmiljoer.md",
+      "chapters/19-dataarkitektur-for-analys-och-ai.md",
+      "chapters/20-referensarkitekturer.md",
+      "chapters/21-stegvis-modernisering.md",
       "docs/kapitelplan.md",
       "docs/projektstatus.md",
-      "docs/reviews/12-dataplattformar.json",
-      "docs/reviews/13-data-mesh.json",
-      "docs/reviews/14-data-fabric.json",
-      "docs/reviews/15-organisatoriska-arkitekturval.json",
-      "docs/reviews/16-datastyrning.json",
+      "docs/reviews/17-informationssakerhet.json",
+      "docs/reviews/18-driftsmiljoer.json",
+      "docs/reviews/19-dataarkitektur-for-analys-och-ai.json",
+      "docs/reviews/20-referensarkitekturer.json",
+      "docs/reviews/21-stegvis-modernisering.json",
       "project-index.md"
     ],
-    "operation": "Steg 9.1b.1: slutläsning och korrigering av kapitel 12–16",
-    "source_revision": 62
+    "operation": "Steg 9.1b.2: slutläsning och korrigering av kapitel 17–21",
+    "source_revision": 63
   },
-  "parent_revision": 62,
+  "parent_revision": 63,
   "project_id": "e3de759e-c3cf-4a30-9628-20931db7776b",
   "project_slug": "modern-dataarkitektur",
-  "revision": 63,
+  "revision": 64,
   "schema_version": 1,
   "template": false,
   "tracked_files": {
@@ -236,24 +236,24 @@
       "sha256": "d510eb7867e5fb51597f54b611425595c796d056f8db13c45533b949bed23428"
     },
     "chapters/17-informationssakerhet.md": {
-      "bytes": 10231,
-      "sha256": "c1296418bffbf62cc7b0faa208f2413201b504698f44102a6d2ec4fdce341b76"
+      "bytes": 10236,
+      "sha256": "a9b7e1fe98656714ed89aab243668bb94d8450996815be4e92faad4392a2dbd0"
     },
     "chapters/18-driftsmiljoer.md": {
-      "bytes": 9919,
-      "sha256": "832e524d37b5d31f4da8d5f2552b89ab77590f584a9c9e20f64c7bba3e9fa5f2"
+      "bytes": 9925,
+      "sha256": "471b0586f18826ab4636a30198b32d879713d99c7bd6a915181296292a65b1e7"
     },
     "chapters/19-dataarkitektur-for-analys-och-ai.md": {
-      "bytes": 13080,
-      "sha256": "8d162478a8459a5b30a058ba64dbc768d6d558766f0e90354b27b8bf148df5da"
+      "bytes": 13090,
+      "sha256": "8046cf067a96f4b0822df58bb25108f08336c3a09f05b7c2b3c16502d0d1ce43"
     },
     "chapters/20-referensarkitekturer.md": {
-      "bytes": 14806,
-      "sha256": "e20f9cb89f7d4a86c9722203dbdb6717f8b6f242decd4e806e17eae1a2617e66"
+      "bytes": 14819,
+      "sha256": "495ba230a4d1cb32676371f05e8e25a536cf989df94a6507666b2471481cb59c"
     },
     "chapters/21-stegvis-modernisering.md": {
-      "bytes": 9134,
-      "sha256": "bc79a8499a33bd2fbff0e6bb1d300280746a70be3499c2883d91d625e0cc060d"
+      "bytes": 9163,
+      "sha256": "5fccb8c5c16a1211e120c36a75d4faf923f75fce7c1423e2138e7738978002d0"
     },
     "chapters/99-kallregister.md": {
       "bytes": 14279,
@@ -304,12 +304,12 @@
       "sha256": "8097ccf7c54b12bd45e78b052cd27738eb3436fa9fc07309b94b4926fa61a2ed"
     },
     "docs/kapitelplan.md": {
-      "bytes": 6666,
-      "sha256": "ed10ec172830f14c9c1f1cdc243ed33dc0c84055d414f6347350ef7068ee3582"
+      "bytes": 6660,
+      "sha256": "7a4640c8cc4d041e7f02699412277b360ffa711799dffddf2c774467d214d209"
     },
     "docs/projektstatus.md": {
-      "bytes": 1844,
-      "sha256": "ad94d2e45d13c60df4b2931a8b694956c7079c1063c64b40b1d923fa6b73d586"
+      "bytes": 1867,
+      "sha256": "ed0e5d86381528bd02e7a21a5bfbfcf3b3e33e371225b073e2c825d797f20b56"
     },
     "docs/quality-checklist.md": {
       "bytes": 2131,
@@ -384,24 +384,24 @@
       "sha256": "4662912ffb8bce1fd2f40b88ae5f73b6d654f580ebc02b13a2acf0aa01e43c25"
     },
     "docs/reviews/17-informationssakerhet.json": {
-      "bytes": 2515,
-      "sha256": "29fcfc74402b6d37d1cf9bea54e19128196f70b03a59f5c7992cdcff2bd9a344"
+      "bytes": 2247,
+      "sha256": "82a81f90b1cac18f893c7f13ca15d6d04274f4819020d9daa19f33f3a6c89b3e"
     },
     "docs/reviews/18-driftsmiljoer.json": {
-      "bytes": 1296,
-      "sha256": "164dcf89c8430d2eedd368125d8d45f715476b78b7864e46d3158f142ae26cfa"
+      "bytes": 2149,
+      "sha256": "d1e67a9dfa2ff1eee60b1688b9ea2ea27b293d9b9c54a8c9fc73976d3d360772"
     },
     "docs/reviews/19-dataarkitektur-for-analys-och-ai.json": {
-      "bytes": 2737,
-      "sha256": "9dafd3cfb2bb19d30afd6a1587e8e04fd4d0ecd6b378d0cb237a5fd9f6a7ceac"
+      "bytes": 2222,
+      "sha256": "69025bba74aa29767c66294eefb696e75607beaf6170b1d80e448dd88dc97e92"
     },
     "docs/reviews/20-referensarkitekturer.json": {
-      "bytes": 2621,
-      "sha256": "a58f04a269b309560fd3ab17e32211f67c64323ec57aed7adaf09c4eb8f4dc83"
+      "bytes": 2211,
+      "sha256": "3275f1c5a78ddc1dda66bfa57f4a384c7f7c827bb84d40776fc64bd1bda42cc3"
     },
     "docs/reviews/21-stegvis-modernisering.json": {
-      "bytes": 1971,
-      "sha256": "9e246089640215a471e5cf60b57b91e8172cee3da6a7a39ca84c6dd25a091542"
+      "bytes": 2079,
+      "sha256": "7b038b2fd67a22c7e2b2bbb6c8292797beeb747abe4ac8954fcafeca87f6d943"
     },
     "docs/reviews/README.md": {
       "bytes": 772,
@@ -500,8 +500,8 @@
       "sha256": "f46cb68df4c310e24d7ceb62ba1f6c4eed5c6bb9ff11c7c5ff85dd33b3094d58"
     },
     "project-index.md": {
-      "bytes": 2269,
-      "sha256": "068a3c8abf61baeefc80c58461f969289b9a89eff581bf2e24d33de6c3e1f10d"
+      "bytes": 2543,
+      "sha256": "f70df0e33329534d0292ca887fc390f54d7623a0a4e53dd138704446ad40f832"
     },
     "publishing/build-notes.md": {
       "bytes": 439,
@@ -524,8 +524,8 @@
       "sha256": "4fe482d302430c7962bc619147bf8d388e4466171e988db61fcf4664456241ec"
     },
     "revision-log.md": {
-      "bytes": 25523,
-      "sha256": "fdfbf74a273c34ad9b5f3443a3b14355be1b80752530717ce058ecd712ef2175"
+      "bytes": 26160,
+      "sha256": "7178cb1f098ef935a5fea7a47e714979976848ed631813c06820c32c33842a29"
     },
     "scripts/book_references.py": {
       "bytes": 4622,
@@ -564,5 +564,5 @@
       "sha256": "7bfc4efda9947a855c979019864423f80d47e531d92855d02f64643a0887208a"
     }
   },
-  "updated_at": "2026-11-25T19:24:59Z"
+  "updated_at": "2026-11-25T19:50:09Z"
 }

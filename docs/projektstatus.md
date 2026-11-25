@@ -1,6 +1,6 @@
 # Projektstatus
 
-Revision 63: steg 9.1b.1 genomfört. Inledning och kapitel 1–11 slutlästa i revision 60–62; kapitel 12–16 slutlästa och språkligt preciserade i revision 63 med fem förnyade interna redaktionella godkännanden. Kapitel 17–21, källregister, nio SVG-illustrationer och godkänt omslag oförändrade. Slutläsning av kapitel 17–21 och publiceringskontroller återstår.
+Revision 64: steg 9.1b.2 genomfört. Inledning och samtliga kapitel 1–21 har slutlästs i revision 60–64. Kapitel 17–21 har språkligt preciserats i revision 64 och fem interna redaktionella godkännanden förnyats. Källregister, nio SVG-illustrationer och godkänt omslag oförändrade. Samlad slutverifiering av läsarkvalitet samt faktisk PDF/EPUB-export och publiceringskontroller återstår.
 
 | Kapitel | Titel | Status |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Projektindex
 
-Modern dataarkitektur | factbook | revision 63 (omstart)
+Modern dataarkitektur | factbook | revision 64 (omstart)
 
 Samtliga 21 kapitel och inledning godkända. Steg 7.1a–c, 7.2, 7.3a–c samt strukturell verifiering 7.3d genomförda. Se docs/reviews/slutverifiering-7.3d.md för avgränsningar. Fullständig slutläsning och publiceringsgrind återstår. Källregister 86 poster. EPUB/PDF ej byggda.
 
@@ -23,3 +23,5 @@ Steg 9.1a.2: kapitel 4–8 slutlästa och språkligt preciserade. Fem interna re
 Steg 9.1a.3: kapitel 9–11 slutlästa och redaktionellt preciserade. Tre interna redaktionella godkännanden förnyade. GitHub Actions validerar projektet. Kapitel 12–21 och publiceringsgrind återstår.
 
 Steg 9.1b.1: kapitel 12–16 slutlästa och redaktionellt preciserade. Fem interna redaktionella godkännanden förnyade. GitHub Actions validerar projektet. Kapitel 17–21 och publiceringsgrind återstår.
+
+Steg 9.1b.2: kapitel 17–21 slutlästa och redaktionellt preciserade. Fem interna redaktionella godkännanden förnyade. Inledning och samtliga 21 kapitel har nu slutlästs i steg 9.1a.1–9.1b.2. Samlad helhetsgranskning, byggd PDF/EPUB och publiceringsgrind återstår.

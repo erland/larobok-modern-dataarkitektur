@@ -1,6 +1,6 @@
 # 21. Strategi för stegvis modernisering
 
-Modernisering börjar där organisationens faktiska begränsning uppstår. Referensarkitekturerna i kapitel 20 ger underlag för vad som kan förändras; här ligger fokus på genomförandet.
+Modernisering bör börja där organisationens faktiska begränsningar finns. Referensarkitekturerna i kapitel 20 ger underlag för vad som kan förändras; här ligger fokus på genomförandet.
 
 Strategin i detta kapitel är en syntes av bokens tidigare analyser, tillämpad på den fiktiva referensmyndigheten. Syftet är att successivt förbättra förmågan att utveckla och använda information samtidigt som kritiska leveranser och rättsliga skyldigheter upprätthålls.
 
@@ -35,13 +35,13 @@ Bode m.fl. rekommenderar bland annat tidiga avgränsade införanden och tvärgå
 
 ## Finansiera förmågor, inte bara etablering
 
-Omsätt finansieringsmodellen i kapitel 15 i konkreta åtaganden före breddinförandet: utse en långsiktig tjänsteägare, avsätt kapacitet för support, säkerhetsuppdateringar och produktförvaltning samt följ upp om specialisternas tid faktiskt frigörs för utveckling av gemensamma tjänster. En pilotbudget utan finansierad förvaltning räcker inte.
+Omsätt finansieringsmodellen i kapitel 15 i konkreta åtaganden före breddinförandet: utse en långsiktig tjänsteägare, avsätt kapacitet för support, säkerhetsuppdateringar och produktförvaltning samt följ upp om specialisternas tid faktiskt frigörs för utveckling av gemensamma tjänster. En pilotbudget räcker inte om den långsiktiga förvaltningen saknar finansiering.
 
 ## Samexistens, migrering och avveckling
 
 Modernisering bör kunna genomföras per informationskedja eller arbetslast. Under en övergång kan gamla och nya bearbetningar försörja samma rapportbehov. Ange vilken leverans som är auktoritativ, vem som ansvarar för avstämning och hur länge dubbleringen får pågå. Jämför inte enbart antal poster utan även verksamhetsmått, historik, tidsgränser och kända undantag. Hantera fördröjda förändringar, raderingar och återläsning så att jämförelsen avser motsvarande informationstillstånd.
 
-Vid övergång till en ny leverans behöver konsumenterna kunna byta kontrollerat. Dokumentera en återgångspunkt och prova återgång innan den nya leveransen blir ensam produktionsväg. Om den gamla miljön inte längre hålls synkroniserad kräver återgång en särskild plan för att fånga upp mellanliggande förändringar. Återgång är därför inte alltid liktydigt med att starta om en tidigare komponent.
+Vid övergång till en ny leverans behöver konsumenterna kunna byta kontrollerat. Dokumentera en återgångspunkt och prova återgång innan den nya leveransen blir ensam produktionsväg. Om den gamla miljön inte längre hålls synkroniserad kräver återgång en särskild plan för att fånga upp mellanliggande förändringar. Återgång innebär därför inte alltid att en tidigare komponent bara kan startas om.
 
 Avveckling kräver verifiering av att även sällan använda och periodiska konsumenter har flyttat, att nödvändig historik är tillgänglig och att bevarande- och gallringsbeslut även omfattar kvarvarande kopior. Avsluta övervakning, behörigheter, driftavtal och licenser först när respektive beroende är hanterat. För varje parallell lösning bör det finnas en ansvarig, ett avvecklingsvillkor och en tidpunkt för omprövning. Annars riskerar en stegvis strategi att permanent öka komplexiteten.
 

@@ -1,6 +1,6 @@
 # 17. Informationssäkerhet, regulatoriska krav och informationslivscykel
 
-När information från flera operativa IT-stöd samlas för analys uppstår nya möjligheter men också nya risker. Uppgifter som var för sig kan hanteras med begränsad risk kan tillsammans avslöja exempelvis en persons rörelsemönster eller en myndighets kontrollmetoder. En säker dataarkitektur måste därför utgå från både informationen och den behandling som möjliggörs.
+När information från flera operativa IT-stöd samlas för analys uppstår nya möjligheter men också nya risker. Uppgifter som var för sig innebär begränsad risk kan tillsammans avslöja exempelvis en persons rörelsemönster eller en myndighets kontrollmetoder. En säker dataarkitektur måste därför utgå från både informationen och den behandling som möjliggörs.
 
 ## Från rättsliga krav till arkitekturbeslut
 
@@ -46,7 +46,7 @@ Arkivlagens utgångspunkt är bevarande av myndigheternas arkiv för bland annat
 
 Riksarkivets RA-FS 2009:1 omfattar bland annat planering, dokumentation och skydd av elektroniska handlingar; ändringsföreskriften RA-FS 2024:3 ändrar bland annat 6 kap. 1 och 7 §§ [K021] [K087]. Föreskrifternas tillämpningsområde och eventuella undantag behöver beaktas. En långsiktigt läsbar handling kräver mer än att dess bitar finns kvar. Struktur, definitioner, samband och relevant dokumentation behöver bevaras så att informationen kan förstås och användas.
 
-Alla tekniska kopior har inte samma rättsliga status. En handling som förvaras enbart för att kunna återskapa förlorad information i myndighetens ordinarie system är enligt 2 kap. 13 § tryckfrihetsförordningen inte en allmän handling [K089]. Den tekniska livscykeln behöver ändå omfatta även mottagningszoner, härledda tabeller, index, snapshots, temporära filer och säkerhetskopior. Att ta bort en rad ur en aktuell Lakehouse-tabell behöver exempelvis inte innebära att uppgiften försvinner ur äldre snapshots. En gallringsprocess måste därför ha kontroll över kvarvarande versioner och de regler som styr deras bevarande. Efter återställning från backup behöver tidigare genomförda gallrings- och rättelseåtgärder kunna hanteras på nytt, när tillämpliga regler kräver det.
+Alla tekniska kopior har inte samma rättsliga status. En handling som förvaras enbart för att kunna återskapa förlorad information i myndighetens ordinarie system är enligt 2 kap. 13 § tryckfrihetsförordningen inte en allmän handling [K089]. Den tekniska livscykeln behöver ändå omfatta även mottagningszoner, härledda tabeller, index, snapshots, temporära filer och säkerhetskopior. Att ta bort en rad ur en aktuell Lakehouse-tabell behöver exempelvis inte innebära att uppgiften försvinner ur äldre snapshots. En gallringsprocess måste därför ha kontroll över kvarvarande versioner och de regler som styr deras bevarande. Efter återställning från en säkerhetskopia behöver tidigare genomförda gallrings- och rättelseåtgärder kunna tillämpas på nytt när tillämpliga regler kräver det.
 
 ## Konsekvenser för lagrings- och åtkomstarkitekturer
 

@@ -8,7 +8,7 @@ Lokal drift ger organisationen möjlighet att själv kontrollera fysisk infrastr
 
 Publika molntjänster kan erbjuda snabb kapacitetstilldelning och färdigförvaltade tjänster för exempelvis lagring, distribuerad bearbetning och analys. Organisationen behöver väga denna nytta mot beroendet av tjänstespecifika gränssnitt, externa driftprocesser, prismodeller och avtalsvillkor. Kostnaden för en arbetslast bör inkludera lagring, bearbetning, dataöverföring och den egna förvaltningen, inte bara tjänstens pris [K036].
 
-En hybrid arkitektur kan innebära att känsliga informationsmängder bearbetas lokalt medan andra arbetslaster nyttjar externa tjänster. Den kräver emellertid samordning av identiteter, nätverk, övervakning, informationsklassning och livscykelhantering över flera miljöer. Om stora datamängder kontinuerligt behöver överföras mellan miljöerna kan såväl kostnader som fördröjningar bli betydande. Hybrid drift är därför ett medvetet val av placering för olika arbetslaster, inte ett självändamål.
+En hybridarkitektur kan innebära att känsliga informationsmängder bearbetas lokalt medan andra arbetslaster använder externa tjänster. Den kräver emellertid samordning av identiteter, nätverk, övervakning, informationsklassning och livscykelhantering över flera miljöer. Om stora datamängder kontinuerligt behöver överföras mellan miljöerna kan såväl kostnader som fördröjningar bli betydande. Hybriddrift är därför ett medvetet val av placering för olika arbetslaster, inte ett självändamål.
 
 ## Informationssuveränitet och kontroll
 
@@ -24,7 +24,7 @@ Containerpaketering, deklarativ konfiguration och automatiserade installationer 
 
 ## Portabilitet genom hela arkitekturen
 
-Interoperabilitet innebär här att komponenter kan samverka över definierade gränssnitt, medan portabilitet avser möjligheten att överföra data och funktionalitet. Återetableringsförmåga omfattar dessutom de praktiska resurser och processer som krävs för att återuppta verksamheten på en annan driftplats. Ett kompatibelt gränssnitt är inte ett bevis på att hela flytten fungerar.
+Interoperabilitet innebär här att komponenter kan samverka över definierade gränssnitt, medan portabilitet avser möjligheten att överföra data och funktionalitet. Återetableringsförmåga omfattar dessutom de praktiska resurser och processer som krävs för att återuppta verksamheten på en annan driftplats. Ett kompatibelt gränssnitt är inte i sig ett bevis på att hela flytten fungerar.
 
 | Nivå | Vad behöver kunna återskapas eller flyttas? | Exempel på kvarstående beroende |
 |---|---|---|
