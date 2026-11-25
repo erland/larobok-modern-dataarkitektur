@@ -1,5 +1,5 @@
 {
-  "canonical_zip_name": "modern-dataarkitektur-omstart-r068.zip",
+  "canonical_zip_name": "modern-dataarkitektur-omstart-r069.zip",
   "chapters": {
     "count": 22,
     "hashes": {
@@ -31,18 +31,20 @@
   "created_at": "2026-11-25T07:13:25Z",
   "last_operation": {
     "changed_files": [
-      ".github/workflows/02-build-preview.yml",
       "docs/projektstatus.md",
       "project-index.md",
-      "publishing/pdf-template.tex"
+      "publishing/epub.css",
+      "publishing/fix-epub-after-pandoc.py",
+      "publishing/pdf-template.tex",
+      "scripts/validate_exports.py"
     ],
-    "operation": "Åtgärda PDF-fontuppslag och provbygg i PR",
-    "source_revision": 67
+    "operation": "Layoutjusteringar i EPUB och PDF",
+    "source_revision": 68
   },
-  "parent_revision": 67,
+  "parent_revision": 68,
   "project_id": "e3de759e-c3cf-4a30-9628-20931db7776b",
   "project_slug": "modern-dataarkitektur",
-  "revision": 68,
+  "revision": 69,
   "schema_version": 1,
   "template": false,
   "tracked_files": {
@@ -299,8 +301,8 @@
       "sha256": "7a4640c8cc4d041e7f02699412277b360ffa711799dffddf2c774467d214d209"
     },
     "docs/projektstatus.md": {
-      "bytes": 2476,
-      "sha256": "b3f41c811438b8045e88562a0e8d1e944870023b354dac1e2948956d20deb0c6"
+      "bytes": 2726,
+      "sha256": "825fe21a5f7d00c6bf4334125620e1ec5868146a9d325ebaa81074280db74129"
     },
     "docs/quality-checklist.md": {
       "bytes": 2131,
@@ -495,32 +497,32 @@
       "sha256": "f46cb68df4c310e24d7ceb62ba1f6c4eed5c6bb9ff11c7c5ff85dd33b3094d58"
     },
     "project-index.md": {
-      "bytes": 3477,
-      "sha256": "a128b00571da3509652c4ffb13c814faf3633d8916a69c204c390b2663004c13"
+      "bytes": 3652,
+      "sha256": "04d40f8b0243ab71e77d7257b691a7502b7bf9a1995cfcd8470532f4ae3f2d47"
     },
     "publishing/build-notes.md": {
       "bytes": 439,
       "sha256": "41ea9b200a768f1f55a5fd86ee6a278907f994274ca548cf742225579e50202c"
     },
     "publishing/epub.css": {
-      "bytes": 569,
-      "sha256": "aee9b81d1a7fab1d266527b0cfd80675ff5b7bd8bca83ddae2c98bb86d2badef"
+      "bytes": 794,
+      "sha256": "e830478081c9b5f42e475e76cd1658f0e3d24476a3dd7387b4bf560a374798ec"
     },
     "publishing/fix-epub-after-pandoc.py": {
-      "bytes": 4105,
-      "sha256": "ccd52f3320b809eccc24d0e314893f7ec70681e145c4bfd94d3b23424451b0b3"
+      "bytes": 4095,
+      "sha256": "f5eceedd521ec860b305ca6f0586d2895b0ddaa8fc8a71cae5273f4fa39831ce"
     },
     "publishing/pdf-filter.lua": {
       "bytes": 2187,
       "sha256": "d1386495705a3f519f872f9e355869341e78b5bc0d47b6ed6137f86cc6229a65"
     },
     "publishing/pdf-template.tex": {
-      "bytes": 3008,
-      "sha256": "1fc8763dc7790051ab3b626e76b0c23f7c8507d78703966698b859153491eb56"
+      "bytes": 3035,
+      "sha256": "66859619a3dcb3e0f4525b77f70232db96721a336bda3ba6ea01337dbab98df7"
     },
     "revision-log.md": {
-      "bytes": 27439,
-      "sha256": "095081652f47076c782d1d33e9c92b65d906a28e7624febb0931deef141d7623"
+      "bytes": 27717,
+      "sha256": "7c170c228bda1e1c7777a02f24df47a9c83655a174a896067677ddefd4022971"
     },
     "scripts/book_references.py": {
       "bytes": 4622,
@@ -551,13 +553,13 @@
       "sha256": "ee5306ab35f78d5ab0baef4b5225bd92ae74b370cbc6d2586aee892dac7406c8"
     },
     "scripts/validate_exports.py": {
-      "bytes": 4467,
-      "sha256": "2bed75c2b92cd913908b0cd0c7e38924bde53ca153feebf8dd6f88ad4714dbb7"
+      "bytes": 6106,
+      "sha256": "26337dd217f694f9b2590727afbefe1ccc48ae5496c8de1bf4789e407bd7e50c"
     },
     "scripts/validate_project.py": {
       "bytes": 7832,
       "sha256": "7bfc4efda9947a855c979019864423f80d47e531d92855d02f64643a0887208a"
     }
   },
-  "updated_at": "2026-11-25T21:37:58Z"
+  "updated_at": "2026-11-25T21:50:50Z"
 }
