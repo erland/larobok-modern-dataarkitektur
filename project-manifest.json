@@ -1,5 +1,5 @@
 {
-  "canonical_zip_name": "modern-dataarkitektur-omstart-r066.zip",
+  "canonical_zip_name": "modern-dataarkitektur-omstart-r067.zip",
   "chapters": {
     "count": 22,
     "hashes": {
@@ -36,13 +36,13 @@
       "docs/projektstatus.md",
       "project-index.md"
     ],
-    "operation": "Teknisk korrigering av PDF/EPUB-byggmiljö",
-    "source_revision": 65
+    "operation": "PDF-export: installera Inkscape för vektorillustrationer",
+    "source_revision": 66
   },
-  "parent_revision": 65,
+  "parent_revision": 66,
   "project_id": "e3de759e-c3cf-4a30-9628-20931db7776b",
   "project_slug": "modern-dataarkitektur",
-  "revision": 66,
+  "revision": 67,
   "schema_version": 1,
   "template": false,
   "tracked_files": {
@@ -51,12 +51,12 @@
       "sha256": "56c504376f59ec4a5a7ab59ab29be43784f636f832af5c6e98f14b694c15afb7"
     },
     ".github/workflows/02-build-preview.yml": {
-      "bytes": 1178,
-      "sha256": "1d0c9299a039344f9c641a627b3dab57dcfb4acbf9ed9eaad3e03c0dba1a08f4"
+      "bytes": 1187,
+      "sha256": "45cb9b090dc0c1edbaa06115a354693ea19120ad4e0a8fb0ab85e58f09fea690"
     },
     ".github/workflows/03-release.yml": {
-      "bytes": 1681,
-      "sha256": "939178e67de1be822a945f622e14233e2f0973fc1b00257d337eba9dedf9c8cd"
+      "bytes": 1690,
+      "sha256": "74ed2ed351c80ea5cc6be4ba0c24a8739790f99663bcda182948e9da463535cd"
     },
     "README.md": {
       "bytes": 2626,
@@ -299,8 +299,8 @@
       "sha256": "7a4640c8cc4d041e7f02699412277b360ffa711799dffddf2c774467d214d209"
     },
     "docs/projektstatus.md": {
-      "bytes": 2040,
-      "sha256": "44c749c7d9702390e8b765be70a9ed6e814f14866e6e1f898d3e5cf07bcf940f"
+      "bytes": 2219,
+      "sha256": "a9140dd49004ec6825f354573dc2398bd4821f0a30fbcc571d74378216632508"
     },
     "docs/quality-checklist.md": {
       "bytes": 2131,
@@ -495,8 +495,8 @@
       "sha256": "f46cb68df4c310e24d7ceb62ba1f6c4eed5c6bb9ff11c7c5ff85dd33b3094d58"
     },
     "project-index.md": {
-      "bytes": 3055,
-      "sha256": "053279b70c6c2ae6a27de058527862cb2658ca039c724eba28b90e250c007ac7"
+      "bytes": 3234,
+      "sha256": "397298a6d3a364dd9ec6a20937a2c1edcf884a817f27cb21a1c07b81545ddd0a"
     },
     "publishing/build-notes.md": {
       "bytes": 439,
@@ -519,8 +519,8 @@
       "sha256": "4fe482d302430c7962bc619147bf8d388e4466171e988db61fcf4664456241ec"
     },
     "revision-log.md": {
-      "bytes": 26944,
-      "sha256": "ed6893fbe2f5cdd63accac3dab25337cf3dcbbcc8df77b785e6f676730c5e611"
+      "bytes": 27201,
+      "sha256": "0a18d3adf35a70b26d0d81f298726d035172acdbaccecf97094e42b92a8d44ff"
     },
     "scripts/book_references.py": {
       "bytes": 4622,
@@ -559,5 +559,5 @@
       "sha256": "7bfc4efda9947a855c979019864423f80d47e531d92855d02f64643a0887208a"
     }
   },
-  "updated_at": "2026-11-25T21:14:58Z"
+  "updated_at": "2026-11-25T21:23:37Z"
 }
