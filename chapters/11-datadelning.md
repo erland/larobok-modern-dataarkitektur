@@ -1,6 +1,6 @@
 # 11. Datadelning, federerad åtkomst och semantiska lager
 
-När information redan finns i ett förvaltat datalager är det inte självklart att varje ny konsument behöver en egen kopia. En analys kan genomföras där informationen finns, genom en gemensam frågemotor eller på en kopia som skapats för ett specifikt ändamål. Valet påverkar inte bara prestanda utan även beroenden, informationssäkerhet och möjligheten att återskapa tidigare resultat.
+När information redan finns i ett förvaltat datalager är det inte självklart att varje ny konsument behöver en egen kopia. En analys kan genomföras där informationen finns, genom en gemensam frågemotor eller på en kopia som skapats för ett specifikt ändamål. Valet påverkar prestanda, beroenden, informationssäkerhet och möjligheten att återskapa tidigare resultat.
 
 ## Kopiera eller läsa på plats?
 
@@ -19,9 +19,9 @@ Mönstren är inte ömsesidigt uteslutande. En virtualiserad vy kan bygga på re
 
 Datavirtualisering innebär att konsumenten får en logisk representation av information som inte nödvändigtvis finns samlad i ett fysiskt lager. Federerad frågebearbetning är en mekanism för att utföra frågor över flera datakällor. En gemensam SQL-vy kan exempelvis kombinera två analyslager utan att först skapa en permanent sammanfogad tabell.
 
-Gu med flera undersökte 51 federationssystem, varav 33 industriella och 18 akademiska, i en forskningsöversikt publicerad 2024. Deras kvalitativa utvärderingsramverk omfattar federationsförmågor, informationssäkerhet, användargränssnitt och utvecklings- och supportförutsättningar. Studien bygger på dokumentation och publikationer; effektivitet mättes inte i utvärderingen. Den ger därför kriterier för urval snarare än en rangordning av prestanda. [K073]
+Gu med flera undersökte 51 federationssystem, varav 33 industriella och 18 akademiska, i en forskningsöversikt publicerad 2024. Deras kvalitativa utvärderingsramverk omfattar federationsförmågor, informationssäkerhet, användargränssnitt och utvecklings- och supportförutsättningar. Studien bygger på dokumentation och publikationer; effektivitet mättes inte i utvärderingen. Den ger därför kriterier för urval snarare än en rangordning av prestanda [K073].
 
-En distribuerad frågemotor som Trino kan genom anslutningar till olika datakällor delegera delar av frågebearbetningen till respektive källa, så kallad pushdown. Vilka operationer som kan delegeras beror på anslutningen och källans egenskaper. [K074] Om filtrering eller aggregering kan göras nära lagringen behöver mindre information föras över till frågemotorn. Om en stor sammanfogning i stället måste utföras i frågemotorn kan nätverk och beräkningskapacitet bli dimensionerande.
+En distribuerad frågemotor som Trino kan genom anslutningar till olika datakällor delegera delar av frågebearbetningen till respektive källa, så kallad pushdown. Vilka operationer som kan delegeras beror på anslutningen och källans egenskaper [K074]. Om filtrering eller aggregering kan göras nära lagringen behöver mindre information föras över till frågemotorn. Om en stor sammanfogning i stället måste utföras i frågemotorn kan nätverk och beräkningskapacitet bli dimensionerande.
 
 Arkitekten behöver därför bedöma faktiska frågeplaner, samtidiga arbetslaster och felbeteende. En gemensam fråga innebär inte automatiskt att samtliga källor läses vid samma logiska tidpunkt. För en rapport som ska kunna återskapas kan en dokumenterad uppsättning versionsbundna dataset eller en särskilt framställd kopia vara lämpligare.
 
@@ -31,7 +31,7 @@ Direkt federering mot kritiska operativa databaser bör inte vara ett generellt 
 
 Direkt datadelning innebär här att en producent erbjuder åtkomst till en publicerad informationsmängd utan att konsumenten först måste etablera ett eget permanent datalager. Begreppet zero-copy används ofta för sådana lösningar, men bör tolkas med försiktighet: data kan fortfarande överföras över nätverket, buffras och bearbetas hos konsumenten.
 
-Delta Sharing är ett exempel på ett öppet protokoll för läsning av delade dataset. Dokumentationen beskriver hur en producent ger mottagaren åtkomst till data och hur kompatibla klienter kan läsa den delade tabellen. [K075] Det är ett exempel på en teknisk åtkomstmekanism, inte en komplett styrningsmodell eller en garanti för kompatibilitet med alla analysverktyg.
+Delta Sharing är ett exempel på ett öppet protokoll för läsning av delade dataset. Dokumentationen beskriver hur en producent ger mottagaren åtkomst till data och hur kompatibla klienter kan läsa den delade tabellen [K075]. Det är ett exempel på en teknisk åtkomstmekanism, inte en komplett styrningsmodell eller en garanti för kompatibilitet med alla analysverktyg.
 
 För en myndighet kan direkt datadelning förenkla återanvändning mellan analysmiljöer. Den förutsätter dock att åtkomst kan begränsas till rätt informationsmängd och att producentens tjänst klarar konsumenternas belastning. Återkallad åtkomst ska begränsa framtida läsningar, men när återkallelsen får genomslag beror bland annat på hur tjänsten hanterar redan utfärdade åtkomstuppgifter och pågående sessioner. Den kan inte i sig radera information som redan sparats hos mottagaren. Exporter, cache och härledda dataset behöver därför omfattas av en egen livscykelhantering.
 
@@ -39,7 +39,7 @@ För en myndighet kan direkt datadelning förenkla återanvändning mellan analy
 
 Att två analytiker kan läsa samma tabell betyder inte att de beräknar samma verksamhetsmått. Ett semantiskt lager tillhandahåller gemensamma definitioner av exempelvis mått, dimensioner och relationer, så att användare inte behöver implementera all verksamhetslogik på nytt i varje rapport.
 
-Ett konkret exempel är dbt Semantic Layer, där mått definieras ovanpå befintliga modeller och kan konsumeras genom olika gränssnitt. [K076] Detta illustrerar en möjlig teknisk realisering av principen. Den dokumenterade tjänsten kräver ett dbt-plattformskonto; lokal drift och stöd i önskade klienter måste bedömas separat. Den organisatoriska uppgiften att komma överens om definitionerna kvarstår.
+Ett konkret exempel är dbt Semantic Layer, där mått definieras ovanpå befintliga modeller och kan konsumeras genom olika gränssnitt [K076]. Detta illustrerar en möjlig teknisk realisering av principen. Den dokumenterade tjänsten kräver ett dbt-plattformskonto; lokal drift och stöd i önskade klienter måste bedömas separat. Den organisatoriska uppgiften att komma överens om definitionerna kvarstår.
 
 I referensmyndigheten kan måttet antal avslutade ärenden betyda antalet ärenden som fått ett slutligt beslut under perioden eller antalet ärenden som vid periodens slut har status avslutat. Återöppnade ärenden kan dessutom behandlas olika. Ett gemensamt mått behöver specificera händelse, tidsdimension, urval och hantering av rättelser. Olika legitima definitioner kan finnas parallellt om de namnges och dokumenteras tydligt.
 
@@ -49,7 +49,7 @@ Ett semantiskt lager ersätter alltså varken källornas datakontrakt eller den 
 
 En datakatalog hjälper konsumenter att hitta och förstå tillgänglig information. En datamarknadsplats kan komplettera katalogen med funktioner för att begära åtkomst och etablera en relation till producenten. Begreppet innebär inte nödvändigtvis ekonomiska transaktioner. En intern marknadsplats är inte ett nytt datalager och behöver inte vara en separat produkt om befintliga katalog- och behörighetstjänster täcker behoven.
 
-Data Spaces utvidgar samverkansperspektivet till självständiga organisationer. EU-kommissionens beskrivning av gemensamma europeiska dataområden betonar delade infrastrukturer och styrningsramverk för åtkomst och informationsutbyte. [K077] Ett dataområde kan kombinera olika tekniska åtkomstformer. Det är alltså inte synonymt med en federerad SQL-motor eller en central databas.
+Data Spaces utvidgar samverkansperspektivet till självständiga organisationer. EU-kommissionens beskrivning av gemensamma europeiska dataområden betonar delade infrastrukturer och styrningsramverk för åtkomst och informationsutbyte [K077]. Ett dataområde kan kombinera olika tekniska åtkomstformer. Det är alltså inte synonymt med en federerad SQL-motor eller en central databas.
 
 Vid informationsutbyte över organisationsgränser behöver deltagarna kunna identifiera varandra, förstå informationens betydelse och komma överens om villkoren för användningen. Teknisk interoperabilitet innebär inte att utlämnande eller vidareanvändning är tillåten. Sådana bedömningar behöver göras separat för det aktuella utbytet.
 

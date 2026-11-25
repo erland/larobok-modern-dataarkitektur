@@ -1,16 +1,16 @@
 {
   "blockers": [],
   "chapter": "09-informationsforsorjning.md",
-  "chapter_sha256": "8407be328bc1381d1371798bd72f373c6e0b9b6ce21053f439c10b087129b05f",
+  "chapter_sha256": "f4107e1c55fb26d7602caeb2330eeed5166029a42758513832c73213467cf319",
   "check_notes": {
-    "audience": "Anpassat till erfarna IT-arkitekter i reglerade organisationer, fiktiv referensmyndighet.",
-    "consistency": "Överföring, bearbetning och produktåtagande hålls åtskilda. De tre jämförda kedjorna är möjliga realiseringar, inte obligatoriska steg; leverans- och analysledtid skiljs åt.",
-    "editorial": "Läsarfärdig text; inga arbetsmarkörer eller nya innehållsöverlappningar identifierade.",
-    "facts": "K004, K010, K067–K071: tidigare dokumenterad granskning. K004 abstract, Netflix självrapporterad design, Kafka versionsbunden dokumentation. Ingen ny effektstudie. Nya exempel är villkorad arkitektursyntes, inte empiriska effektpåståenden. Preciserat att det är en redan registrerad uppgift som är ny för analysen; klargjort att ETL-teamets uppgifter gäller den illustrerade ansvarsfördelningen. I steg 8.7 tillkom endast en illustrativ figur med beskrivande bildtext utifrån kapitlet; tidigare sakgranskning återanvänds.",
-    "illustrations": "IMG-09-01: Tre kedjor, samma mottagningszon och olika förändringsansvar. SVG-validering och visuell kontroll i färg/gråskala vid gemensam förhandsbredd. Faktisk exportkontroll återstår.",
-    "language": "Svenskt fackspråk och konsekvent terminologi; Preciserat att det är en redan registrerad uppgift som är ny för analysen; klargjort att ETL-teamets uppgifter gäller den illustrerade ansvarsfördelningen.",
-    "sources": "K004, K010, K067–K071: tidigare dokumenterad granskning. K004 abstract, Netflix självrapporterad design, Kafka versionsbunden dokumentation. Ingen ny effektstudie. Källhänvisningar och löptext oförändrade; ingen ny extern granskning.",
-    "structure": "Överföring, bearbetning och produktåtagande hålls åtskilda. De tre jämförda kedjorna är möjliga realiseringar, inte obligatoriska steg; leverans- och analysledtid skiljs åt."
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Informationsöverföring i kapitel 9, dataproduktens åtagande i kapitel 10 och åtkomst i kapitel 11 hålls tydligt åtskilda.",
+    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya saköverlappningar.",
+    "facts": "Ingen ny oberoende faktagranskning; redaktionella ändringar utan nya externa sakpåståenden.",
+    "illustrations": "IMG-09-01 bevarad; visuell PDF/EPUB-exportkontroll återstår.",
+    "language": "Tydligare väg från operativ information till analys och mer precis jämförelse av leveransledtid.",
+    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare källkontroller återanvänds.",
+    "structure": "Kapitlets disposition följer begrepp, tillämpning, avvägningar och beslutskriterier."
   },
   "checks": {
     "audience": "passed",
@@ -24,11 +24,12 @@
   },
   "corrections": [
     "Preciserat att det är en redan registrerad uppgift som är ny för analysen; klargjort att ETL-teamets uppgifter gäller den illustrerade ansvarsfördelningen.",
-    "Infogat IMG-09-01 med beskrivande bildtext enligt illustrationsplanen."
+    "Infogat IMG-09-01 med beskrivande bildtext enligt illustrationsplanen.",
+    "Tydligare väg från operativ information till analys och mer precis jämförelse av leveransledtid."
   ],
-  "project_revision_at_review": 57,
+  "project_revision_at_review": 61,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Förnyat internt godkännande efter illustrationens integrering, steg 8.7. Förnyad intern redaktionell granskning i steg 7.3b, basrevision 50. Hela kapitel 9 genomläst mot bokplan, canon, terminologi, inledning och dokumenterad faktakontroll samt jämfört med godkänd revision 45. Tidigare externa källkontroller återanvänds; ingen ny extern fulltextgranskning eller oberoende faktagranskning.",
-  "updated_at": "2026-11-25T17:47:37+00:00"
+  "summary": "Steg 9.1a.3: kapitel 9 slutläst i sin helhet mot kapitel 9–11 och kapitelplanen. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende extern faktagranskning genomförd. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T18:57:08+00:00"
 }

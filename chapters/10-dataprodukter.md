@@ -1,10 +1,10 @@
 # 10. Dataprodukter, dataägande och datakontrakt
 
-En informationsleverans kan vara tekniskt stabil och ändå svår att använda. Konsumenten behöver inte bara veta vilka fält som finns, utan vad uppgifterna betyder, vilka begränsningar de har och vem som ansvarar när något förändras. Dataprodukten gör dessa frågor till en del av leveransens utformning, inte till ett problem som varje konsument måste lösa på nytt.
+En informationsleverans kan vara tekniskt stabil och ändå svår att använda. Konsumenten behöver inte bara veta vilka fält som finns, utan vad uppgifterna betyder, vilka begränsningar de har och vem som ansvarar när något förändras. Dataprodukten gör dessa frågor till en del av leveransens utformning, så att varje konsument inte behöver lösa dem på nytt.
 
 ## Från dataset till dataprodukt
 
-Ett dataset är en avgränsad mängd data. En dataprodukt är i bokens mening ett förvaltat erbjudande där ett eller flera dataset görs användbara för identifierade konsumentbehov. Produkten omfattar informationen, dess åtkomstgränssnitt, dokumentation, ansvar och livscykel. Goedegebuure m.fl. sammanställer 114 publikationer från industrin och identifierar produktperspektivet och domänbaserat dataägande som två av fyra centrala Data Mesh-principer [K006]. Översikten beskriver praktikernas perspektiv, inte uppmätta effekter av att införa dataprodukter. Principen kan emellertid användas även i en centraliserad organisation.
+Ett dataset är en avgränsad mängd data. En dataprodukt är i bokens mening ett förvaltat erbjudande där ett eller flera dataset görs användbara för identifierade konsumentbehov. Produkten omfattar informationen, dess åtkomstgränssnitt, dokumentation, ansvar och livscykel. Goedegebuure med flera sammanställer 114 publikationer från industrin och identifierar produktperspektivet och domänbaserat dataägande som två av fyra centrala Data Mesh-principer [K006]. Översikten beskriver praktikernas perspektiv, inte uppmätta effekter av att införa dataprodukter. Principen kan emellertid användas även i en centraliserad organisation.
 
 En produkt kan exponeras som en tabell, en filbaserad leverans, ett API eller en händelseström. Det avgörande är inte gränssnittets teknik utan vad konsumenten kan förvänta sig av det. En dokumenterad mottagningszon kan därför utvecklas till en dataprodukt utan att byta lagringsteknik.
 
@@ -54,7 +54,7 @@ Automatiserade kontroller kan verifiera exempeldata, kodvärden, kvalitetsregler
 
 ## Förändring och livscykel
 
-En produktversion bör identifiera det kontrakt konsumenten förlitar sig på, oberoende av vilken applikationsversion som producerar uppgifterna. En intern databasändring kan då hanteras genom att producenten bibehåller den publicerade representationen. En ny uppgift kan publiceras efter kontroll av både kontrakt och berörda konsumenters faktiska beteende, medan en brytande förändring kan kräva en parallell version under en övergångsperiod.
+En produktversion bör identifiera det kontrakt konsumenten förlitar sig på, oberoende av vilken applikationsversion som producerar uppgifterna. En intern databasändring kan då hanteras genom att producenten bibehåller den publicerade representationen. En ny uppgift kan publiceras efter kontroll av kontraktet och hur berörda konsumenter faktiskt använder leveransen. En brytande förändring kan däremot kräva en parallell version under en övergångsperiod.
 
 Parallella versioner har en kostnad: dubbla kontroller, ytterligare drift och risk för otydlighet. De bör därför ha ett uttalat slutdatum, kommunicerade migrationsvillkor och en verifierad väg för konsumenterna att byta. För historiska rapporter kan den gamla definitionen behöva dokumenteras även när den gamla leveransversionen inte längre körs. Detta innebär inte att data alltid får bevaras; informationslivscykeln måste följa tillämpliga villkor.
 

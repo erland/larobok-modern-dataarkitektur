@@ -60,19 +60,19 @@ Källor: K002, K009, K032, K036. Status: approved_auto, revision 61 (slutläsnin
 
 Unikt innehåll och avgränsning: ETL/ELT, CDC, batch, API, händelser, streaming, omläsning, fel, kvalitet, ledtid, specialistberoenden.
 
-Källor: K004, K010, K067–K071. K018 och K019 kvarstår som kandidater för senare kapitel. Status: approved_auto, revision 58 (illustrationsintegrering 8.7).
+Källor: K004, K010, K067–K071. K018 och K019 kvarstår som kandidater för senare kapitel. Status: approved_auto, revision 62 (slutläsning 9.1a.3).
 
 ### 10. Dataprodukter, dataägande och datakontrakt
 
 Unikt innehåll och avgränsning: Dataset kontra produkt, API, semantik, kvalitet, SLA, versioner, ansvar, livscykel.
 
-Källor: K006, K038, K072. Status: approved_auto, revision 51 (förnyad granskning 7.3b).
+Källor: K006, K038, K072. Status: approved_auto, revision 62 (slutläsning 9.1a.3).
 
 ### 11. Datadelning, federerad åtkomst och semantiska lager
 
 Unikt innehåll och avgränsning: Kopiering, virtualisering, federerade frågor, zero-copy, marketplace, data spaces, beroenden.
 
-Källor: K073–K077. K005, K008, K018 kvarstår som kandidater. Status: approved_auto, revision 25.
+Källor: K073–K077. K005, K008, K018 kvarstår som kandidater. Status: approved_auto, revision 62 (slutläsning 9.1a.3).
 
 ## Dataplattformar och arkitektur (10 000 ord)
 

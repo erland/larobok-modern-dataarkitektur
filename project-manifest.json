@@ -1,5 +1,5 @@
 {
-  "canonical_zip_name": "modern-dataarkitektur-omstart-r061.zip",
+  "canonical_zip_name": "modern-dataarkitektur-omstart-r062.zip",
   "chapters": {
     "count": 22,
     "hashes": {
@@ -11,9 +11,9 @@
       "chapters/06-data-lakehouse.md": "7251896d872bdb534f3ce4922f9b8cff1fb3d3e367002a1ca232bb1a03898362",
       "chapters/07-specialiserade-datalager.md": "cd0179f242b904a2729a28ea11fca746ceba0f3a3fca76bf953cddb7de271e61",
       "chapters/08-jamforande-analys.md": "be27a901addea78d861b3ffa2cba78795529b90522a4b62c766dfa25ec70c869",
-      "chapters/09-informationsforsorjning.md": "8407be328bc1381d1371798bd72f373c6e0b9b6ce21053f439c10b087129b05f",
-      "chapters/10-dataprodukter.md": "206af899746716a0e6c99eee5a1be19550b727f667a5ca5a23aabad1679edb52",
-      "chapters/11-datadelning.md": "8e6ef9018af72aa870c35019d5b97927d9cd6887bba609799f591de72c38c0e4",
+      "chapters/09-informationsforsorjning.md": "f4107e1c55fb26d7602caeb2330eeed5166029a42758513832c73213467cf319",
+      "chapters/10-dataprodukter.md": "52e72565cd1a1cd1f63a5b0ed9b74e814d810fddc37933eb637f260fdfd89731",
+      "chapters/11-datadelning.md": "7c03391ceb6fe4074d1f4f96d6c6b57f7f08fc119a9072811d3451ddf5758ffb",
       "chapters/12-dataplattformar.md": "137b771aa2787baf9afbccb35dadd7c6fc87f9927467c40c1fe3f40528bbede2",
       "chapters/13-data-mesh.md": "684e8dbfa91620559ce991519f4648a17846be3583c94405143a9ec9238d2208",
       "chapters/14-data-fabric.md": "098b0e1edcbf5e08a115ed0c7d780d8540f286d059379f19bfa23e1ed622228c",
@@ -31,27 +31,23 @@
   "created_at": "2026-11-25T07:13:25Z",
   "last_operation": {
     "changed_files": [
-      "chapters/04-data-warehouse.md",
-      "chapters/05-data-lake.md",
-      "chapters/06-data-lakehouse.md",
-      "chapters/07-specialiserade-datalager.md",
-      "chapters/08-jamforande-analys.md",
+      "chapters/09-informationsforsorjning.md",
+      "chapters/10-dataprodukter.md",
+      "chapters/11-datadelning.md",
       "docs/kapitelplan.md",
       "docs/projektstatus.md",
-      "docs/reviews/04-data-warehouse.json",
-      "docs/reviews/05-data-lake.json",
-      "docs/reviews/06-data-lakehouse.json",
-      "docs/reviews/07-specialiserade-datalager.json",
-      "docs/reviews/08-jamforande-analys.json",
+      "docs/reviews/09-informationsforsorjning.json",
+      "docs/reviews/10-dataprodukter.json",
+      "docs/reviews/11-datadelning.json",
       "project-index.md"
     ],
-    "operation": "Steg 9.1a.2: slutläsning och korrigering av kapitel 4–8",
-    "source_revision": 60
+    "operation": "Steg 9.1a.3: slutläsning och korrigering av kapitel 9–11",
+    "source_revision": 61
   },
-  "parent_revision": 60,
+  "parent_revision": 61,
   "project_id": "e3de759e-c3cf-4a30-9628-20931db7776b",
   "project_slug": "modern-dataarkitektur",
-  "revision": 61,
+  "revision": 62,
   "schema_version": 1,
   "template": false,
   "tracked_files": {
@@ -204,16 +200,16 @@
       "sha256": "be27a901addea78d861b3ffa2cba78795529b90522a4b62c766dfa25ec70c869"
     },
     "chapters/09-informationsforsorjning.md": {
-      "bytes": 15251,
-      "sha256": "8407be328bc1381d1371798bd72f373c6e0b9b6ce21053f439c10b087129b05f"
+      "bytes": 15275,
+      "sha256": "f4107e1c55fb26d7602caeb2330eeed5166029a42758513832c73213467cf319"
     },
     "chapters/10-dataprodukter.md": {
-      "bytes": 10206,
-      "sha256": "206af899746716a0e6c99eee5a1be19550b727f667a5ca5a23aabad1679edb52"
+      "bytes": 10217,
+      "sha256": "52e72565cd1a1cd1f63a5b0ed9b74e814d810fddc37933eb637f260fdfd89731"
     },
     "chapters/11-datadelning.md": {
-      "bytes": 9657,
-      "sha256": "8e6ef9018af72aa870c35019d5b97927d9cd6887bba609799f591de72c38c0e4"
+      "bytes": 9637,
+      "sha256": "7c03391ceb6fe4074d1f4f96d6c6b57f7f08fc119a9072811d3451ddf5758ffb"
     },
     "chapters/12-dataplattformar.md": {
       "bytes": 15847,
@@ -304,12 +300,12 @@
       "sha256": "8097ccf7c54b12bd45e78b052cd27738eb3436fa9fc07309b94b4926fa61a2ed"
     },
     "docs/kapitelplan.md": {
-      "bytes": 6660,
-      "sha256": "9359b80299e0912e72b8332e3ebbb0d7396d37abce477718ced26f4a8848111d"
+      "bytes": 6668,
+      "sha256": "c0581eeda6e1de5ea8950669ab87d427a5022832f7dcc5b86f09dacadbb56fb6"
     },
     "docs/projektstatus.md": {
-      "bytes": 1835,
-      "sha256": "4f5cdec302653edbccced9ef19cd9cc9e80c7985b36eb70eb5b9250ae8e1fb41"
+      "bytes": 1845,
+      "sha256": "c0fb0118df7ddd04db03e92ed17b2bd9dcacb2fc069f53c12753f553bfd49df2"
     },
     "docs/quality-checklist.md": {
       "bytes": 2131,
@@ -352,16 +348,16 @@
       "sha256": "7bc34f78f1ce2353b9bd9d35f0d59041c6d2542c97bf7448bd09e551ac4e0c44"
     },
     "docs/reviews/09-informationsforsorjning.json": {
-      "bytes": 3118,
-      "sha256": "8099861ef3aa7ff88ab41271b5ada543aee3cf569cf5cf701ccfa7662b1e0a12"
+      "bytes": 2112,
+      "sha256": "1bcc7277bc1929fc7cb84dafcf56c8b994678b69107055ca3f792e4eb17a9a24"
     },
     "docs/reviews/10-dataprodukter.json": {
-      "bytes": 2359,
-      "sha256": "77a8e62e2b5e86cd9ef5f8553cd72db2cad33505ceb7ff2f23e82b991bb8e481"
+      "bytes": 2055,
+      "sha256": "1ce13f1bdb7efbbc8cfd5dc2d093ebf713977f59d922f28d1674ded7ff7556ee"
     },
     "docs/reviews/11-datadelning.json": {
-      "bytes": 1294,
-      "sha256": "2c74ab8665b046301161f8f9cb78c47e6df3e4588654a7a69d7645001a5dface"
+      "bytes": 2026,
+      "sha256": "e2b8bb88b98c327f8ac07bf7b48e1d92690b088ee51566535dd5a3ac6805dc37"
     },
     "docs/reviews/12-dataplattformar.json": {
       "bytes": 2447,
@@ -500,8 +496,8 @@
       "sha256": "f46cb68df4c310e24d7ceb62ba1f6c4eed5c6bb9ff11c7c5ff85dd33b3094d58"
     },
     "project-index.md": {
-      "bytes": 1852,
-      "sha256": "3b865c9138a3e5e38dcec4bdb47c51489bfbd8c8ebfc6e0c56b4466fc00b592c"
+      "bytes": 2060,
+      "sha256": "b496439142c329aa8fb6ee909ce4d4204870256464a53198c1ae38e2dc4cc5af"
     },
     "publishing/build-notes.md": {
       "bytes": 439,
@@ -524,8 +520,8 @@
       "sha256": "4fe482d302430c7962bc619147bf8d388e4466171e988db61fcf4664456241ec"
     },
     "revision-log.md": {
-      "bytes": 24516,
-      "sha256": "f9dab4559ca562840eb9fd765e4d0cdd0999c16818acaa7a00165f06432f8564"
+      "bytes": 24946,
+      "sha256": "57c522b9abb8d25df6b585e0f8d02113366c72729b0cede691b71a13461a80d3"
     },
     "scripts/book_references.py": {
       "bytes": 4622,
@@ -564,5 +560,5 @@
       "sha256": "7bfc4efda9947a855c979019864423f80d47e531d92855d02f64643a0887208a"
     }
   },
-  "updated_at": "2026-11-25T18:54:08Z"
+  "updated_at": "2026-11-25T18:57:08Z"
 }

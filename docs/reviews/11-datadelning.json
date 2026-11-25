@@ -1,12 +1,16 @@
 {
   "blockers": [],
   "chapter": "11-datadelning.md",
-  "chapter_sha256": "8e6ef9018af72aa870c35019d5b97927d9cd6887bba609799f591de72c38c0e4",
+  "chapter_sha256": "7c03391ceb6fe4074d1f4f96d6c6b57f7f08fc119a9072811d3451ddf5758ffb",
   "check_notes": {
-    "consistency": "Kapitel 9–11 har separata ansvarsområden, fiktivt scenario bevarat.",
-    "editorial": "Koncentrerad läsarfärdig text.",
-    "facts": "Forskningsramverk, pushdown, protokoll, dbt-kontokrav och dataområden verifierade; beslutskriterier egen syntes.",
-    "sources": "K073 förlagets HTML, K074–K077 originaldokumentation; inte fullständig genomgång av 51 system."
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Informationsöverföring i kapitel 9, dataproduktens åtagande i kapitel 10 och åtkomst i kapitel 11 hålls tydligt åtskilda.",
+    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya saköverlappningar.",
+    "facts": "Ingen ny oberoende faktagranskning; redaktionella ändringar utan nya externa sakpåståenden.",
+    "illustrations": "Inga illustrationer enligt bokspecifikation.",
+    "language": "Koncis inledning och konsekvent placering av källhänvisningarna K073–K077.",
+    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare källkontroller återanvänds.",
+    "structure": "Kapitlets disposition följer begrepp, tillämpning, avvägningar och beslutskriterier."
   },
   "checks": {
     "audience": "passed",
@@ -22,11 +26,12 @@
     "Preciserat forskningsramverk och avgränsning.",
     "Nyanserat återkallelse av åtkomst.",
     "Förtydligat dbt-plattformskrav och reproducerbarhet.",
-    "Tillfört kontroll av kombinerade uppgifters skyddsvärde."
+    "Tillfört kontroll av kombinerade uppgifters skyddsvärde.",
+    "Koncis inledning och konsekvent placering av källhänvisningarna K073–K077."
   ],
-  "project_revision_at_review": 24,
+  "project_revision_at_review": 61,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Kapitel 11 korrigerat och återläst. Del III helhetsgranskad. Intern redaktionell granskning.",
-  "updated_at": "2026-11-25T10:58:29+00:00"
+  "summary": "Steg 9.1a.3: kapitel 11 slutläst i sin helhet mot kapitel 9–11 och kapitelplanen. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende extern faktagranskning genomförd. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T18:57:08+00:00"
 }

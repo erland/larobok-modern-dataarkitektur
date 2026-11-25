@@ -1,15 +1,16 @@
 {
   "blockers": [],
   "chapter": "10-dataprodukter.md",
-  "chapter_sha256": "206af899746716a0e6c99eee5a1be19550b727f667a5ca5a23aabad1679edb52",
+  "chapter_sha256": "52e72565cd1a1cd1f63a5b0ed9b74e814d810fddc37933eb637f260fdfd89731",
   "check_notes": {
-    "audience": "Anpassat till erfarna IT-arkitekter i reglerade organisationer, fiktiv referensmyndighet.",
-    "consistency": "Dataprodukt som förvaltat informationsåtagande oberoende av teknik, semantisk och strukturell kompatibilitet, versionering och livscykel.",
-    "editorial": "Läsarfärdig text; inga arbetsmarkörer eller nya innehållsöverlappningar identifierade.",
-    "facts": "K006, K038, K072: tidigare abstract och dokumentation för kompatibilitetsbegrepp och ODCS 3.0.0. Versionen anges som exempel, inte senaste. Nya exempel är villkorad arkitektursyntes, inte empiriska effektpåståenden. Ingen ytterligare korrigering; mottagningszon konsekvent med kapitel 9 och produkten är inte en överföringsteknik.",
-    "language": "Svenskt fackspråk och konsekvent terminologi; Ingen ytterligare korrigering; mottagningszon konsekvent med kapitel 9 och produkten är inte en överföringsteknik.",
-    "sources": "K006, K038, K072: tidigare abstract och dokumentation för kompatibilitetsbegrepp och ODCS 3.0.0. Versionen anges som exempel, inte senaste.",
-    "structure": "Dataprodukt som förvaltat informationsåtagande oberoende av teknik, semantisk och strukturell kompatibilitet, versionering och livscykel."
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Informationsöverföring i kapitel 9, dataproduktens åtagande i kapitel 10 och åtkomst i kapitel 11 hålls tydligt åtskilda.",
+    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya saköverlappningar.",
+    "facts": "Ingen ny oberoende faktagranskning; redaktionella ändringar utan nya externa sakpåståenden.",
+    "illustrations": "Inga illustrationer enligt bokspecifikation.",
+    "language": "Förtydligad konsumentnytta och förändringshantering; harmoniserad formulering av författarnamn.",
+    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare källkontroller återanvänds.",
+    "structure": "Kapitlets disposition följer begrepp, tillämpning, avvägningar och beslutskriterier."
   },
   "checks": {
     "audience": "passed",
@@ -22,12 +23,13 @@
     "structure": "passed"
   },
   "corrections": [
-    "Ingen ytterligare korrigering; mottagningszon konsekvent med kapitel 9 och produkten är inte en överföringsteknik."
+    "Ingen ytterligare korrigering; mottagningszon konsekvent med kapitel 9 och produkten är inte en överföringsteknik.",
+    "Förtydligad konsumentnytta och förändringshantering; harmoniserad formulering av författarnamn."
   ],
   "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
-  "project_revision_at_review": 50,
+  "project_revision_at_review": 61,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Förnyad intern redaktionell granskning i steg 7.3b, basrevision 50. Hela kapitel 10 genomläst mot bokplan, canon, terminologi, inledning och dokumenterad faktakontroll samt jämfört med godkänd revision 45. Tidigare externa källkontroller återanvänds; ingen ny extern fulltextgranskning eller oberoende faktagranskning.",
-  "updated_at": "2026-11-25T15:39:24+00:00"
+  "summary": "Steg 9.1a.3: kapitel 10 slutläst i sin helhet mot kapitel 9–11 och kapitelplanen. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende extern faktagranskning genomförd. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T18:57:08+00:00"
 }
