@@ -14,7 +14,7 @@ Den avgörande frågan är var beslut, kompetens och genomförandekapacitet beh�
 
 Tabellen beskriver idealtyper. En praktisk arkitektur kan kombinera dem: central drift, federerat informationsansvar och decentraliserad utveckling av vissa analysprodukter. En federerad organisation behöver kunna fatta bindande gemensamma beslut; ett forum utan mandat att lösa konflikter räcker inte. Beslutsordningen bör ange vem som avgör tvister om gemensamma definitioner, hur undantag från standarder prövas och vem som finansierar åtgärder som berör flera domäner.
 
-Centralisering kan fungera väl när samma specialistgrupp kan hantera behoven utan långa väntetider. Det är inte antalet team som avgör om modellen behöver förändras, utan var arbetet fastnar. Om flaskhalsen i själva verket är otydliga informationsdefinitioner hjälper det inte nödvändigtvis att fördela fler utvecklingsuppgifter till systemteamen.
+Centralisering kan fungera väl när samma specialistgrupp kan hantera behoven utan långa väntetider. Det är inte antalet team som avgör om modellen behöver förändras, utan var flaskhalsarna uppstår. Om flaskhalsen i själva verket är otydliga informationsdefinitioner hjälper det inte nödvändigtvis att fördela fler utvecklingsuppgifter till systemteamen.
 
 ## Fördela besluten efter deras räckvidd
 
@@ -36,7 +36,7 @@ Ett centralt analysteam kan förvalta en myndighetsgemensam modell utan att ta �
 
 ## Kompetens och finansiering som arkitekturvillkor
 
-Att delegera arbete utan att delegera kapacitet och mandat skapar ett nominellt ansvar. Om varje systemteam fortfarande behöver köa till samma ETL-specialist har organisationen ändrat ansvarsbeskrivningen men inte genomförandeförmågan. Om varje team i stället tvingas bygga egna överföringskomponenter har beroendet ersatts med duplicerat arbete.
+Att delegera arbete utan motsvarande kapacitet och mandat skapar ett ansvar på papperet snarare än en faktisk genomförandeförmåga. Om varje systemteam fortfarande behöver köa till samma ETL-specialist har organisationen ändrat ansvarsbeskrivningen men inte genomförandeförmågan. Om varje team i stället tvingas bygga egna överföringskomponenter har beroendet ersatts med duplicerat arbete.
 
 En gemensam specialistfunktion kan ha två uppdrag: att utföra särskilt svåra uppgifter och att omsätta återkommande specialistkunskap i återanvändbara tjänster, mallar och kontroller. Den senare uppgiften minskar behovet av individuell handpåläggning. Team med små informationsvolymer eller sällsynta förändringar kan fortfarande använda ett gemensamt leveransteam; autonomi behöver inte betyda att alla utför alla uppgifter själva.
 

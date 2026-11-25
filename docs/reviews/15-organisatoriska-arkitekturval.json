@@ -1,11 +1,16 @@
 {
   "blockers": [],
   "chapter": "15-organisatoriska-arkitekturval.md",
-  "chapter_sha256": "38f8c46bb78be303e6893144c7154ba8edbd16621dea4808a853d97a0b215f02",
+  "chapter_sha256": "ae9ef3900b277952ecce94ec1faa25ee303a9e044c97ff8acf83f852fe36c962",
   "check_notes": {
-    "consistency": "Kapitel 12–15 kompletterar varandra.",
-    "facts": "Avgränsad evidens; bankkrav överförs inte till myndighet.",
-    "sources": "K024 webbsammanfattning, K025 originalnyhetsbrev, K026/K027 abstract; tidigare K007-granskning återanvänd, K036 molnkontext."
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Avgränsningen mellan dataplattform, Data Mesh, Data Fabric, organisatoriska modeller och datastyrning har kontrollerats.",
+    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya överlappningar.",
+    "facts": "Redaktionella ändringar utan nya externa sakpåståenden; ingen ny oberoende faktagranskning.",
+    "illustrations": "Inga illustrationer enligt bokspecifikation.",
+    "language": "Preciserat hur organisatoriska flaskhalsar bör bedömas och skillnaden mellan formellt delegerat ansvar och faktisk genomförandeförmåga.",
+    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare kontroller återanvänds.",
+    "structure": "Kapitlets problem, principer, avvägningar och beslutskriterier hålls samman i befintlig disposition."
   },
   "checks": {
     "audience": "passed",
@@ -20,11 +25,12 @@
   "corrections": [
     "Preciserat beslutsmandat och undantag.",
     "Avgränsat BCBS-nyhetsbrev från kvantitativ uppföljning och tillsynsvägledning.",
-    "Preciserat FinOps-kontext och jämförbar utgångsnivå."
+    "Preciserat FinOps-kontext och jämförbar utgångsnivå.",
+    "Preciserat hur organisatoriska flaskhalsar bör bedömas och skillnaden mellan formellt delegerat ansvar och faktisk genomförandeförmåga."
   ],
-  "project_revision_at_review": 32,
+  "project_revision_at_review": 62,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Kapitel 15 korrigerat och återläst. Del IV helhetsgranskad. Intern redaktionell granskning.",
-  "updated_at": "2026-11-25T11:42:20+00:00"
+  "summary": "Steg 9.1b.1: kapitel 15 slutläst i sin helhet mot kapitel 12–16, kapitelplanen och närliggande avsnitt. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende extern faktagranskning genomförd. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T19:24:59+00:00"
 }

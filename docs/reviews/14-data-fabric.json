@@ -1,15 +1,16 @@
 {
   "blockers": [],
   "chapter": "14-data-fabric.md",
-  "chapter_sha256": "098b0e1edcbf5e08a115ed0c7d780d8540f286d059379f19bfa23e1ed622228c",
+  "chapter_sha256": "1bee8c04317870e8a69c3e49f3d7b6d3ae6a276fa330bdbf753ff1a1ff9520aa",
   "check_notes": {
-    "audience": "Erfarna IT-arkitekter i reglerade organisationer; fiktiv referensmyndighet.",
-    "consistency": "Mottagningszon harmoniserad; skillnaden mellan aktiv metadata, semantisk mappning och beslut bevarad.",
-    "editorial": "Mottagningszon harmoniserad; skillnaden mellan aktiv metadata, semantisk mappning och beslut bevarad.",
-    "facts": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Ingen ny extern fulltextgranskning.Mottagningszon harmoniserad; skillnaden mellan aktiv metadata, semantisk mappning och beslut bevarad.",
-    "language": "Mottagningszon harmoniserad; skillnaden mellan aktiv metadata, semantisk mappning och beslut bevarad.",
-    "sources": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Ingen ny extern fulltextgranskning.",
-    "structure": "Mottagningszon harmoniserad; skillnaden mellan aktiv metadata, semantisk mappning och beslut bevarad."
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Avgränsningen mellan dataplattform, Data Mesh, Data Fabric, organisatoriska modeller och datastyrning har kontrollerats.",
+    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya överlappningar.",
+    "facts": "Redaktionella ändringar utan nya externa sakpåståenden; ingen ny oberoende faktagranskning.",
+    "illustrations": "Inga illustrationer enligt bokspecifikation.",
+    "language": "Förtydligat beroendet mellan metadatakatalogens aktualitet och dess tillförlitlighet samt villkoret för automatiserat arbetsflöde.",
+    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare kontroller återanvänds.",
+    "structure": "Kapitlets problem, principer, avvägningar och beslutskriterier hålls samman i befintlig disposition."
   },
   "checks": {
     "audience": "passed",
@@ -21,11 +22,13 @@
     "sources": "passed",
     "structure": "passed"
   },
-  "corrections": [],
+  "corrections": [
+    "Förtydligat beroendet mellan metadatakatalogens aktualitet och dess tillförlitlighet samt villkoret för automatiserat arbetsflöde."
+  ],
   "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
-  "project_revision_at_review": 51,
+  "project_revision_at_review": 62,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Förnyad intern redaktionell granskning 7.3c, basrevision 51, kapitel 14. Jämförelse med revision 45 och dokumenterad faktakontroll.",
-  "updated_at": "2026-11-25T16:13:36+00:00"
+  "summary": "Steg 9.1b.1: kapitel 14 slutläst i sin helhet mot kapitel 12–16, kapitelplanen och närliggande avsnitt. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende extern faktagranskning genomförd. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T19:24:59+00:00"
 }

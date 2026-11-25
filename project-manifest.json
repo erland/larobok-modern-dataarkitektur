@@ -1,5 +1,5 @@
 {
-  "canonical_zip_name": "modern-dataarkitektur-omstart-r062.zip",
+  "canonical_zip_name": "modern-dataarkitektur-omstart-r063.zip",
   "chapters": {
     "count": 22,
     "hashes": {
@@ -14,11 +14,11 @@
       "chapters/09-informationsforsorjning.md": "f4107e1c55fb26d7602caeb2330eeed5166029a42758513832c73213467cf319",
       "chapters/10-dataprodukter.md": "52e72565cd1a1cd1f63a5b0ed9b74e814d810fddc37933eb637f260fdfd89731",
       "chapters/11-datadelning.md": "7c03391ceb6fe4074d1f4f96d6c6b57f7f08fc119a9072811d3451ddf5758ffb",
-      "chapters/12-dataplattformar.md": "137b771aa2787baf9afbccb35dadd7c6fc87f9927467c40c1fe3f40528bbede2",
-      "chapters/13-data-mesh.md": "684e8dbfa91620559ce991519f4648a17846be3583c94405143a9ec9238d2208",
-      "chapters/14-data-fabric.md": "098b0e1edcbf5e08a115ed0c7d780d8540f286d059379f19bfa23e1ed622228c",
-      "chapters/15-organisatoriska-arkitekturval.md": "38f8c46bb78be303e6893144c7154ba8edbd16621dea4808a853d97a0b215f02",
-      "chapters/16-datastyrning.md": "f44b1e7e5991da9f1d247ebca47851ce2bb70eedca46bc94d642fbdfce24642a",
+      "chapters/12-dataplattformar.md": "f87d6f289b83ab314a95c33fc85711b1210dccf605afe7e574ba43d74883f553",
+      "chapters/13-data-mesh.md": "c88745ed400e82f45b95f270d849d6b7c4113d6e71e6bae615a6310cf52c874a",
+      "chapters/14-data-fabric.md": "1bee8c04317870e8a69c3e49f3d7b6d3ae6a276fa330bdbf753ff1a1ff9520aa",
+      "chapters/15-organisatoriska-arkitekturval.md": "ae9ef3900b277952ecce94ec1faa25ee303a9e044c97ff8acf83f852fe36c962",
+      "chapters/16-datastyrning.md": "d510eb7867e5fb51597f54b611425595c796d056f8db13c45533b949bed23428",
       "chapters/17-informationssakerhet.md": "c1296418bffbf62cc7b0faa208f2413201b504698f44102a6d2ec4fdce341b76",
       "chapters/18-driftsmiljoer.md": "832e524d37b5d31f4da8d5f2552b89ab77590f584a9c9e20f64c7bba3e9fa5f2",
       "chapters/19-dataarkitektur-for-analys-och-ai.md": "8d162478a8459a5b30a058ba64dbc768d6d558766f0e90354b27b8bf148df5da",
@@ -31,23 +31,27 @@
   "created_at": "2026-11-25T07:13:25Z",
   "last_operation": {
     "changed_files": [
-      "chapters/09-informationsforsorjning.md",
-      "chapters/10-dataprodukter.md",
-      "chapters/11-datadelning.md",
+      "chapters/12-dataplattformar.md",
+      "chapters/13-data-mesh.md",
+      "chapters/14-data-fabric.md",
+      "chapters/15-organisatoriska-arkitekturval.md",
+      "chapters/16-datastyrning.md",
       "docs/kapitelplan.md",
       "docs/projektstatus.md",
-      "docs/reviews/09-informationsforsorjning.json",
-      "docs/reviews/10-dataprodukter.json",
-      "docs/reviews/11-datadelning.json",
+      "docs/reviews/12-dataplattformar.json",
+      "docs/reviews/13-data-mesh.json",
+      "docs/reviews/14-data-fabric.json",
+      "docs/reviews/15-organisatoriska-arkitekturval.json",
+      "docs/reviews/16-datastyrning.json",
       "project-index.md"
     ],
-    "operation": "Steg 9.1a.3: slutläsning och korrigering av kapitel 9–11",
-    "source_revision": 61
+    "operation": "Steg 9.1b.1: slutläsning och korrigering av kapitel 12–16",
+    "source_revision": 62
   },
-  "parent_revision": 61,
+  "parent_revision": 62,
   "project_id": "e3de759e-c3cf-4a30-9628-20931db7776b",
   "project_slug": "modern-dataarkitektur",
-  "revision": 62,
+  "revision": 63,
   "schema_version": 1,
   "template": false,
   "tracked_files": {
@@ -212,24 +216,24 @@
       "sha256": "7c03391ceb6fe4074d1f4f96d6c6b57f7f08fc119a9072811d3451ddf5758ffb"
     },
     "chapters/12-dataplattformar.md": {
-      "bytes": 15847,
-      "sha256": "137b771aa2787baf9afbccb35dadd7c6fc87f9927467c40c1fe3f40528bbede2"
+      "bytes": 15868,
+      "sha256": "f87d6f289b83ab314a95c33fc85711b1210dccf605afe7e574ba43d74883f553"
     },
     "chapters/13-data-mesh.md": {
-      "bytes": 7571,
-      "sha256": "684e8dbfa91620559ce991519f4648a17846be3583c94405143a9ec9238d2208"
+      "bytes": 7584,
+      "sha256": "c88745ed400e82f45b95f270d849d6b7c4113d6e71e6bae615a6310cf52c874a"
     },
     "chapters/14-data-fabric.md": {
-      "bytes": 8448,
-      "sha256": "098b0e1edcbf5e08a115ed0c7d780d8540f286d059379f19bfa23e1ed622228c"
+      "bytes": 8457,
+      "sha256": "1bee8c04317870e8a69c3e49f3d7b6d3ae6a276fa330bdbf753ff1a1ff9520aa"
     },
     "chapters/15-organisatoriska-arkitekturval.md": {
-      "bytes": 9923,
-      "sha256": "38f8c46bb78be303e6893144c7154ba8edbd16621dea4808a853d97a0b215f02"
+      "bytes": 9978,
+      "sha256": "ae9ef3900b277952ecce94ec1faa25ee303a9e044c97ff8acf83f852fe36c962"
     },
     "chapters/16-datastyrning.md": {
-      "bytes": 10411,
-      "sha256": "f44b1e7e5991da9f1d247ebca47851ce2bb70eedca46bc94d642fbdfce24642a"
+      "bytes": 10381,
+      "sha256": "d510eb7867e5fb51597f54b611425595c796d056f8db13c45533b949bed23428"
     },
     "chapters/17-informationssakerhet.md": {
       "bytes": 10231,
@@ -300,12 +304,12 @@
       "sha256": "8097ccf7c54b12bd45e78b052cd27738eb3436fa9fc07309b94b4926fa61a2ed"
     },
     "docs/kapitelplan.md": {
-      "bytes": 6668,
-      "sha256": "c0581eeda6e1de5ea8950669ab87d427a5022832f7dcc5b86f09dacadbb56fb6"
+      "bytes": 6666,
+      "sha256": "ed10ec172830f14c9c1f1cdc243ed33dc0c84055d414f6347350ef7068ee3582"
     },
     "docs/projektstatus.md": {
-      "bytes": 1845,
-      "sha256": "c0fb0118df7ddd04db03e92ed17b2bd9dcacb2fc069f53c12753f553bfd49df2"
+      "bytes": 1844,
+      "sha256": "ad94d2e45d13c60df4b2931a8b694956c7079c1063c64b40b1d923fa6b73d586"
     },
     "docs/quality-checklist.md": {
       "bytes": 2131,
@@ -360,24 +364,24 @@
       "sha256": "e2b8bb88b98c327f8ac07bf7b48e1d92690b088ee51566535dd5a3ac6805dc37"
     },
     "docs/reviews/12-dataplattformar.json": {
-      "bytes": 2447,
-      "sha256": "69db8af4d0664e1fbfc530228c618911fc8784ff4e722ddc07b5cb100418699e"
+      "bytes": 2069,
+      "sha256": "d8ef41227e23a1cc1f819b2eddb204e5bf0082c0f9aa5d20d6a7cdb2264383b4"
     },
     "docs/reviews/13-data-mesh.json": {
-      "bytes": 1869,
-      "sha256": "39fd4f7256be20b984d1aa551acf41c96bf3b5f979b76627b0543b139566eb8c"
+      "bytes": 2000,
+      "sha256": "382c7de8b3da07f64d276d15c2dbe8320530313ec7ae50cc77a61673bdb97075"
     },
     "docs/reviews/14-data-fabric.json": {
-      "bytes": 1801,
-      "sha256": "4aefeedd0797ba15d3910864644f5a6ea7c324c25588f2250cb30bbee5e0609d"
+      "bytes": 2022,
+      "sha256": "ffd9d0fa8c6110bb71418e4b3b34b4cee00f5248d21e3e6a4c128c8549f516ab"
     },
     "docs/reviews/15-organisatoriska-arkitekturval.json": {
-      "bytes": 1175,
-      "sha256": "68f5e7dd123d11bc67d4f40e4dbfdcf0d53bcfc703d8efd042a12824213dff29"
+      "bytes": 2167,
+      "sha256": "39b3333735870bc0966a14284b99213ce47e46154ce52b17e7d51745686c4a46"
     },
     "docs/reviews/16-datastyrning.json": {
-      "bytes": 1847,
-      "sha256": "ecba995e26f9ad4ef8e0d697b9ce3d434ebd6f712753be4b4b89fbdf710505d3"
+      "bytes": 2027,
+      "sha256": "4662912ffb8bce1fd2f40b88ae5f73b6d654f580ebc02b13a2acf0aa01e43c25"
     },
     "docs/reviews/17-informationssakerhet.json": {
       "bytes": 2515,
@@ -496,8 +500,8 @@
       "sha256": "f46cb68df4c310e24d7ceb62ba1f6c4eed5c6bb9ff11c7c5ff85dd33b3094d58"
     },
     "project-index.md": {
-      "bytes": 2060,
-      "sha256": "b496439142c329aa8fb6ee909ce4d4204870256464a53198c1ae38e2dc4cc5af"
+      "bytes": 2269,
+      "sha256": "068a3c8abf61baeefc80c58461f969289b9a89eff581bf2e24d33de6c3e1f10d"
     },
     "publishing/build-notes.md": {
       "bytes": 439,
@@ -520,8 +524,8 @@
       "sha256": "4fe482d302430c7962bc619147bf8d388e4466171e988db61fcf4664456241ec"
     },
     "revision-log.md": {
-      "bytes": 24946,
-      "sha256": "57c522b9abb8d25df6b585e0f8d02113366c72729b0cede691b71a13461a80d3"
+      "bytes": 25523,
+      "sha256": "fdfbf74a273c34ad9b5f3443a3b14355be1b80752530717ce058ecd712ef2175"
     },
     "scripts/book_references.py": {
       "bytes": 4622,
@@ -560,5 +564,5 @@
       "sha256": "7bfc4efda9947a855c979019864423f80d47e531d92855d02f64643a0887208a"
     }
   },
-  "updated_at": "2026-11-25T18:57:08Z"
+  "updated_at": "2026-11-25T19:24:59Z"
 }

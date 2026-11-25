@@ -1,6 +1,6 @@
 # 13. Data Mesh
 
-När varje ny informationsleverans behöver beställas från en central dataorganisation kan tillgången till specialistkompetens begränsa utvecklingstakten. Men att flytta uppgifterna till verksamhetsnära team utan att ge dem förutsättningar att utföra dem riskerar att skapa många mindre flaskhalsar. Data Mesh adresserar denna organisatoriska skalningsfråga snarare än enbart växande datavolymer.
+När varje ny informationsleverans behöver beställas från en central dataorganisation kan tillgången till specialistkompetens begränsa utvecklingstakten. Att flytta uppgifterna till verksamhetsnära team utan att ge dem rätt förutsättningar riskerar däremot att skapa många mindre flaskhalsar. Data Mesh adresserar denna organisatoriska skalningsfråga snarare än enbart växande datavolymer.
 
 ## Fyra samverkande principer
 
@@ -19,7 +19,7 @@ Principerna förutsätter inte varsin teknikprodukt. Flera domäner kan använda
 
 En domän bör avgränsas utifrån en sammanhängande verksamhetsförmåga och dess informationsbegrepp, inte mekaniskt utifrån dagens systemkarta. Ett system kan stödja flera domäner och en domän kan behöva samordna information från flera system. Därför behöver domänens mandat över informationsdefinitioner och prioriteringar skiljas från systemteamets ansvar för den tekniska leveransen.
 
-I den fiktiva referensmyndigheten kan exempelvis deklarationshantering och kontrollverksamhet utgöra olika domäner. Deklarationsdomänen ansvarar för hur deklarationsuppgifter ska förstås, medan kontrolldomänen ansvarar för information om genomförda kontroller. Ett tvärgående analysteam kan kombinera dessa uppgifter till underlag för resursplanering och ansvara för de härledda måtten. Det övertar inte därmed ansvaret för källuppgifternas betydelse.
+I den fiktiva referensmyndigheten kan exempelvis deklarationshantering och kontrollverksamhet utgöra olika domäner. Deklarationsdomänen ansvarar för hur deklarationsuppgifter ska förstås, medan kontrolldomänen ansvarar för information om genomförda kontroller. Ett tvärgående analysteam kan kombinera dessa uppgifter till underlag för resursplanering och ansvara för de härledda måtten. Det innebär inte att analysteamet övertar ansvaret för källuppgifternas betydelse.
 
 Dataägande används här i organisatorisk mening: ett utpekat ansvar att förvalta information och fatta beslut inom delegerat mandat. Det innebär inte äganderätt till uppgifterna eller ett självständigt mandat att frångå myndighetens regler för behandling och utlämnande.
 

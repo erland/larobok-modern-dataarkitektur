@@ -1,16 +1,16 @@
 {
   "blockers": [],
   "chapter": "12-dataplattformar.md",
-  "chapter_sha256": "137b771aa2787baf9afbccb35dadd7c6fc87f9927467c40c1fe3f40528bbede2",
+  "chapter_sha256": "f87d6f289b83ab314a95c33fc85711b1210dccf605afe7e574ba43d74883f553",
   "check_notes": {
-    "audience": "Erfarna IT-arkitekter i reglerade organisationer; fiktiv referensmyndighet.",
-    "consistency": "Gränsdragningen mellan plattformarna är uttryckligen illustrativ; återanvändning, tjänsteansvar och kontrollkrav hålls isär.",
-    "editorial": "Gränsdragningen mellan plattformarna är uttryckligen illustrativ; återanvändning, tjänsteansvar och kontrollkrav hålls isär.",
-    "facts": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Ingen ny extern fulltextgranskning.Gränsdragningen mellan plattformarna är uttryckligen illustrativ; återanvändning, tjänsteansvar och kontrollkrav hålls isär. I steg 8.7 tillkom endast en illustrativ figur med beskrivande bildtext utifrån kapitlet; tidigare sakgranskning återanvänds.",
-    "illustrations": "IMG-12-01: Logiskt tjänsteerbjudande, tvärgående kontroll och tjänsteberoenden. SVG-validering och visuell kontroll i färg/gråskala vid gemensam förhandsbredd. Faktisk exportkontroll återstår.",
-    "language": "Gränsdragningen mellan plattformarna är uttryckligen illustrativ; återanvändning, tjänsteansvar och kontrollkrav hålls isär.",
-    "sources": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Ingen ny extern fulltextgranskning. Källhänvisningar och löptext oförändrade; ingen ny extern granskning.",
-    "structure": "Gränsdragningen mellan plattformarna är uttryckligen illustrativ; återanvändning, tjänsteansvar och kontrollkrav hålls isär."
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Avgränsningen mellan dataplattform, Data Mesh, Data Fabric, organisatoriska modeller och datastyrning har kontrollerats.",
+    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya överlappningar.",
+    "facts": "Redaktionella ändringar utan nya externa sakpåståenden; ingen ny oberoende faktagranskning.",
+    "illustrations": "IMG-12-01 och bildtext bevarade; visuell PDF/EPUB-exportkontroll återstår.",
+    "language": "Förtydligat att dataplattformen kan omfatta flera produkter och miljöer samt vad en portal behöver erbjuda för att ge faktisk självbetjäning.",
+    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare kontroller återanvänds.",
+    "structure": "Kapitlets problem, principer, avvägningar och beslutskriterier hålls samman i befintlig disposition."
   },
   "checks": {
     "audience": "passed",
@@ -23,11 +23,12 @@
     "structure": "passed"
   },
   "corrections": [
-    "Infogat IMG-12-01 med beskrivande bildtext enligt illustrationsplanen."
+    "Infogat IMG-12-01 med beskrivande bildtext enligt illustrationsplanen.",
+    "Förtydligat att dataplattformen kan omfatta flera produkter och miljöer samt vad en portal behöver erbjuda för att ge faktisk självbetjäning."
   ],
-  "project_revision_at_review": 57,
+  "project_revision_at_review": 62,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Förnyat internt godkännande efter illustrationens integrering, steg 8.7. Förnyad intern redaktionell granskning 7.3c, basrevision 51, kapitel 12. Jämförelse med revision 45 och dokumenterad faktakontroll.",
-  "updated_at": "2026-11-25T17:47:39+00:00"
+  "summary": "Steg 9.1b.1: kapitel 12 slutläst i sin helhet mot kapitel 12–16, kapitelplanen och närliggande avsnitt. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende extern faktagranskning genomförd. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T19:24:59+00:00"
 }

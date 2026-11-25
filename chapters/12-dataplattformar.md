@@ -2,7 +2,7 @@
 
 En organisation kan ha ett modernt Lakehouse och ändå behöva beställa varje ny informationsleverans från en central specialistgrupp. Den kan också ha flera olika datalager och erbjuda systemteam och analytiker ett enhetligt, självbetjänat arbetssätt. Skillnaden ligger i plattformens tjänsteerbjudande, inte enbart i lagringstekniken.
 
-En dataplattform är här en förvaltad helhet av tekniska förmågor, tjänstegränssnitt och gemensamma arbetssätt för att tillgängliggöra, bearbeta och använda information. Den kan omfatta ett eller flera datalager och återanvända tjänster från organisationens utvecklingsplattform, integrationsplattform och säkerhetsinfrastruktur. Den behöver inte vara en enda produkt eller en enda driftsmiljö.
+En dataplattform är här en förvaltad helhet av tekniska förmågor, tjänstegränssnitt och gemensamma arbetssätt för att tillgängliggöra, bearbeta och använda information. Den kan omfatta ett eller flera datalager och återanvända tjänster från organisationens utvecklingsplattform, integrationsplattform och säkerhetsinfrastruktur. Den behöver inte bestå av en enda produkt eller finnas i en enda driftsmiljö.
 
 ## Från tekniska komponenter till plattformstjänster
 
@@ -72,7 +72,7 @@ Utgå från några återkommande användarresor, inte från en lista över verkt
 - Förädla en dataprodukt: ett analysteam etablerar en versionshanterad transformation, deklarerar beroenden och kvalitetsvillkor och publicerar resultatet efter godkända kontroller.
 - Konsumera information: en behörig användare hittar en produkt, begär vid behov åtkomst och ansluter ett godkänt analysverktyg inom tilldelade resursgränser.
 
-För varje arbetsväg behöver det vara tydligt vad som kan göras direkt, vad som kräver beslut och vem som hjälper till när standardvägen inte räcker. Ett webbgränssnitt kan underlätta upptäckt och introduktion, medan API:er och versionshanterad konfiguration kan göra samma tjänster möjliga att använda i automatiserade arbetsflöden. En portal som bara skapar ärenden till plattformsteamet är inte i sig självbetjäning.
+För varje arbetsväg behöver det vara tydligt vad som kan göras direkt, vad som kräver beslut och vem som hjälper till när standardvägen inte räcker. Ett webbgränssnitt kan underlätta upptäckt och introduktion, medan API:er och versionshanterad konfiguration kan göra samma tjänster möjliga att använda i automatiserade arbetsflöden. En portal som enbart skapar ärenden till plattformsteamet innebär inte i sig självbetjäning.
 
 Ett exempel på ett avgränsat plattformserbjudande är Uber DataCentral, som organisationen beskriver som ett gemensamt stöd för insyn i datajobb och kostnadsfördelning. Uber beskriver hur motorernas metadata samlas in och hur felregler används för att ge användare begripliga felmeddelanden och åtgärdsförslag [K079]. För en myndighet behöver motsvarande felsökningsuppgifter omfattas av behörighetskontroll eftersom exempelvis frågetext och loggar kan innehålla skyddsvärd information. Erfarenheten illustrerar att självbetjäning även omfattar förvaltning efter publicering, inte bara etablering av nya resurser. Den är självrapporterad och visar inte att samma effekter uppstår i andra organisationer.
 

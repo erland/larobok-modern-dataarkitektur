@@ -80,25 +80,25 @@ Källor: K073–K077. K005, K008, K018 kvarstår som kandidater. Status: approve
 
 Unikt innehåll och avgränsning: Gemensamma tjänster, orkestrering, självbetjäning, kritiska kontra kompletterande förmågor, integrerad kontra sammansatt.
 
-Källor: K003, K036, K078, K079. K010 behandlas i kapitel 9, K011 sparas till kapitel 13. Status: approved_auto, revision 58 (illustrationsintegrering 8.7).
+Källor: K003, K036, K078, K079. K010 behandlas i kapitel 9, K011 sparas till kapitel 13. Status: approved_auto, revision 63 (slutläsning 9.1b.1).
 
 ### 13. Data Mesh
 
 Unikt innehåll och avgränsning: Fyra principer, domänansvar, federerad styrning, kompetens, finansiering, partiellt införande.
 
-Källor: K006, K007, K011, K080. K026 och K027 kvarstår som kandidater för kapitel 15. Status: approved_auto, revision 52 (förnyad granskning 7.3c).
+Källor: K006, K007, K011, K080. K026 och K027 kvarstår som kandidater för kapitel 15. Status: approved_auto, revision 63 (slutläsning 9.1b.1).
 
 ### 14. Data Fabric
 
 Unikt innehåll och avgränsning: Aktiv metadata, kunskapsgrafer, automatisering, tvärgående styrning, evidensbegränsningar.
 
-Källor: K005, K008, K012, K081, K082. K034 sparas till metadatafördjupning. Status: approved_auto, revision 52 (förnyad granskning 7.3c).
+Källor: K005, K008, K012, K081, K082. K034 sparas till metadatafördjupning. Status: approved_auto, revision 63 (slutläsning 9.1b.1).
 
 ### 15. Jämförande analys av centraliserad, decentraliserad och federerad datahantering
 
 Unikt innehåll och avgränsning: Ansvar, modellering, standardisering, autonomi, tvärgående behov och kostnader.
 
-Källor: K007, K024–K027, K036. Status: approved_auto, revision 33.
+Källor: K007, K024–K027, K036. Status: approved_auto, revision 63 (slutläsning 9.1b.1).
 
 ## Reglerad organisation (8 000 ord)
 
@@ -106,7 +106,7 @@ Källor: K007, K024–K027, K036. Status: approved_auto, revision 33.
 
 Unikt innehåll och avgränsning: Governance, katalog, lineage, stewardship, kvalitet och uppföljning.
 
-Källor: K004, K012, K014, K015, K034, K083, K084. Status: approved_auto, revision 52 (förnyad granskning 7.3c).
+Källor: K004, K012, K014, K015, K034, K083, K084. Status: approved_auto, revision 63 (slutläsning 9.1b.1).
 
 ### 17. Informationssäkerhet, regulatoriska krav och informationslivscykel
 

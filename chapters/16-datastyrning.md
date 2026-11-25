@@ -1,6 +1,6 @@
 # 16. Datastyrning, informationskvalitet och metadata
 
-När en myndighet har gjort information tekniskt tillgänglig återstår en avgörande fråga: kan verksamheten lita på den? En rapport kan vara korrekt beräknad utifrån de data som finns i ett lager och samtidigt ge en missvisande bild av verkligheten. Orsaken kan ligga i registreringen, urvalet, överföringen eller tolkningen av uppgifterna. Datastyrning behöver därför omfatta hela informationskedjan och inte enbart den miljö där analysen utförs.
+När en myndighet har gjort information tekniskt tillgänglig återstår en avgörande fråga: kan verksamheten lita på den? En rapport kan vara korrekt beräknad utifrån lagrade data men ändå ge en missvisande bild av verkligheten. Orsaken kan ligga i registreringen, urvalet, överföringen eller tolkningen av uppgifterna. Datastyrning behöver därför omfatta hela informationskedjan och inte enbart den miljö där analysen utförs.
 
 Den brittiska revisionsmyndigheten National Audit Office har i sin granskning av offentlig sektors dataanvändning 2019 uppmärksammat problem med kvalitet, standarder och samordning [K014]. Dess vägledning till ledande befattningshavare tar även upp resurser, tillgång till rådata och informationsutbyte mellan offentliga organisationer [K015]. Erfarenheterna är relevanta som jämförelseunderlag, men säger inte hur en enskild svensk myndighet bör organisera sin verksamhet.
 
@@ -41,7 +41,7 @@ Foidl m.fl. behandlar kvalitetsproblem, bakomliggande orsaker och problemområde
 | Bearbetning | Felaktiga kopplingar, omvandlingar och urval |
 | Konsumtion | Olämplig användning, felaktig tolkning eller inaktuell information |
 
-Tekniska kontroller kan bland annat jämföra antal poster mellan källa och mottagare, upptäcka oväntade förändringar av värdefördelningar och kontrollera referensintegritet. En statistisk avvikelse är en signal som behöver utredas, inte automatiskt ett fel. En förändring i verksamhetens ärendemängd kan vara helt korrekt.
+Tekniska kontroller kan bland annat jämföra antal poster mellan källa och mottagare, upptäcka oväntade förändringar av värdefördelningar och kontrollera referensintegritet. En statistisk avvikelse är en signal att utreda, inte automatiskt ett fel. En förändring i verksamhetens ärendemängd kan vara helt korrekt.
 
 Kontroller bör ha olika konsekvenser beroende på risken. Ett brott mot en kritisk kontraktsregel kan stoppa publiceringen, medan en mindre kvalitetsavvikelse kan medföra en varning. Vid stopp behöver konsumenterna få veta att leveransen uteblivit eller att föregående version fortfarande visas. Avvisade poster måste kunna utredas på ett kontrollerat sätt. Att tyst utesluta dem kan ge sken av en felfri leverans.
 

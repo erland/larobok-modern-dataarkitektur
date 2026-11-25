@@ -20,9 +20,9 @@ Indelningen beskriver en möjlig arkitektursyntes, inte en obligatorisk uppsätt
 
 ## Från passiv till aktiv metadata
 
-En katalog som visar dataset och deras beskrivningar har ett självständigt värde. Men om katalogens innehåll inte följer förändringarna i den tekniska miljön kan den successivt förlora sin tillförlitlighet. Aktiv metadata innebär här att observationer används som indata till processer och beslut, inte bara presenteras för läsning.
+En katalog som visar dataset och deras beskrivningar har ett självständigt värde. Om katalogens innehåll inte följer förändringarna i den tekniska miljön kan den däremot successivt förlora sin tillförlitlighet. Aktiv metadata innebär här att observationer används som indata till processer och beslut, inte bara presenteras för läsning.
 
-Anta att en producent förbereder en schemaändring i en dataprodukt. En ansluten tjänst registrerar den föreslagna ändringen före publicering. Genom kända beroenden kan plattformen identifiera berörda konsumenter, kontrollera ändringen mot datakontraktet och underrätta ansvariga team. Vid en otillåten förändring kan en publiceringsprocess stoppas innan nya data görs tillgängliga. Detta är ett möjligt arbetsflöde, inte en garanti som följer av att en metadatakatalog installerats.
+Anta att en producent förbereder en schemaändring i en dataprodukt. En ansluten tjänst registrerar den föreslagna ändringen före publicering. Genom kända beroenden kan plattformen identifiera berörda konsumenter, kontrollera ändringen mot datakontraktet och underrätta ansvariga team. Vid en otillåten förändring kan en publiceringsprocess stoppas innan nya data görs tillgängliga. Detta är ett möjligt arbetsflöde, inte en garanti som följer av att en metadatakatalog har installerats.
 
 Automatiseringen kräver att metadata är aktuella, att identifierare är stabila och att de tekniska kontrollpunkterna faktiskt kan påverka publiceringen. Om ett flöde saknar registrerade beroenden kan en konsekvensanalys ge falsk trygghet. Täckningsgrad och aktualitet är därför viktiga kvalitetsmått för metadata i sig.
 
