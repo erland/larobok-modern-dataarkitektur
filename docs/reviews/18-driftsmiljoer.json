@@ -1,15 +1,15 @@
 {
   "blockers": [],
   "chapter": "18-driftsmiljoer.md",
-  "chapter_sha256": "471b0586f18826ab4636a30198b32d879713d99c7bd6a915181296292a65b1e7",
+  "chapter_sha256": "8918cef1bad1476630e819dc255185ab80d9a90642e73b5aaa6057e9b8e8d17c",
   "check_notes": {
     "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
-    "consistency": "Kontrollerat mot informationssäkerhet, driftsmiljöer, AI-tillämpningar, referensarkitekturer och stegvis modernisering.",
-    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya överlappningar.",
-    "facts": "Redaktionella förtydliganden utan nya externa sakpåståenden; tidigare kontroller återanvänds. Ingen ny juridisk expertgranskning.",
+    "consistency": "Kontrollerat mot angränsande kapitel och fastställd terminologi.",
+    "editorial": "Helhetskontroll av kapitelövergångar. Skapat tydlig övergång från driftsmiljöernas handlingsfrihet till analys och AI som användningsbehov.",
+    "facts": "Endast redaktionella övergångar; inga nya externa eller rättsliga sakpåståenden.",
     "illustrations": "Inga illustrationer enligt bokspecifikation.",
-    "language": "Harmoniserat hybridterminologi och preciserat att gränssnittskompatibilitet inte ensam verifierar flyttbarhet.",
-    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare kontroller återanvänds.",
+    "language": "Skapat tydlig övergång från driftsmiljöernas handlingsfrihet till analys och AI som användningsbehov.",
+    "sources": "Ingen ändring av källhänvisningar; tidigare dokumenterade kontroller återanvänds.",
     "structure": "Kapitlets disposition och relation till angränsande kapitel bevarade."
   },
   "checks": {
@@ -27,11 +27,12 @@
     "Avgränsat GDPR och tredjelandsöverföring.",
     "Skilt interoperabilitet från portabilitet och återetablering.",
     "Kompletterat flyttprovet med livscykelkontroller.",
-    "Harmoniserat hybridterminologi och preciserat att gränssnittskompatibilitet inte ensam verifierar flyttbarhet."
+    "Harmoniserat hybridterminologi och preciserat att gränssnittskompatibilitet inte ensam verifierar flyttbarhet.",
+    "Skapat tydlig övergång från driftsmiljöernas handlingsfrihet till analys och AI som användningsbehov."
   ],
-  "project_revision_at_review": 63,
+  "project_revision_at_review": 64,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Steg 9.1b.2: kapitel 18 slutläst i sin helhet mot kapitel 17–21, kapitelplanen och angränsande resonemang. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende juridisk eller extern faktagranskning genomförd. Internt redaktionellt godkännande.",
-  "updated_at": "2026-11-25T19:50:09+00:00"
+  "summary": "Steg 9.1c: förnyad intern redaktionell granskning efter helhetskontroll av bokens disposition, inledning och kapitelövergångar. Kapitel 18 har fått en språklig övergång till efterföljande kapitel, utan nya sakuppgifter. Tidigare käll- och faktakontroller återanvänds; ingen ny oberoende faktagranskning eller visuell PDF/EPUB-kontroll har gjorts.",
+  "updated_at": "2026-11-25T19:59:45+00:00"
 }

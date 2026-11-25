@@ -1,8 +1,8 @@
 # Projektindex
 
-Modern dataarkitektur | factbook | revision 64 (omstart)
+Modern dataarkitektur | factbook | revision 65 (omstart)
 
-Samtliga 21 kapitel och inledning godkända. Steg 7.1a–c, 7.2, 7.3a–c samt strukturell verifiering 7.3d genomförda. Se docs/reviews/slutverifiering-7.3d.md för avgränsningar. Fullständig slutläsning och publiceringsgrind återstår. Källregister 86 poster. EPUB/PDF ej byggda.
+Samtliga 21 kapitel och inledning godkända. Steg 7.1a–c, 7.2, 7.3a–c samt strukturell verifiering 7.3d genomförda. Se docs/reviews/slutverifiering-7.3d.md för avgränsningar. Redaktionell slutläsning genomförd i revision 60–65; publiceringsgrind återstår. Källregister 86 poster. EPUB/PDF ej byggda.
 
 Steg 8.2–8.3: designsystem och tre renderade SVG-illustrationer (kapitel 4–6). Sex illustrationer återstår, följt av samlad integrering. Se docs/illustration-plan.md och docs/illustration-design.md.
 
@@ -25,3 +25,5 @@ Steg 9.1a.3: kapitel 9–11 slutlästa och redaktionellt preciserade. Tre intern
 Steg 9.1b.1: kapitel 12–16 slutlästa och redaktionellt preciserade. Fem interna redaktionella godkännanden förnyade. GitHub Actions validerar projektet. Kapitel 17–21 och publiceringsgrind återstår.
 
 Steg 9.1b.2: kapitel 17–21 slutlästa och redaktionellt preciserade. Fem interna redaktionella godkännanden förnyade. Inledning och samtliga 21 kapitel har nu slutlästs i steg 9.1a.1–9.1b.2. Samlad helhetsgranskning, byggd PDF/EPUB och publiceringsgrind återstår.
+
+Steg 9.1c: samlad redaktionell helhetsgranskning av kapitelordning, övergångar, terminologi och läsarprogression. Övergångar i kapitel 11, 15, 16 och 18 förtydligade; fyra interna godkännanden förnyade. Se `docs/reviews/helhetsgranskning-9.1c.md`. Faktisk PDF/EPUB-provexport och visuell publiceringskontroll återstår.

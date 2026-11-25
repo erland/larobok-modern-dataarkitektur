@@ -65,4 +65,4 @@ Före etablering bör arkitekten verifiera följande för den konkreta arbetslas
 - Att resultatets tidsmässiga konsistens och reproducerbarhet motsvarar verksamhetens behov.
 - Att gemensamma informationsdefinitioner kan användas i de verktyg som konsumenterna faktiskt behöver.
 
-Dessa kriterier är en arkitektursyntes, inte en rangordning av produkter. Målet är att minimera onödiga kopior utan att skapa ohanterliga tillgänglighets- eller styrningsberoenden. En väl vald kombination av fysisk lagring, logisk åtkomst och gemensam semantik är ofta mer ändamålsenlig än att tillämpa samma åtkomstmönster på all information.
+Dessa kriterier är en arkitektursyntes, inte en rangordning av produkter. Målet är att minimera onödiga kopior utan att skapa ohanterliga tillgänglighets- eller styrningsberoenden. En väl vald kombination av fysisk lagring, logisk åtkomst och gemensam semantik är ofta mer ändamålsenlig än att tillämpa samma åtkomstmönster på all information. Hur sådana gemensamma förmågor kan erbjudas som återanvändbara plattformstjänster behandlas i nästa kapitel.

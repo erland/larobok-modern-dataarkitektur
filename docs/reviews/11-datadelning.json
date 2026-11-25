@@ -1,15 +1,15 @@
 {
   "blockers": [],
   "chapter": "11-datadelning.md",
-  "chapter_sha256": "7c03391ceb6fe4074d1f4f96d6c6b57f7f08fc119a9072811d3451ddf5758ffb",
+  "chapter_sha256": "fd85632861dfda678f7b737f14e474c85316492b181fbd8e5057ad462362ecfd",
   "check_notes": {
     "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
-    "consistency": "Informationsöverföring i kapitel 9, dataproduktens åtagande i kapitel 10 och åtkomst i kapitel 11 hålls tydligt åtskilda.",
-    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya saköverlappningar.",
-    "facts": "Ingen ny oberoende faktagranskning; redaktionella ändringar utan nya externa sakpåståenden.",
+    "consistency": "Kontrollerat mot angränsande kapitel och fastställd terminologi.",
+    "editorial": "Helhetskontroll av kapitelövergångar. Förtydligat övergången från logisk/fysisk åtkomst till återanvändbara plattformstjänster.",
+    "facts": "Endast redaktionella övergångar; inga nya externa eller rättsliga sakpåståenden.",
     "illustrations": "Inga illustrationer enligt bokspecifikation.",
-    "language": "Koncis inledning och konsekvent placering av källhänvisningarna K073–K077.",
-    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare källkontroller återanvänds.",
+    "language": "Förtydligat övergången från logisk/fysisk åtkomst till återanvändbara plattformstjänster.",
+    "sources": "Ingen ändring av källhänvisningar; tidigare dokumenterade kontroller återanvänds.",
     "structure": "Kapitlets disposition följer begrepp, tillämpning, avvägningar och beslutskriterier."
   },
   "checks": {
@@ -27,11 +27,12 @@
     "Nyanserat återkallelse av åtkomst.",
     "Förtydligat dbt-plattformskrav och reproducerbarhet.",
     "Tillfört kontroll av kombinerade uppgifters skyddsvärde.",
-    "Koncis inledning och konsekvent placering av källhänvisningarna K073–K077."
+    "Koncis inledning och konsekvent placering av källhänvisningarna K073–K077.",
+    "Förtydligat övergången från logisk/fysisk åtkomst till återanvändbara plattformstjänster."
   ],
-  "project_revision_at_review": 61,
+  "project_revision_at_review": 64,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Steg 9.1a.3: kapitel 11 slutläst i sin helhet mot kapitel 9–11 och kapitelplanen. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende extern faktagranskning genomförd. Intern redaktionell granskning.",
-  "updated_at": "2026-11-25T18:57:08+00:00"
+  "summary": "Steg 9.1c: förnyad intern redaktionell granskning efter helhetskontroll av bokens disposition, inledning och kapitelövergångar. Kapitel 11 har fått en språklig övergång till efterföljande kapitel, utan nya sakuppgifter. Tidigare käll- och faktakontroller återanvänds; ingen ny oberoende faktagranskning eller visuell PDF/EPUB-kontroll har gjorts.",
+  "updated_at": "2026-11-25T19:59:45+00:00"
 }

@@ -1,15 +1,15 @@
 {
   "blockers": [],
   "chapter": "16-datastyrning.md",
-  "chapter_sha256": "d510eb7867e5fb51597f54b611425595c796d056f8db13c45533b949bed23428",
+  "chapter_sha256": "838e97f76491b7464a14c91b9b24f02701fdf5e3a24bbf18d9c9ff5cc3ea9aca",
   "check_notes": {
     "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
-    "consistency": "Avgränsningen mellan dataplattform, Data Mesh, Data Fabric, organisatoriska modeller och datastyrning har kontrollerats.",
-    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya överlappningar.",
-    "facts": "Redaktionella ändringar utan nya externa sakpåståenden; ingen ny oberoende faktagranskning.",
+    "consistency": "Kontrollerat mot angränsande kapitel och fastställd terminologi.",
+    "editorial": "Helhetskontroll av kapitelövergångar. Förtydligat övergången från kvalitetsstyrning till säkerhet och informationslivscykel.",
+    "facts": "Endast redaktionella övergångar; inga nya externa eller rättsliga sakpåståenden.",
     "illustrations": "Inga illustrationer enligt bokspecifikation.",
-    "language": "Gjort skillnaden mellan korrekt beräkning och verklighetsbeskrivning tydligare samt förenklat formuleringen om statistiska avvikelser.",
-    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare kontroller återanvänds.",
+    "language": "Förtydligat övergången från kvalitetsstyrning till säkerhet och informationslivscykel.",
+    "sources": "Ingen ändring av källhänvisningar; tidigare dokumenterade kontroller återanvänds.",
     "structure": "Kapitlets problem, principer, avvägningar och beslutskriterier hålls samman i befintlig disposition."
   },
   "checks": {
@@ -23,12 +23,13 @@
     "structure": "passed"
   },
   "corrections": [
-    "Gjort skillnaden mellan korrekt beräkning och verklighetsbeskrivning tydligare samt förenklat formuleringen om statistiska avvikelser."
+    "Gjort skillnaden mellan korrekt beräkning och verklighetsbeskrivning tydligare samt förenklat formuleringen om statistiska avvikelser.",
+    "Förtydligat övergången från kvalitetsstyrning till säkerhet och informationslivscykel."
   ],
   "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
-  "project_revision_at_review": 62,
+  "project_revision_at_review": 64,
   "review_mode": "auto",
   "status": "approved_auto",
-  "summary": "Steg 9.1b.1: kapitel 16 slutläst i sin helhet mot kapitel 12–16, kapitelplanen och närliggande avsnitt. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende extern faktagranskning genomförd. Intern redaktionell granskning.",
-  "updated_at": "2026-11-25T19:24:59+00:00"
+  "summary": "Steg 9.1c: förnyad intern redaktionell granskning efter helhetskontroll av bokens disposition, inledning och kapitelövergångar. Kapitel 16 har fått en språklig övergång till efterföljande kapitel, utan nya sakuppgifter. Tidigare käll- och faktakontroller återanvänds; ingen ny oberoende faktagranskning eller visuell PDF/EPUB-kontroll har gjorts.",
+  "updated_at": "2026-11-25T19:59:45+00:00"
 }

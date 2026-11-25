@@ -71,4 +71,4 @@ Kritiska förmågor är tydligt ansvar, åtkomliga och förvaltade metadata, ris
 
 Följ upp andelen prioriterade leveranser med definierade kvalitetsmål, andelen uppfyllda mål (redovisa uteblivna mätningar separat), tid till upptäckt och rättelse av kvalitetsbrister samt täckningen av kritiska informationsberoenden. Mät också hur lång tid det tar för ett team att publicera en ändring som uppfyller styrningskraven. Antalet katalogposter eller automatiska kontroller är inte ensamt ett mått på datastyrningens nytta.
 
-Målet är att göra tillförlitlig information enklare att använda och fel enklare att upptäcka och åtgärda. Gemensamma kontrollmekanismer ska göra det lättare att agera inom beslutade ramar, inte ersätta verksamhetens ansvar för informationens betydelse och kvalitet.
+Målet är att göra tillförlitlig information enklare att använda och fel enklare att upptäcka och åtgärda. Gemensamma kontrollmekanismer ska göra det lättare att agera inom beslutade ramar, inte ersätta verksamhetens ansvar för informationens betydelse och kvalitet. Nästa kapitel fördjupar hur rättsliga krav, informationsskydd och livscykelvillkor måste upprätthållas i arkitekturen.
