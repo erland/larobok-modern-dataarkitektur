@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img"><rect width="1200" height="800" fill="white"/><g font-family="Noto Sans, DejaVu Sans, sans-serif">
+<text x="220" y="55" font-size="23" font-weight="600" fill="#334155" text-anchor="middle">A  Specialistutvecklad ETL</text>
+<text x="600" y="55" font-size="23" font-weight="600" fill="#334155" text-anchor="middle">B  Händelseintegration</text>
+<text x="980" y="55" font-size="23" font-weight="600" fill="#334155" text-anchor="middle">C  Deklarativ självbetjäning</text>
+<rect x="40" y="80" width="360" height="70" rx="8" fill="#F1F5F9" stroke="#334155" stroke-width="2"/>
+<text x="220.0" y="123.0" font-size="26" font-weight="600" fill="#334155" text-anchor="middle">Källuttag</text>
+<rect x="420" y="80" width="360" height="70" rx="8" fill="#F1F5F9" stroke="#334155" stroke-width="2"/>
+<text x="600.0" y="123.0" font-size="26" font-weight="600" fill="#334155" text-anchor="middle">Applikation</text>
+<rect x="800" y="80" width="360" height="70" rx="8" fill="#F1F5F9" stroke="#334155" stroke-width="2"/>
+<text x="980.0" y="123.0" font-size="26" font-weight="600" fill="#334155" text-anchor="middle">Godkänd källa</text>
+<rect x="40" y="190" width="360" height="230" rx="8" fill="#ECFEFF" stroke="#0E7490" stroke-width="2"/>
+<text x="220.0" y="283.0" font-size="26" font-weight="600" fill="#0E7490" text-anchor="middle">Centralt ETL-jobb</text>
+<text x="220.0" y="313.0" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">Uttag och mappning</text>
+<text x="220.0" y="343.0" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">Test och driftsättning</text>
+<rect x="420" y="190" width="360" height="60" rx="8" fill="#ECFEFF" stroke="#0E7490" stroke-width="2"/>
+<text x="600.0" y="228.0" font-size="26" font-weight="600" fill="#0E7490" text-anchor="middle">Outbox</text>
+<rect x="420" y="275" width="360" height="60" rx="8" fill="#ECFEFF" stroke="#0E7490" stroke-width="2"/>
+<text x="600.0" y="313.0" font-size="26" font-weight="600" fill="#0E7490" text-anchor="middle">Meddelandeplattform</text>
+<rect x="420" y="360" width="360" height="60" rx="8" fill="#ECFEFF" stroke="#0E7490" stroke-width="2"/>
+<text x="600.0" y="398.0" font-size="26" font-weight="600" fill="#0E7490" text-anchor="middle">Mottagare</text>
+<rect x="800" y="190" width="360" height="100" rx="8" fill="#ECFEFF" stroke="#0E7490" stroke-width="2"/>
+<text x="980.0" y="248.0" font-size="26" font-weight="600" fill="#0E7490" text-anchor="middle">Konfigurerad anslutning</text>
+<rect x="800" y="320" width="360" height="100" rx="8" fill="#F0FDFA" stroke="#0F766E" stroke-width="2"/>
+<text x="980.0" y="378.0" font-size="26" font-weight="600" fill="#0F766E" text-anchor="middle">Gemensam exekvering</text>
+<path d="M220 150 L220.0 180.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="220,190 225.0,178.0 215.0,178.0" fill="#475569"/>
+<path d="M220 420 L220.0 450.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="220,460 225.0,448.0 215.0,448.0" fill="#475569"/>
+<rect x="40" y="460" width="360" height="70" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="220.0" y="503.0" font-size="26" font-weight="600" fill="#2563EB" text-anchor="middle">Mottagningszon</text>
+<path d="M600 150 L600.0 180.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="600,190 605.0,178.0 595.0,178.0" fill="#475569"/>
+<path d="M600 420 L600.0 450.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="600,460 605.0,448.0 595.0,448.0" fill="#475569"/>
+<rect x="420" y="460" width="360" height="70" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="600.0" y="503.0" font-size="26" font-weight="600" fill="#2563EB" text-anchor="middle">Mottagningszon</text>
+<path d="M980 150 L980.0 180.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="980,190 985.0,178.0 975.0,178.0" fill="#475569"/>
+<path d="M980 420 L980.0 450.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="980,460 985.0,448.0 975.0,448.0" fill="#475569"/>
+<rect x="800" y="460" width="360" height="70" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="980.0" y="503.0" font-size="26" font-weight="600" fill="#2563EB" text-anchor="middle">Mottagningszon</text>
+<path d="M600 250 L600.0 265.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="600,275 605.0,263.0 595.0,263.0" fill="#475569"/>
+<path d="M600 335 L600.0 350.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="600,360 605.0,348.0 595.0,348.0" fill="#475569"/>
+<path d="M980 290 L980.0 310.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="980,320 985.0,308.0 975.0,308.0" fill="#475569"/>
+<rect x="40" y="570" width="360" height="155" rx="8" fill="#FFFBEB" stroke="#B45309" stroke-width="2"/>
+<text x="220.0" y="625.5" font-size="26" font-weight="600" fill="#B45309" text-anchor="middle">Vid förändring</text>
+<text x="220.0" y="655.5" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">Systemteam beskriver;</text>
+<text x="220.0" y="685.5" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">ETL-team anpassar jobbet</text>
+<rect x="420" y="570" width="360" height="155" rx="8" fill="#FFFBEB" stroke="#B45309" stroke-width="2"/>
+<text x="600.0" y="625.5" font-size="26" font-weight="600" fill="#B45309" text-anchor="middle">Vid förändring</text>
+<text x="600.0" y="655.5" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">Producent ändrar händelse;</text>
+<text x="600.0" y="685.5" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">mottagare vid behov</text>
+<rect x="800" y="570" width="360" height="155" rx="8" fill="#FFFBEB" stroke="#B45309" stroke-width="2"/>
+<text x="980.0" y="625.5" font-size="26" font-weight="600" fill="#B45309" text-anchor="middle">Vid förändring</text>
+<text x="980.0" y="655.5" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">Systemteam ändrar, testar</text>
+<text x="980.0" y="685.5" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">och publicerar beskrivning</text>
+</g></svg>

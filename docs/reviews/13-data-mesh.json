@@ -1,0 +1,34 @@
+{
+  "blockers": [],
+  "chapter": "13-data-mesh.md",
+  "chapter_sha256": "c88745ed400e82f45b95f270d849d6b7c4113d6e71e6bae615a6310cf52c874a",
+  "check_notes": {
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Avgränsningen mellan dataplattform, Data Mesh, Data Fabric, organisatoriska modeller och datastyrning har kontrollerats.",
+    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya överlappningar.",
+    "facts": "Redaktionella ändringar utan nya externa sakpåståenden; ingen ny oberoende faktagranskning.",
+    "illustrations": "Inga illustrationer enligt bokspecifikation.",
+    "language": "Stramat upp resonemanget om flaskhalsar och klargjort att tvärgående analytiker inte övertar källans informationsansvar.",
+    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare kontroller återanvänds.",
+    "structure": "Kapitlets problem, principer, avvägningar och beslutskriterier hålls samman i befintlig disposition."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Stramat upp resonemanget om flaskhalsar och klargjort att tvärgående analytiker inte övertar källans informationsansvar."
+  ],
+  "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
+  "project_revision_at_review": 62,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Steg 9.1b.1: kapitel 13 slutläst i sin helhet mot kapitel 12–16, kapitelplanen och närliggande avsnitt. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende extern faktagranskning genomförd. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T19:24:59+00:00"
+}

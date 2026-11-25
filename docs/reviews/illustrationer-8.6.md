@@ -1,0 +1,3 @@
+# Granskning 8.6
+
+Revision 57, basrevision 56. Kapitel 20 och designsystemet kontrollerade. Bilden återger kapitlets kombinerade målarkitektur med moderniserat Data Warehouse, specialiserad läsmodell, dokumentindex, möjlig Lakehouse-prövning och separat kontrollerad direktåtkomst. Tvärgående tjänster och styrning visas utan flödespilar. Ingen fysisk placering eller obligatorisk produktuppsättning påstås. Handkodad SVG, 1200 × 1000 för läsbarhet. Projektets render_diagrams.py godkände nio diagram. CairoSVG-rendering och visuell kontroll genomförda; etiketten Möjlig prövning flyttades in i Lakehouse-rutan för att inte korsa pilen. Kapitelintegration, slutlig bokbredd, gråskala och PDF/EPUB-inbäddning återstår.

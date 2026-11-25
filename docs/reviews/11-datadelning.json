@@ -1,0 +1,38 @@
+{
+  "blockers": [],
+  "chapter": "11-datadelning.md",
+  "chapter_sha256": "fd85632861dfda678f7b737f14e474c85316492b181fbd8e5057ad462362ecfd",
+  "check_notes": {
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Kontrollerat mot angränsande kapitel och fastställd terminologi.",
+    "editorial": "Helhetskontroll av kapitelövergångar. Förtydligat övergången från logisk/fysisk åtkomst till återanvändbara plattformstjänster.",
+    "facts": "Endast redaktionella övergångar; inga nya externa eller rättsliga sakpåståenden.",
+    "illustrations": "Inga illustrationer enligt bokspecifikation.",
+    "language": "Förtydligat övergången från logisk/fysisk åtkomst till återanvändbara plattformstjänster.",
+    "sources": "Ingen ändring av källhänvisningar; tidigare dokumenterade kontroller återanvänds.",
+    "structure": "Kapitlets disposition följer begrepp, tillämpning, avvägningar och beslutskriterier."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Preciserat forskningsramverk och avgränsning.",
+    "Nyanserat återkallelse av åtkomst.",
+    "Förtydligat dbt-plattformskrav och reproducerbarhet.",
+    "Tillfört kontroll av kombinerade uppgifters skyddsvärde.",
+    "Koncis inledning och konsekvent placering av källhänvisningarna K073–K077.",
+    "Förtydligat övergången från logisk/fysisk åtkomst till återanvändbara plattformstjänster."
+  ],
+  "project_revision_at_review": 64,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Steg 9.1c: förnyad intern redaktionell granskning efter helhetskontroll av bokens disposition, inledning och kapitelövergångar. Kapitel 11 har fått en språklig övergång till efterföljande kapitel, utan nya sakuppgifter. Tidigare käll- och faktakontroller återanvänds; ingen ny oberoende faktagranskning eller visuell PDF/EPUB-kontroll har gjorts.",
+  "updated_at": "2026-11-25T19:59:45+00:00"
+}

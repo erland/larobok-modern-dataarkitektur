@@ -1,0 +1,34 @@
+{
+  "blockers": [],
+  "chapter": "12-dataplattformar.md",
+  "chapter_sha256": "f87d6f289b83ab314a95c33fc85711b1210dccf605afe7e574ba43d74883f553",
+  "check_notes": {
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Avgränsningen mellan dataplattform, Data Mesh, Data Fabric, organisatoriska modeller och datastyrning har kontrollerats.",
+    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya överlappningar.",
+    "facts": "Redaktionella ändringar utan nya externa sakpåståenden; ingen ny oberoende faktagranskning.",
+    "illustrations": "IMG-12-01 och bildtext bevarade; visuell PDF/EPUB-exportkontroll återstår.",
+    "language": "Förtydligat att dataplattformen kan omfatta flera produkter och miljöer samt vad en portal behöver erbjuda för att ge faktisk självbetjäning.",
+    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare kontroller återanvänds.",
+    "structure": "Kapitlets problem, principer, avvägningar och beslutskriterier hålls samman i befintlig disposition."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "passed",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Infogat IMG-12-01 med beskrivande bildtext enligt illustrationsplanen.",
+    "Förtydligat att dataplattformen kan omfatta flera produkter och miljöer samt vad en portal behöver erbjuda för att ge faktisk självbetjäning."
+  ],
+  "project_revision_at_review": 62,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Steg 9.1b.1: kapitel 12 slutläst i sin helhet mot kapitel 12–16, kapitelplanen och närliggande avsnitt. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende extern faktagranskning genomförd. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T19:24:59+00:00"
+}

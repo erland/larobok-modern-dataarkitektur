@@ -1,0 +1,35 @@
+{
+  "blockers": [],
+  "chapter": "19-dataarkitektur-for-analys-och-ai.md",
+  "chapter_sha256": "8046cf067a96f4b0822df58bb25108f08336c3a09f05b7c2b3c16502d0d1ce43",
+  "check_notes": {
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Kontrollerat mot informationssäkerhet, driftsmiljöer, AI-tillämpningar, referensarkitekturer och stegvis modernisering.",
+    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya överlappningar.",
+    "facts": "Redaktionella förtydliganden utan nya externa sakpåståenden; tidigare kontroller återanvänds. Ingen ny juridisk expertgranskning.",
+    "illustrations": "IMG-19-01 och bildtext bevarade; visuell PDF/EPUB-exportkontroll återstår.",
+    "language": "Gjort inledningen mer direkt och markerat kontrollbehovet för AI-genererade uppgifter utan att ändra säkerhetskraven.",
+    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare kontroller återanvänds.",
+    "structure": "Kapitlets disposition och relation till angränsande kapitel bevarade."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "passed",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Fyra illustrativa informationsflöden skiljer historik, aktuella uppgifter, läsning och operativa åtgärder; preciserat hantering av osäkert utfall.",
+    "Infogat IMG-19-01 med beskrivande bildtext enligt illustrationsplanen.",
+    "Gjort inledningen mer direkt och markerat kontrollbehovet för AI-genererade uppgifter utan att ändra säkerhetskraven."
+  ],
+  "project_revision_at_review": 63,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Steg 9.1b.2: kapitel 19 slutläst i sin helhet mot kapitel 17–21, kapitelplanen och angränsande resonemang. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende juridisk eller extern faktagranskning genomförd. Internt redaktionellt godkännande.",
+  "updated_at": "2026-11-25T19:50:09+00:00"
+}

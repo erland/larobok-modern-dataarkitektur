@@ -1,0 +1,35 @@
+{
+  "blockers": [],
+  "chapter": "17-informationssakerhet.md",
+  "chapter_sha256": "a9b7e1fe98656714ed89aab243668bb94d8450996815be4e92faad4392a2dbd0",
+  "check_notes": {
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Kontrollerat mot informationssäkerhet, driftsmiljöer, AI-tillämpningar, referensarkitekturer och stegvis modernisering.",
+    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya överlappningar.",
+    "facts": "Redaktionella förtydliganden utan nya externa sakpåståenden; tidigare kontroller återanvänds. Ingen ny juridisk expertgranskning.",
+    "illustrations": "Inga illustrationer enligt bokspecifikation.",
+    "language": "Förtydligat sammanslagna informationsrisker och preciserat hanteringen av gallrings- och rättelseåtgärder efter återställning från säkerhetskopia.",
+    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare kontroller återanvänds.",
+    "structure": "Kapitlets disposition och relation till angränsande kapitel bevarade."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Rättsliga skyldigheter skiljs från arkitekturmål; preciserat tidpunkten för konsekvensbedömning och villkoret för säkerhetskopior.",
+    "Förtydligat sammanslagna informationsrisker och preciserat hanteringen av gallrings- och rättelseåtgärder efter återställning från säkerhetskopia."
+  ],
+  "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
+  "project_revision_at_review": 63,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Steg 9.1b.2: kapitel 17 slutläst i sin helhet mot kapitel 17–21, kapitelplanen och angränsande resonemang. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende juridisk eller extern faktagranskning genomförd. Internt redaktionellt godkännande.",
+  "updated_at": "2026-11-25T19:50:09+00:00"
+}

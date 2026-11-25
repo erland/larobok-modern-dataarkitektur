@@ -1,0 +1,38 @@
+{
+  "blockers": [],
+  "chapter": "18-driftsmiljoer.md",
+  "chapter_sha256": "8918cef1bad1476630e819dc255185ab80d9a90642e73b5aaa6057e9b8e8d17c",
+  "check_notes": {
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Kontrollerat mot angränsande kapitel och fastställd terminologi.",
+    "editorial": "Helhetskontroll av kapitelövergångar. Skapat tydlig övergång från driftsmiljöernas handlingsfrihet till analys och AI som användningsbehov.",
+    "facts": "Endast redaktionella övergångar; inga nya externa eller rättsliga sakpåståenden.",
+    "illustrations": "Inga illustrationer enligt bokspecifikation.",
+    "language": "Skapat tydlig övergång från driftsmiljöernas handlingsfrihet till analys och AI som användningsbehov.",
+    "sources": "Ingen ändring av källhänvisningar; tidigare dokumenterade kontroller återanvänds.",
+    "structure": "Kapitlets disposition och relation till angränsande kapitel bevarade."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Preciserat Data Act artiklar 30–31.",
+    "Avgränsat GDPR och tredjelandsöverföring.",
+    "Skilt interoperabilitet från portabilitet och återetablering.",
+    "Kompletterat flyttprovet med livscykelkontroller.",
+    "Harmoniserat hybridterminologi och preciserat att gränssnittskompatibilitet inte ensam verifierar flyttbarhet.",
+    "Skapat tydlig övergång från driftsmiljöernas handlingsfrihet till analys och AI som användningsbehov."
+  ],
+  "project_revision_at_review": 64,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Steg 9.1c: förnyad intern redaktionell granskning efter helhetskontroll av bokens disposition, inledning och kapitelövergångar. Kapitel 18 har fått en språklig övergång till efterföljande kapitel, utan nya sakuppgifter. Tidigare käll- och faktakontroller återanvänds; ingen ny oberoende faktagranskning eller visuell PDF/EPUB-kontroll har gjorts.",
+  "updated_at": "2026-11-25T19:59:45+00:00"
+}

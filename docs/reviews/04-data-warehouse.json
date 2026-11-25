@@ -1,0 +1,35 @@
+{
+  "blockers": [],
+  "chapter": "04-data-warehouse.md",
+  "chapter_sha256": "6390e55651452907f4353511bf1a35751fa24db1a9465dd8eb60bdaa9b5f9533",
+  "check_notes": {
+    "audience": "Erfarna IT-arkitekter i reglerade organisationer; begrepp förklaras i sitt sammanhang.",
+    "consistency": "Kontrollerat mot del II (kapitel 4–8) och angränsande kapitel, med tydlig avgränsning mellan lagring, modellering, motorer och arkitekturval.",
+    "editorial": "Läsarfärdig text; hänvisningar och tabeller bevarade utan arbetsmarkörer.",
+    "facts": "Tidigare faktakontroller återanvänds; enbart redaktionella preciseringar utan nya externa sakpåståenden.",
+    "illustrations": "IMG-04-01: Mottagning, integration, historik och Data Marts som logiska funktioner. SVG-validering och visuell kontroll i färg/gråskala vid gemensam förhandsbredd. Faktisk exportkontroll återstår.",
+    "language": "Språklig slutläsning genomförd. Preciserade hur materialiserade representationer hålls aktuella och stramade upp inledningsformuleringen.",
+    "sources": "K041–K045: tidigare granskade metod- och produktbeskrivningar. Snowflake-exemplet återges som teknisk princip, inte produktval eller effektmätning. Källhänvisningar och löptext oförändrade; ingen ny extern granskning.",
+    "structure": "Inledning, teknisk fördjupning, avvägningar och avslutande beslutskriterier i logisk ordning."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "passed",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Ingen ytterligare korrigering; harmoniseringen till mottagningszon är semantiskt neutral.",
+    "Infogat IMG-04-01 med beskrivande bildtext enligt illustrationsplanen.",
+    "Preciserade hur materialiserade representationer hålls aktuella och stramade upp inledningsformuleringen."
+  ],
+  "project_revision_at_review": 60,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Steg 9.1a.2: kapitel 04 slutläst och omgranskat i sin helhet mot del II, kapitelplan, inledning, terminologi och angränsande kapitel. Begränsade språkliga preciseringar införda och återkontrollerade. Ingen ny oberoende fulltext- eller faktagranskning genomförd; tidigare dokumenterade källkontroller återanvänds. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T18:54:08+00:00"
+}

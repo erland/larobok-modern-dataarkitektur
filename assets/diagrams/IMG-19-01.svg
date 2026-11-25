@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1040" viewBox="0 0 1200 1040" role="img"><rect width="1200" height="1040" fill="white"/><g font-family="Noto Sans, DejaVu Sans, sans-serif">
+<text x="40" y="64" font-size="26" font-weight="600" fill="#334155" text-anchor="start">A  Verksamhetsanalys</text>
+<text x="40" y="269" font-size="26" font-weight="600" fill="#334155" text-anchor="start">B  AI-assistent</text>
+<text x="40" y="489" font-size="26" font-weight="600" fill="#334155" text-anchor="start">C  AI-agent</text>
+<text x="40" y="814" font-size="26" font-weight="600" fill="#334155" text-anchor="start">D  AI-integrerat IT-stöd</text>
+<rect x="40" y="90" width="250" height="94" rx="8" fill="#F1F5F9" stroke="#334155" stroke-width="2"/>
+<text x="165.0" y="145.0" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">Operativt IT-stöd</text>
+<rect x="330" y="90" width="250" height="94" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="455.0" y="131.0" font-size="24" font-weight="600" fill="#2563EB" text-anchor="middle">Historisk</text>
+<text x="455.0" y="159.0" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">dataprodukt</text>
+<rect x="620" y="90" width="250" height="94" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="745.0" y="145.0" font-size="24" font-weight="600" fill="#2563EB" text-anchor="middle">Analysmodell</text>
+<rect x="910" y="90" width="250" height="94" rx="8" fill="#F5F3FF" stroke="#7C3AED" stroke-width="2"/>
+<text x="1035.0" y="131.0" font-size="24" font-weight="600" fill="#7C3AED" text-anchor="middle">Rapport eller</text>
+<text x="1035.0" y="159.0" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">uppföljningsvy</text>
+<path d="M290 137 L320.0 137.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="330,137 320.0,142.0 320.0,132.0" fill="#475569"/>
+<path d="M580 137 L610.0 137.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="620,137 610.0,142.0 610.0,132.0" fill="#475569"/>
+<path d="M870 137 L900.0 137.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="910,137 900.0,142.0 900.0,132.0" fill="#475569"/>
+<rect x="40" y="292" width="270" height="70" rx="8" fill="#F1F5F9" stroke="#334155" stroke-width="2"/>
+<text x="175.0" y="335.0" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">Styrdokument</text>
+<rect x="40" y="375" width="270" height="70" rx="8" fill="#F1F5F9" stroke="#334155" stroke-width="2"/>
+<text x="175.0" y="418.0" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">Aktuellt ärende</text>
+<rect x="360" y="292" width="270" height="70" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="495.0" y="335.0" font-size="24" font-weight="600" fill="#2563EB" text-anchor="middle">Sökindex</text>
+<rect x="360" y="375" width="270" height="70" rx="8" fill="#ECFEFF" stroke="#0E7490" stroke-width="2"/>
+<text x="495.0" y="418.0" font-size="24" font-weight="600" fill="#0E7490" text-anchor="middle">Kontrollerat uppslag</text>
+<rect x="700" y="322" width="200" height="90" rx="8" fill="#F5F3FF" stroke="#7C3AED" stroke-width="2"/>
+<text x="800.0" y="375.0" font-size="24" font-weight="600" fill="#7C3AED" text-anchor="middle">AI-assistent</text>
+<rect x="950" y="322" width="210" height="90" rx="8" fill="#F5F3FF" stroke="#7C3AED" stroke-width="2"/>
+<text x="1055.0" y="361.0" font-size="24" font-weight="600" fill="#7C3AED" text-anchor="middle">Svar med</text>
+<text x="1055.0" y="389.0" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">källhänvisningar</text>
+<path d="M310 327 L350.0 327.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="360,327 350.0,332.0 350.0,322.0" fill="#475569"/>
+<path d="M630 327 L690.4996825095951 346.87846711029556" stroke="#475569" stroke-width="2" fill="none"/><polygon points="700,350 688.9389160647429,351.628625855498 692.0604489544473,342.1283083650931" fill="#475569"/>
+<path d="M310 410 L350.0 410.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="360,410 350.0,415.0 350.0,405.0" fill="#475569"/>
+<path d="M630 410 L690.5825808840516 388.36336396998155" stroke="#475569" stroke-width="2" fill="none"/><polygon points="700,385 692.2642628690423,393.07207352795575 688.9008988990608,383.65465441200735" fill="#475569"/>
+<path d="M900 367 L940.0 367.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="950,367 940.0,372.0 940.0,362.0" fill="#475569"/>
+<rect x="40" y="515" width="330" height="84" rx="8" fill="#F1F5F9" stroke="#334155" stroke-width="2"/>
+<text x="205.0" y="551.0" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">Dokument och aktuella</text>
+<text x="205.0" y="579.0" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">ärendeuppgifter</text>
+<rect x="430" y="515" width="300" height="84" rx="8" fill="#ECFEFF" stroke="#0E7490" stroke-width="2"/>
+<text x="580.0" y="565.0" font-size="24" font-weight="600" fill="#0E7490" text-anchor="middle">Kontrollerad läsning</text>
+<rect x="790" y="515" width="370" height="84" rx="8" fill="#F5F3FF" stroke="#7C3AED" stroke-width="2"/>
+<text x="975.0" y="551.0" font-size="24" font-weight="600" fill="#7C3AED" text-anchor="middle">AI-agent</text>
+<text x="975.0" y="579.0" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">Förslag till åtgärd</text>
+<path d="M370 557 L420.0 557.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="430,557 420.0,562.0 420.0,552.0" fill="#475569"/>
+<path d="M730 557 L780.0 557.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="790,557 780.0,562.0 780.0,552.0" fill="#475569"/>
+<rect x="790" y="645" width="370" height="94" rx="8" fill="#FFFBEB" stroke="#B45309" stroke-width="2"/>
+<text x="975.0" y="686.0" font-size="24" font-weight="600" fill="#B45309" text-anchor="middle">Mandat och godkännande</text>
+<text x="975.0" y="714.0" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">Vid behov mänsklig kontroll</text>
+<path d="M975 599 L975.0 635.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="975,645 970.0,635.0 980.0,635.0" fill="#475569"/>
+<rect x="410" y="645" width="330" height="94" rx="8" fill="#F1F5F9" stroke="#334155" stroke-width="2"/>
+<text x="575.0" y="672.0" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">Operativt IT-stöd</text>
+<text x="575.0" y="700.0" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">Funktionsgränssnitt</text>
+<text x="575.0" y="728.0" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">Validerar och utför</text>
+<path d="M790 681 L750.0 681.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="740,681 750.0,676.0 750.0,686.0" fill="#475569"/>
+<path d="M740 708 L780.0 708.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="790,708 780.0,713.0 780.0,703.0" fill="#475569"/>
+<text x="40" y="665" font-size="23" font-weight="600" fill="#334155" text-anchor="start">Separat åtgärdsväg</text>
+<text x="40" y="695" font-size="22" font-weight="400" fill="#334155" text-anchor="start">Ingen skrivning via</text>
+<text x="40" y="724" font-size="22" font-weight="400" fill="#334155" text-anchor="start">analytisk kopia</text>
+<rect x="40" y="842" width="300" height="100" rx="8" fill="#F1F5F9" stroke="#334155" stroke-width="2"/>
+<text x="190.0" y="886.0" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">Operativt IT-stöd</text>
+<text x="190.0" y="914.0" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">Vald handling</text>
+<rect x="430" y="842" width="340" height="100" rx="8" fill="#F5F3FF" stroke="#7C3AED" stroke-width="2"/>
+<text x="600.0" y="886.0" font-size="24" font-weight="600" fill="#7C3AED" text-anchor="middle">Dokumenttolkning</text>
+<text x="600.0" y="914.0" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">Avgränsad AI-tjänst</text>
+<rect x="860" y="842" width="300" height="100" rx="8" fill="#F1F5F9" stroke="#334155" stroke-width="2"/>
+<text x="1010.0" y="886.0" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">Granskningsflöde</text>
+<text x="1010.0" y="914.0" font-size="22" font-weight="400" fill="#334155" text-anchor="middle">Resultat till ärendet</text>
+<path d="M340 892 L420.0 892.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="430,892 420.0,897.0 420.0,887.0" fill="#475569"/>
+<path d="M770 892 L850.0 892.0" stroke="#475569" stroke-width="2" fill="none"/><polygon points="860,892 850.0,897.0 850.0,887.0" fill="#475569"/>
+<rect x="40" y="965" width="1120" height="48" rx="8" fill="#FFFBEB" stroke="#B45309" stroke-width="2"/>
+<text x="600.0" y="997.0" font-size="24" font-weight="600" fill="#B45309" text-anchor="middle">Genomgående: behörighet · Aktualitet · Spårbarhet · Resultatkontroll</text>
+</g></svg>

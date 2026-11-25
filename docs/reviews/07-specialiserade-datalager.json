@@ -1,0 +1,37 @@
+{
+  "blockers": [],
+  "chapter": "07-specialiserade-datalager.md",
+  "chapter_sha256": "cd0179f242b904a2729a28ea11fca746ceba0f3a3fca76bf953cddb7de271e61",
+  "check_notes": {
+    "audience": "Erfarna IT-arkitekter i reglerade organisationer; begrepp förklaras i sitt sammanhang.",
+    "consistency": "Kontrollerat mot del II (kapitel 4–8) och angränsande kapitel, med tydlig avgränsning mellan lagring, modellering, motorer och arkitekturval.",
+    "editorial": "Läsarfärdig text; hänvisningar och tabeller bevarade utan arbetsmarkörer.",
+    "facts": "Tidigare faktakontroller återanvänds; enbart redaktionella preciseringar utan nya externa sakpåståenden.",
+    "illustrations": "Inga illustrationer enligt bokplan.",
+    "language": "Språklig slutläsning genomförd. Förtydligade syftet med Feature Store och att behovet av förmågan, inte produkten, ska motiveras.",
+    "sources": "K030 officiellt konferensabstract via tidtabell (direktlänk 403), K057–K063 relevanta originalavsnitt, K064 abstract, K065 och K066 originaldokumentation.",
+    "structure": "Inledning, teknisk fördjupning, avvägningar och avslutande beslutskriterier i logisk ordning."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Stonebraker och Çetintemel argumenterade redan 2005 för att olika arbetslaster motiverar olika databasmotorer [K064]. Deras tes innebär inte att varje modernt användningsfall kräver en separat produkt. Specialisering är motiverad när",
+    "Ett Operational Data Store (ODS) används här som beteckning för ett integrerat lager med relativt aktuell operativ information. Oracle beskriver ODS som ett lager för den dagliga verksamheten med begränsat historiskt djup [K065].",
+    "Approximativa index kan ge kortare svarstid på bekostnad av att vissa av de närmaste vektorerna missas [K061]. Mät därför både svarstid och återfinningsgrad (recall) mot exakt sökning med samma avståndsmått och filter. Semantisk relevans behöver dessutom bedömas separat.",
+    "Vid träning måste informationen väljas så att den representerar vad som kunde vara känt vid den relevanta tidpunkten; annars kan framtida information läcka in i träningsunderlaget. Feast beskriver tidskorrekta kopplingar till historiska modellvariabler [K066]. För att även hantera sent registrerade uppgifter eller retroaktiva rättelser behöver organisationen säkerställa att uppgifternas faktiska tillgänglighetstid beaktas, inte enbart händelsetiden.",
+    "Förtydligade syftet med Feature Store och att behovet av förmågan, inte produkten, ska motiveras."
+  ],
+  "project_revision_at_review": 60,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Steg 9.1a.2: kapitel 07 slutläst och omgranskat i sin helhet mot del II, kapitelplan, inledning, terminologi och angränsande kapitel. Begränsade språkliga preciseringar införda och återkontrollerade. Ingen ny oberoende fulltext- eller faktagranskning genomförd; tidigare dokumenterade källkontroller återanvänds. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T18:54:08+00:00"
+}

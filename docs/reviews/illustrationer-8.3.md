@@ -1,0 +1,3 @@
+# Steg 8.3 – granskningsunderlag
+
+Tre manuellt kodade SVG-källor, renderade med projektets render_diagrams.py och rasteriserade med CairoSVG för kontroll. Kapitel 4–6 är sakunderlag. Gemensam lagerindelning, styrningsfält och färgsemantik. Data Warehouse betonar integrerad historik och Data Marts; Lake betonar heterogena filer och logiska zoner; Lakehouse betonar förvaltade tabeller, katalog och kompatibla motorer. Exempel på logiska strukturer, inte produktkrav. Pilplacering justerades efter förhandsgranskning. Kapitel och tidigare godkännanden lämnas oförändrade till integreringssteget. Ingen faktisk PDF/EPUB-export eller kontroll i slutligt bokformat har gjorts.

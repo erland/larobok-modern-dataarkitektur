@@ -1,0 +1,35 @@
+{
+  "blockers": [],
+  "chapter": "16-datastyrning.md",
+  "chapter_sha256": "838e97f76491b7464a14c91b9b24f02701fdf5e3a24bbf18d9c9ff5cc3ea9aca",
+  "check_notes": {
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Kontrollerat mot angränsande kapitel och fastställd terminologi.",
+    "editorial": "Helhetskontroll av kapitelövergångar. Förtydligat övergången från kvalitetsstyrning till säkerhet och informationslivscykel.",
+    "facts": "Endast redaktionella övergångar; inga nya externa eller rättsliga sakpåståenden.",
+    "illustrations": "Inga illustrationer enligt bokspecifikation.",
+    "language": "Förtydligat övergången från kvalitetsstyrning till säkerhet och informationslivscykel.",
+    "sources": "Ingen ändring av källhänvisningar; tidigare dokumenterade kontroller återanvänds.",
+    "structure": "Kapitlets problem, principer, avvägningar och beslutskriterier hålls samman i befintlig disposition."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Gjort skillnaden mellan korrekt beräkning och verklighetsbeskrivning tydligare samt förenklat formuleringen om statistiska avvikelser.",
+    "Förtydligat övergången från kvalitetsstyrning till säkerhet och informationslivscykel."
+  ],
+  "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
+  "project_revision_at_review": 64,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Steg 9.1c: förnyad intern redaktionell granskning efter helhetskontroll av bokens disposition, inledning och kapitelövergångar. Kapitel 16 har fått en språklig övergång till efterföljande kapitel, utan nya sakuppgifter. Tidigare käll- och faktakontroller återanvänds; ingen ny oberoende faktagranskning eller visuell PDF/EPUB-kontroll har gjorts.",
+  "updated_at": "2026-11-25T19:59:45+00:00"
+}

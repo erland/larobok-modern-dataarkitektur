@@ -1,0 +1,37 @@
+{
+  "blockers": [],
+  "chapter": "15-organisatoriska-arkitekturval.md",
+  "chapter_sha256": "c712d414b70b5d5db687904356ad8405d46067ec59421644d5a140e93b06b8dd",
+  "check_notes": {
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Kontrollerat mot angränsande kapitel och fastställd terminologi.",
+    "editorial": "Helhetskontroll av kapitelövergångar. Tydliggjort övergången från organisatorisk ansvarsfördelning till informationskvalitet, metadata och styrning.",
+    "facts": "Endast redaktionella övergångar; inga nya externa eller rättsliga sakpåståenden.",
+    "illustrations": "Inga illustrationer enligt bokspecifikation.",
+    "language": "Tydliggjort övergången från organisatorisk ansvarsfördelning till informationskvalitet, metadata och styrning.",
+    "sources": "Ingen ändring av källhänvisningar; tidigare dokumenterade kontroller återanvänds.",
+    "structure": "Kapitlets problem, principer, avvägningar och beslutskriterier hålls samman i befintlig disposition."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Preciserat beslutsmandat och undantag.",
+    "Avgränsat BCBS-nyhetsbrev från kvantitativ uppföljning och tillsynsvägledning.",
+    "Preciserat FinOps-kontext och jämförbar utgångsnivå.",
+    "Preciserat hur organisatoriska flaskhalsar bör bedömas och skillnaden mellan formellt delegerat ansvar och faktisk genomförandeförmåga.",
+    "Tydliggjort övergången från organisatorisk ansvarsfördelning till informationskvalitet, metadata och styrning."
+  ],
+  "project_revision_at_review": 64,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Steg 9.1c: förnyad intern redaktionell granskning efter helhetskontroll av bokens disposition, inledning och kapitelövergångar. Kapitel 15 har fått en språklig övergång till efterföljande kapitel, utan nya sakuppgifter. Tidigare käll- och faktakontroller återanvänds; ingen ny oberoende faktagranskning eller visuell PDF/EPUB-kontroll har gjorts.",
+  "updated_at": "2026-11-25T19:59:45+00:00"
+}

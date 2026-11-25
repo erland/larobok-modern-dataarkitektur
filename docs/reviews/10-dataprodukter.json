@@ -1,0 +1,35 @@
+{
+  "blockers": [],
+  "chapter": "10-dataprodukter.md",
+  "chapter_sha256": "52e72565cd1a1cd1f63a5b0ed9b74e814d810fddc37933eb637f260fdfd89731",
+  "check_notes": {
+    "audience": "Avsett för erfarna IT-arkitekter i reglerade organisationer.",
+    "consistency": "Informationsöverföring i kapitel 9, dataproduktens åtagande i kapitel 10 och åtkomst i kapitel 11 hålls tydligt åtskilda.",
+    "editorial": "Redaktionell slutläsning av hela kapitlet; inga arbetsmarkörer eller nya saköverlappningar.",
+    "facts": "Ingen ny oberoende faktagranskning; redaktionella ändringar utan nya externa sakpåståenden.",
+    "illustrations": "Inga illustrationer enligt bokspecifikation.",
+    "language": "Förtydligad konsumentnytta och förändringshantering; harmoniserad formulering av författarnamn.",
+    "sources": "Befintliga källidentifierare och källstött innehåll bevarade; tidigare källkontroller återanvänds.",
+    "structure": "Kapitlets disposition följer begrepp, tillämpning, avvägningar och beslutskriterier."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Ingen ytterligare korrigering; mottagningszon konsekvent med kapitel 9 och produkten är inte en överföringsteknik.",
+    "Förtydligad konsumentnytta och förändringshantering; harmoniserad formulering av författarnamn."
+  ],
+  "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
+  "project_revision_at_review": 61,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Steg 9.1a.3: kapitel 10 slutläst i sin helhet mot kapitel 9–11 och kapitelplanen. Redaktionella preciseringar införda och återlästa. Tidigare dokumenterade källkontroller återanvänds; ingen ny oberoende extern faktagranskning genomförd. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T18:57:08+00:00"
+}

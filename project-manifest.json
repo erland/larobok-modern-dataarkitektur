@@ -1,0 +1,570 @@
+{
+  "canonical_zip_name": "modern-dataarkitektur-omstart-r065.zip",
+  "chapters": {
+    "count": 22,
+    "hashes": {
+      "chapters/01-dataarkitekturens-utveckling.md": "e03bc737a78d35ad3d49b379d0bea6318013d17bb1825c06b9fadd8d6c56bca9",
+      "chapters/02-operativ-och-analytisk-datahantering.md": "734377e16e7005e571f46e595e4ee992c7c077b4a0abc3afe5ee02683b559c77",
+      "chapters/03-dataarkitekturens-dimensioner.md": "3b343c7b885fcbfafe8b8b965b93045e4e41c525fcc3f8e458ce51e076201570",
+      "chapters/04-data-warehouse.md": "6390e55651452907f4353511bf1a35751fa24db1a9465dd8eb60bdaa9b5f9533",
+      "chapters/05-data-lake.md": "87f4d976be0d4f6b0f288b8a804f18759af0655f7470289907ce3d2f972e146c",
+      "chapters/06-data-lakehouse.md": "7251896d872bdb534f3ce4922f9b8cff1fb3d3e367002a1ca232bb1a03898362",
+      "chapters/07-specialiserade-datalager.md": "cd0179f242b904a2729a28ea11fca746ceba0f3a3fca76bf953cddb7de271e61",
+      "chapters/08-jamforande-analys.md": "be27a901addea78d861b3ffa2cba78795529b90522a4b62c766dfa25ec70c869",
+      "chapters/09-informationsforsorjning.md": "f4107e1c55fb26d7602caeb2330eeed5166029a42758513832c73213467cf319",
+      "chapters/10-dataprodukter.md": "52e72565cd1a1cd1f63a5b0ed9b74e814d810fddc37933eb637f260fdfd89731",
+      "chapters/11-datadelning.md": "fd85632861dfda678f7b737f14e474c85316492b181fbd8e5057ad462362ecfd",
+      "chapters/12-dataplattformar.md": "f87d6f289b83ab314a95c33fc85711b1210dccf605afe7e574ba43d74883f553",
+      "chapters/13-data-mesh.md": "c88745ed400e82f45b95f270d849d6b7c4113d6e71e6bae615a6310cf52c874a",
+      "chapters/14-data-fabric.md": "1bee8c04317870e8a69c3e49f3d7b6d3ae6a276fa330bdbf753ff1a1ff9520aa",
+      "chapters/15-organisatoriska-arkitekturval.md": "c712d414b70b5d5db687904356ad8405d46067ec59421644d5a140e93b06b8dd",
+      "chapters/16-datastyrning.md": "838e97f76491b7464a14c91b9b24f02701fdf5e3a24bbf18d9c9ff5cc3ea9aca",
+      "chapters/17-informationssakerhet.md": "a9b7e1fe98656714ed89aab243668bb94d8450996815be4e92faad4392a2dbd0",
+      "chapters/18-driftsmiljoer.md": "8918cef1bad1476630e819dc255185ab80d9a90642e73b5aaa6057e9b8e8d17c",
+      "chapters/19-dataarkitektur-for-analys-och-ai.md": "8046cf067a96f4b0822df58bb25108f08336c3a09f05b7c2b3c16502d0d1ce43",
+      "chapters/20-referensarkitekturer.md": "495ba230a4d1cb32676371f05e8e25a536cf989df94a6507666b2471481cb59c",
+      "chapters/21-stegvis-modernisering.md": "5fccb8c5c16a1211e120c36a75d4faf923f75fce7c1423e2138e7738978002d0",
+      "chapters/99-kallregister.md": "0c2fef3dd331d05188b0edc1761080eb2bda52d82b9336356170e3d0d7cdbc8e"
+    },
+    "latest": 99
+  },
+  "created_at": "2026-11-25T07:13:25Z",
+  "last_operation": {
+    "changed_files": [
+      "chapters/11-datadelning.md",
+      "chapters/15-organisatoriska-arkitekturval.md",
+      "chapters/16-datastyrning.md",
+      "chapters/18-driftsmiljoer.md",
+      "docs/projektstatus.md",
+      "docs/reviews/11-datadelning.json",
+      "docs/reviews/15-organisatoriska-arkitekturval.json",
+      "docs/reviews/16-datastyrning.json",
+      "docs/reviews/18-driftsmiljoer.json",
+      "docs/reviews/helhetsgranskning-9.1c.md",
+      "project-index.md"
+    ],
+    "operation": "Steg 9.1c: samlad redaktionell helhetsgranskning och kapitelövergångar",
+    "source_revision": 64
+  },
+  "parent_revision": 64,
+  "project_id": "e3de759e-c3cf-4a30-9628-20931db7776b",
+  "project_slug": "modern-dataarkitektur",
+  "revision": 65,
+  "schema_version": 1,
+  "template": false,
+  "tracked_files": {
+    ".github/workflows/01-validate.yml": {
+      "bytes": 292,
+      "sha256": "56c504376f59ec4a5a7ab59ab29be43784f636f832af5c6e98f14b694c15afb7"
+    },
+    ".github/workflows/02-build-preview.yml": {
+      "bytes": 1196,
+      "sha256": "e88aaffff011c8cde3a28299a22064a8ead0606ee966fde0c45ce613673e0047"
+    },
+    ".github/workflows/03-release.yml": {
+      "bytes": 1699,
+      "sha256": "16f1070e5823afacd170e026de6b297354526066a42639c70cd26362408903d3"
+    },
+    "README.md": {
+      "bytes": 2626,
+      "sha256": "6102f354a6a28647641e8f00dd58230a714646389bedcf2c40c766420a3072f6"
+    },
+    "assets/cover/README.md": {
+      "bytes": 55,
+      "sha256": "9ae0299913b2c9ecc17c81203421c3f106ff095fbdea0985f449d2fb562b7c10"
+    },
+    "assets/cover/cover.png": {
+      "bytes": 1726307,
+      "sha256": "b3e06cee52860146109bc3719406a83782dc018c0297098c4f0fab3de0ed7457"
+    },
+    "assets/diagrams/IMG-02-01.svg": {
+      "bytes": 3783,
+      "sha256": "5ab2edf0dfe1200ff2f691ac830648cf457f4f97df1fe4716c7ba230271f005f"
+    },
+    "assets/diagrams/IMG-03-01.svg": {
+      "bytes": 2872,
+      "sha256": "a1e00469cdf6a017d39db621297b4ea58b644ea650e43932d28a771eadc9693c"
+    },
+    "assets/diagrams/IMG-04-01.svg": {
+      "bytes": 4583,
+      "sha256": "5561857e6aefc6e634f606ed8759260eb9712088d942712cb3695ffd2e699606"
+    },
+    "assets/diagrams/IMG-05-01.svg": {
+      "bytes": 5867,
+      "sha256": "a867ca0083fc69e508c8d63326d62a21b088b9b25b67cbd70488d3681e135b3e"
+    },
+    "assets/diagrams/IMG-06-01.svg": {
+      "bytes": 5727,
+      "sha256": "0a6746a43bd4cdf2a9dd1877178bb7b72768ad4db114311bac21def01a057af9"
+    },
+    "assets/diagrams/IMG-09-01.svg": {
+      "bytes": 6228,
+      "sha256": "edb66b93e433c58ce707548800d10e80d0ad06066a79166df2fc769561252d62"
+    },
+    "assets/diagrams/IMG-12-01.svg": {
+      "bytes": 7097,
+      "sha256": "22723cd20de53904d7bc13c4a1b1b732e1f5fd8588de26a8c810e9f80223618f"
+    },
+    "assets/diagrams/IMG-19-01.svg": {
+      "bytes": 8971,
+      "sha256": "532591090e6840915fc1a3e9cd7de251067dfc4d606e16df374e6911bea25bd9"
+    },
+    "assets/diagrams/IMG-20-01.svg": {
+      "bytes": 8783,
+      "sha256": "ac433bf5eb5399a5deb9e01d1cfe6b69faae0f8f20a56c2044b5904d872bbf3b"
+    },
+    "assets/generated/IMG-02-01.svg": {
+      "bytes": 3783,
+      "sha256": "5ab2edf0dfe1200ff2f691ac830648cf457f4f97df1fe4716c7ba230271f005f"
+    },
+    "assets/generated/IMG-03-01.svg": {
+      "bytes": 2872,
+      "sha256": "a1e00469cdf6a017d39db621297b4ea58b644ea650e43932d28a771eadc9693c"
+    },
+    "assets/generated/IMG-04-01.svg": {
+      "bytes": 4583,
+      "sha256": "5561857e6aefc6e634f606ed8759260eb9712088d942712cb3695ffd2e699606"
+    },
+    "assets/generated/IMG-05-01.svg": {
+      "bytes": 5867,
+      "sha256": "a867ca0083fc69e508c8d63326d62a21b088b9b25b67cbd70488d3681e135b3e"
+    },
+    "assets/generated/IMG-06-01.svg": {
+      "bytes": 5727,
+      "sha256": "0a6746a43bd4cdf2a9dd1877178bb7b72768ad4db114311bac21def01a057af9"
+    },
+    "assets/generated/IMG-09-01.svg": {
+      "bytes": 6228,
+      "sha256": "edb66b93e433c58ce707548800d10e80d0ad06066a79166df2fc769561252d62"
+    },
+    "assets/generated/IMG-12-01.svg": {
+      "bytes": 7097,
+      "sha256": "22723cd20de53904d7bc13c4a1b1b732e1f5fd8588de26a8c810e9f80223618f"
+    },
+    "assets/generated/IMG-19-01.svg": {
+      "bytes": 8971,
+      "sha256": "532591090e6840915fc1a3e9cd7de251067dfc4d606e16df374e6911bea25bd9"
+    },
+    "assets/generated/IMG-20-01.svg": {
+      "bytes": 8783,
+      "sha256": "ac433bf5eb5399a5deb9e01d1cfe6b69faae0f8f20a56c2044b5904d872bbf3b"
+    },
+    "assets/image-prompts/COVER-01.md": {
+      "bytes": 602,
+      "sha256": "f0b11a772d0745e84f1f0fed043a29d714c3a2872ebe41c5c332910f32a90312"
+    },
+    "assets/image-prompts/README.md": {
+      "bytes": 71,
+      "sha256": "b50a8f92cd321ad174fb2991e1d2e9f931ae67bcd5a84b94957dea4fcef2cf9a"
+    },
+    "assets/images/README.md": {
+      "bytes": 91,
+      "sha256": "3ca661eed049895bf1314529400eb0e2719817b82569f15b58aeb794a7966fa3"
+    },
+    "book.yaml": {
+      "bytes": 1615,
+      "sha256": "dd0d9ed9e8ff1e921a04ed489f442b1541492b90cfdc7bff3e02d93f5125331b"
+    },
+    "chapters/00-inledning.md": {
+      "bytes": 3627,
+      "sha256": "ba63b35b607daa4d110c34f0cc5d5acf5c4bf8a8c09d85681a4b9bc7d9b3addd"
+    },
+    "chapters/01-dataarkitekturens-utveckling.md": {
+      "bytes": 9027,
+      "sha256": "e03bc737a78d35ad3d49b379d0bea6318013d17bb1825c06b9fadd8d6c56bca9"
+    },
+    "chapters/02-operativ-och-analytisk-datahantering.md": {
+      "bytes": 10651,
+      "sha256": "734377e16e7005e571f46e595e4ee992c7c077b4a0abc3afe5ee02683b559c77"
+    },
+    "chapters/03-dataarkitekturens-dimensioner.md": {
+      "bytes": 7952,
+      "sha256": "3b343c7b885fcbfafe8b8b965b93045e4e41c525fcc3f8e458ce51e076201570"
+    },
+    "chapters/04-data-warehouse.md": {
+      "bytes": 13688,
+      "sha256": "6390e55651452907f4353511bf1a35751fa24db1a9465dd8eb60bdaa9b5f9533"
+    },
+    "chapters/05-data-lake.md": {
+      "bytes": 10521,
+      "sha256": "87f4d976be0d4f6b0f288b8a804f18759af0655f7470289907ce3d2f972e146c"
+    },
+    "chapters/06-data-lakehouse.md": {
+      "bytes": 13215,
+      "sha256": "7251896d872bdb534f3ce4922f9b8cff1fb3d3e367002a1ca232bb1a03898362"
+    },
+    "chapters/07-specialiserade-datalager.md": {
+      "bytes": 12659,
+      "sha256": "cd0179f242b904a2729a28ea11fca746ceba0f3a3fca76bf953cddb7de271e61"
+    },
+    "chapters/08-jamforande-analys.md": {
+      "bytes": 12803,
+      "sha256": "be27a901addea78d861b3ffa2cba78795529b90522a4b62c766dfa25ec70c869"
+    },
+    "chapters/09-informationsforsorjning.md": {
+      "bytes": 15275,
+      "sha256": "f4107e1c55fb26d7602caeb2330eeed5166029a42758513832c73213467cf319"
+    },
+    "chapters/10-dataprodukter.md": {
+      "bytes": 10217,
+      "sha256": "52e72565cd1a1cd1f63a5b0ed9b74e814d810fddc37933eb637f260fdfd89731"
+    },
+    "chapters/11-datadelning.md": {
+      "bytes": 9753,
+      "sha256": "fd85632861dfda678f7b737f14e474c85316492b181fbd8e5057ad462362ecfd"
+    },
+    "chapters/12-dataplattformar.md": {
+      "bytes": 15868,
+      "sha256": "f87d6f289b83ab314a95c33fc85711b1210dccf605afe7e574ba43d74883f553"
+    },
+    "chapters/13-data-mesh.md": {
+      "bytes": 7584,
+      "sha256": "c88745ed400e82f45b95f270d849d6b7c4113d6e71e6bae615a6310cf52c874a"
+    },
+    "chapters/14-data-fabric.md": {
+      "bytes": 8457,
+      "sha256": "1bee8c04317870e8a69c3e49f3d7b6d3ae6a276fa330bdbf753ff1a1ff9520aa"
+    },
+    "chapters/15-organisatoriska-arkitekturval.md": {
+      "bytes": 10108,
+      "sha256": "c712d414b70b5d5db687904356ad8405d46067ec59421644d5a140e93b06b8dd"
+    },
+    "chapters/16-datastyrning.md": {
+      "bytes": 10506,
+      "sha256": "838e97f76491b7464a14c91b9b24f02701fdf5e3a24bbf18d9c9ff5cc3ea9aca"
+    },
+    "chapters/17-informationssakerhet.md": {
+      "bytes": 10236,
+      "sha256": "a9b7e1fe98656714ed89aab243668bb94d8450996815be4e92faad4392a2dbd0"
+    },
+    "chapters/18-driftsmiljoer.md": {
+      "bytes": 10082,
+      "sha256": "8918cef1bad1476630e819dc255185ab80d9a90642e73b5aaa6057e9b8e8d17c"
+    },
+    "chapters/19-dataarkitektur-for-analys-och-ai.md": {
+      "bytes": 13090,
+      "sha256": "8046cf067a96f4b0822df58bb25108f08336c3a09f05b7c2b3c16502d0d1ce43"
+    },
+    "chapters/20-referensarkitekturer.md": {
+      "bytes": 14819,
+      "sha256": "495ba230a4d1cb32676371f05e8e25a536cf989df94a6507666b2471481cb59c"
+    },
+    "chapters/21-stegvis-modernisering.md": {
+      "bytes": 9163,
+      "sha256": "5fccb8c5c16a1211e120c36a75d4faf923f75fce7c1423e2138e7738978002d0"
+    },
+    "chapters/99-kallregister.md": {
+      "bytes": 14279,
+      "sha256": "0c2fef3dd331d05188b0edc1761080eb2bda52d82b9336356170e3d0d7cdbc8e"
+    },
+    "chapters/kapitelmall-faktabok.md": {
+      "bytes": 337,
+      "sha256": "66f5e412396793af328b5fb1b5bbd4dec3412a62b3db4f4fdb00b97639d5f53c"
+    },
+    "chapters/kapitelmall-larobok.md": {
+      "bytes": 291,
+      "sha256": "84280ff1d5ca1f3743a8103d6e3342030e7055293ef947c7b2d07002287a7957"
+    },
+    "code/README.md": {
+      "bytes": 56,
+      "sha256": "6e24dcdfa47615f15207b592e216103956f6511dcdb64c4be75c2c191dc3b5e7"
+    },
+    "docs/bokspecifikation.md": {
+      "bytes": 606,
+      "sha256": "d5954293c7d2b7288c37cfb2ca01efdd5de4c122657f2097026807e29aee7756"
+    },
+    "docs/export-guide.md": {
+      "bytes": 2170,
+      "sha256": "2ffa8dded09f00bca0216a6ed3e708585785b65f88a3cc48d1ab091e2f750327"
+    },
+    "docs/faktakontroll.md": {
+      "bytes": 29087,
+      "sha256": "33c92264c5130eafc0b6f797bb53886acfc3149111b6db884fa32600b2ff25ab"
+    },
+    "docs/illustration-design.md": {
+      "bytes": 2437,
+      "sha256": "d80f4721a9d4f419c61c801c3b8f730475bff67649b0d236596493692ddecb9a"
+    },
+    "docs/illustration-plan.md": {
+      "bytes": 9517,
+      "sha256": "b9747d2cdb8e672232932da510f59875bc8586a7ed45a5b7ee95cac6f98f32be"
+    },
+    "docs/innehalls-canon.md": {
+      "bytes": 651,
+      "sha256": "3e9da66dd8ba43c08bb0a1fbec0e2e9ba7eb52249b74152ea2a9231655bcd5b9"
+    },
+    "docs/kallinventering.md": {
+      "bytes": 10975,
+      "sha256": "b4d993d402fa02c0cf802cbcbe3b2b572753789d5d3c88d36887ba4636e47cce"
+    },
+    "docs/kallpolicy.md": {
+      "bytes": 1851,
+      "sha256": "8097ccf7c54b12bd45e78b052cd27738eb3436fa9fc07309b94b4926fa61a2ed"
+    },
+    "docs/kapitelplan.md": {
+      "bytes": 6660,
+      "sha256": "7a4640c8cc4d041e7f02699412277b360ffa711799dffddf2c774467d214d209"
+    },
+    "docs/projektstatus.md": {
+      "bytes": 1948,
+      "sha256": "e413ecd254564410dc647ba3757705135b648b4e8c56c60858dfd2d65e677f78"
+    },
+    "docs/quality-checklist.md": {
+      "bytes": 2131,
+      "sha256": "d8eac6669a45ab9c82a7e4cafdbc0594d925ff395fd4a42564fa00d0164c29c3"
+    },
+    "docs/reviews/00-inledning.json": {
+      "bytes": 2566,
+      "sha256": "c1bb48636759e9ce1d1cc32ac1efc3fda75737fda2a0fad664bb45d51145d650"
+    },
+    "docs/reviews/01-dataarkitekturens-utveckling.json": {
+      "bytes": 2673,
+      "sha256": "4cbbbb52ba9694aded9b03bc2e98d17eee8273fe47f038296ec12601ce516962"
+    },
+    "docs/reviews/02-operativ-och-analytisk-datahantering.json": {
+      "bytes": 2779,
+      "sha256": "93cdfd8fa1370a501a6cffd7f6ddba9ea3f6b9b516e43fbd949ba170a22d69d7"
+    },
+    "docs/reviews/03-dataarkitekturens-dimensioner.json": {
+      "bytes": 2913,
+      "sha256": "1a37056ae782ee511e1badaf809339774ce11aecf5206f3efb1a1a3e5e1baceb"
+    },
+    "docs/reviews/04-data-warehouse.json": {
+      "bytes": 2466,
+      "sha256": "6abe4e1ef22d9a1ca57d3f93b8907e5fcdf9d60a7ac5c412c876da7e6075a681"
+    },
+    "docs/reviews/05-data-lake.json": {
+      "bytes": 2479,
+      "sha256": "2e8d5f6b6502174c1bf528f23a504dbb957944128924e9e60ac9b1069fca87eb"
+    },
+    "docs/reviews/06-data-lakehouse.json": {
+      "bytes": 3904,
+      "sha256": "4f35c21f798972ca3f9fd951d881f88f3aa553b24d39815118f930c4550481e7"
+    },
+    "docs/reviews/07-specialiserade-datalager.json": {
+      "bytes": 3318,
+      "sha256": "1f103db2d740f26ed6852efe123a589c67f92652032794e64f688395055e23e9"
+    },
+    "docs/reviews/08-jamforande-analys.json": {
+      "bytes": 2396,
+      "sha256": "7bc34f78f1ce2353b9bd9d35f0d59041c6d2542c97bf7448bd09e551ac4e0c44"
+    },
+    "docs/reviews/09-informationsforsorjning.json": {
+      "bytes": 2112,
+      "sha256": "1bcc7277bc1929fc7cb84dafcf56c8b994678b69107055ca3f792e4eb17a9a24"
+    },
+    "docs/reviews/10-dataprodukter.json": {
+      "bytes": 2055,
+      "sha256": "1ce13f1bdb7efbbc8cfd5dc2d093ebf713977f59d922f28d1674ded7ff7556ee"
+    },
+    "docs/reviews/11-datadelning.json": {
+      "bytes": 2183,
+      "sha256": "f68020767b109dc85b79198e321d72250581a48b3784076807edff7c525345be"
+    },
+    "docs/reviews/12-dataplattformar.json": {
+      "bytes": 2069,
+      "sha256": "d8ef41227e23a1cc1f819b2eddb204e5bf0082c0f9aa5d20d6a7cdb2264383b4"
+    },
+    "docs/reviews/13-data-mesh.json": {
+      "bytes": 2000,
+      "sha256": "382c7de8b3da07f64d276d15c2dbe8320530313ec7ae50cc77a61673bdb97075"
+    },
+    "docs/reviews/14-data-fabric.json": {
+      "bytes": 2022,
+      "sha256": "ffd9d0fa8c6110bb71418e4b3b34b4cee00f5248d21e3e6a4c128c8549f516ab"
+    },
+    "docs/reviews/15-organisatoriska-arkitekturval.json": {
+      "bytes": 2304,
+      "sha256": "b85b24804517b3b933ae45fdebdab2b9645a6962e386e521d11c541bfbb9a662"
+    },
+    "docs/reviews/16-datastyrning.json": {
+      "bytes": 2099,
+      "sha256": "4c5b3ee0349041cb301510d0d057d423e22f7fc55843cb336090cec165abed13"
+    },
+    "docs/reviews/17-informationssakerhet.json": {
+      "bytes": 2247,
+      "sha256": "82a81f90b1cac18f893c7f13ca15d6d04274f4819020d9daa19f33f3a6c89b3e"
+    },
+    "docs/reviews/18-driftsmiljoer.json": {
+      "bytes": 2228,
+      "sha256": "ccfa1d6fca2cf0b3b0ad72e41e78207d309f935367f67e3645549bca93e787ea"
+    },
+    "docs/reviews/19-dataarkitektur-for-analys-och-ai.json": {
+      "bytes": 2222,
+      "sha256": "69025bba74aa29767c66294eefb696e75607beaf6170b1d80e448dd88dc97e92"
+    },
+    "docs/reviews/20-referensarkitekturer.json": {
+      "bytes": 2211,
+      "sha256": "3275f1c5a78ddc1dda66bfa57f4a384c7f7c827bb84d40776fc64bd1bda42cc3"
+    },
+    "docs/reviews/21-stegvis-modernisering.json": {
+      "bytes": 2079,
+      "sha256": "7b038b2fd67a22c7e2b2bbb6c8292797beeb747abe4ac8954fcafeca87f6d943"
+    },
+    "docs/reviews/README.md": {
+      "bytes": 772,
+      "sha256": "5840e53d4df2e7685240bbdbaeee7d0e1e852e730bc22745182f2a64a5daaee4"
+    },
+    "docs/reviews/del-II.md": {
+      "bytes": 625,
+      "sha256": "d20c094c07c0f7d0ee18cfc21b30aed146e732c4cf6fac390e4cd2fe8085caa7"
+    },
+    "docs/reviews/del-III.md": {
+      "bytes": 800,
+      "sha256": "5d3d7e21a201737261b9e2ecb6e61b2f65956c2efde2d689b1715394bab1457b"
+    },
+    "docs/reviews/del-IV.md": {
+      "bytes": 752,
+      "sha256": "858fd3efb631521b04f389c19cbe26f53e3d5432b5417c9040dfdebffd6f4fce"
+    },
+    "docs/reviews/del-V.md": {
+      "bytes": 719,
+      "sha256": "bec1a161eef87f1bba36caa5caaf966b72574fb681b8c9c6bae7111fded0b73c"
+    },
+    "docs/reviews/del-VI.md": {
+      "bytes": 618,
+      "sha256": "ef67cbedd85c0d57a6343841216cf420fd965eeb5b922a74d28ac12fb92385a6"
+    },
+    "docs/reviews/fordjupning-7.1b.md": {
+      "bytes": 520,
+      "sha256": "07c6319298d88eba6e46094f21968099bec0c5ea26fa9c2762ffc5e38e0708d1"
+    },
+    "docs/reviews/fordjupning-7.1c.md": {
+      "bytes": 474,
+      "sha256": "6cba91784aa5986f4f4901cd64eac7e9d07763d60da03b43ad536598f33f3ab1"
+    },
+    "docs/reviews/fornyad-granskning-7.3b.md": {
+      "bytes": 1917,
+      "sha256": "b145a02d265344ccba01c1cb81b85290f7403cb7f1ea4a5a4520b79d8ccf4f66"
+    },
+    "docs/reviews/fornyad-granskning-7.3c.md": {
+      "bytes": 2218,
+      "sha256": "9ae4ab94f07fb7cd66a6198fa3132450bd1d128c4fe8cfdb6ac762016a6bf6e8"
+    },
+    "docs/reviews/helhetsgranskning-9.1c.md": {
+      "bytes": 2846,
+      "sha256": "2273df69b3ed642191ee33eb3aadc933305d702d1cf846df72e9b3241ad5b9c8"
+    },
+    "docs/reviews/illustrationer-8.3.md": {
+      "bytes": 690,
+      "sha256": "cab6c5cd47c9e932b495b32fd6b5a90198f67e1dfe0c5e956ac33841c8104360"
+    },
+    "docs/reviews/illustrationer-8.4.md": {
+      "bytes": 869,
+      "sha256": "ddfad3139a17ea6e37ab0c62f7c57a417020640913dfa61e6a9c8b2e16c23f31"
+    },
+    "docs/reviews/illustrationer-8.5.md": {
+      "bytes": 1167,
+      "sha256": "df1d25aec18f9b867df56d3de2fe08ff5e3295a274f0f89ffc8e50d53a3f1d70"
+    },
+    "docs/reviews/illustrationer-8.6.md": {
+      "bytes": 743,
+      "sha256": "19842d9e7f309454c2fb1029c097dc939407443fb6d1800d9f9a955fc17f56ee"
+    },
+    "docs/reviews/illustrationer-8.7.md": {
+      "bytes": 1614,
+      "sha256": "1ee93104ee127d53549d944a7c6c75d240600032535ec96f847ff4e73f463e0e"
+    },
+    "docs/reviews/kallkontroll-7.3a.md": {
+      "bytes": 5903,
+      "sha256": "fec5910c088b631fa5e6b1ff39982631b917ec1f3eb53be9766ea145088c6a2e"
+    },
+    "docs/reviews/overlappningar.md": {
+      "bytes": 821,
+      "sha256": "4508df3aad2df5225c7ff5d362f1d60e14c4b14f0a823b2aaf58c088559b990a"
+    },
+    "docs/reviews/redaktionell-7.2.md": {
+      "bytes": 1122,
+      "sha256": "d7b31509db3232b41c37342f2e3dfb60592abf50aa17d798d38a6433414f1b84"
+    },
+    "docs/reviews/slutverifiering-7.3d.md": {
+      "bytes": 1673,
+      "sha256": "2cca245ac4c1a586d0328ed7f3737b74c8404a5a2acd532c413c49bedab86eb8"
+    },
+    "docs/terminologi.md": {
+      "bytes": 1752,
+      "sha256": "8e21b4036c9b4bc6874aa1c308bf7df8b3c7031a9a495a66569706757dc43af3"
+    },
+    "examples/README.md": {
+      "bytes": 71,
+      "sha256": "3f3e5d2ac0800028ddb7bf134d332ed4b5ff3b629246b221606a014c05d5f550"
+    },
+    "exercises/README.md": {
+      "bytes": 85,
+      "sha256": "ba26bddfad8c4db99c5c8dd518f96af7dcf1c4a6264dd355f5d227940e55ec6b"
+    },
+    "exports/README.md": {
+      "bytes": 105,
+      "sha256": "abaaec6a496f86407595ef68af33ab4abe94a9a03c7f4410d1a0c51815db0c89"
+    },
+    "exports/exportlogg.md": {
+      "bytes": 93,
+      "sha256": "f46cb68df4c310e24d7ceb62ba1f6c4eed5c6bb9ff11c7c5ff85dd33b3094d58"
+    },
+    "project-index.md": {
+      "bytes": 2900,
+      "sha256": "a1c51c9e856ae1c559668086ec069708ea7a0695ecb65d20fd54e0e25892866a"
+    },
+    "publishing/build-notes.md": {
+      "bytes": 439,
+      "sha256": "41ea9b200a768f1f55a5fd86ee6a278907f994274ca548cf742225579e50202c"
+    },
+    "publishing/epub.css": {
+      "bytes": 569,
+      "sha256": "aee9b81d1a7fab1d266527b0cfd80675ff5b7bd8bca83ddae2c98bb86d2badef"
+    },
+    "publishing/fix-epub-after-pandoc.py": {
+      "bytes": 4105,
+      "sha256": "ccd52f3320b809eccc24d0e314893f7ec70681e145c4bfd94d3b23424451b0b3"
+    },
+    "publishing/pdf-filter.lua": {
+      "bytes": 2187,
+      "sha256": "d1386495705a3f519f872f9e355869341e78b5bc0d47b6ed6137f86cc6229a65"
+    },
+    "publishing/pdf-template.tex": {
+      "bytes": 3006,
+      "sha256": "4fe482d302430c7962bc619147bf8d388e4466171e988db61fcf4664456241ec"
+    },
+    "revision-log.md": {
+      "bytes": 26702,
+      "sha256": "b52be9816501451d78556091bb1ad063f27bc18b1ccec80669204019bae45c5a"
+    },
+    "scripts/book_references.py": {
+      "bytes": 4622,
+      "sha256": "28b5176acb62d07b16c5a2136044d432009acc8e57373abf9d82ac567e9e4bb6"
+    },
+    "scripts/build_book.py": {
+      "bytes": 1498,
+      "sha256": "1a9e00d2fff97e27ab6841b15fc6c37139a5a8a1a1bf04b59b3a62531f81e973"
+    },
+    "scripts/chapter_review.py": {
+      "bytes": 5940,
+      "sha256": "418e285884f0a8ea4a5c31aa2619a2b402a740e680fe4c8a96bab6347602e5d3"
+    },
+    "scripts/export-book.py": {
+      "bytes": 9202,
+      "sha256": "b3fce47d4a715f664bae465fe769761009e44596751abba941492c474a8c5497"
+    },
+    "scripts/export-book.sh": {
+      "bytes": 89,
+      "sha256": "cfb607edff8c8da14ec86e89352efabe27a06807666fc722ea4594e19de62b31"
+    },
+    "scripts/project_integrity.py": {
+      "bytes": 6443,
+      "sha256": "97f26bb87bf257e431128c520e00f21005ca81b7ba719c14a56e6325a0926170"
+    },
+    "scripts/render_diagrams.py": {
+      "bytes": 4993,
+      "sha256": "ee5306ab35f78d5ab0baef4b5225bd92ae74b370cbc6d2586aee892dac7406c8"
+    },
+    "scripts/validate_exports.py": {
+      "bytes": 4467,
+      "sha256": "2bed75c2b92cd913908b0cd0c7e38924bde53ca153feebf8dd6f88ad4714dbb7"
+    },
+    "scripts/validate_project.py": {
+      "bytes": 7832,
+      "sha256": "7bfc4efda9947a855c979019864423f80d47e531d92855d02f64643a0887208a"
+    }
+  },
+  "updated_at": "2026-11-25T19:59:45Z"
+}
