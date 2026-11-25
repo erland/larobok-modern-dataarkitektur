@@ -1,5 +1,5 @@
 {
-  "canonical_zip_name": "modern-dataarkitektur-omstart-r067.zip",
+  "canonical_zip_name": "modern-dataarkitektur-omstart-r069.zip",
   "chapters": {
     "count": 22,
     "hashes": {
@@ -31,18 +31,20 @@
   "created_at": "2026-11-25T07:13:25Z",
   "last_operation": {
     "changed_files": [
-      ".github/workflows/02-build-preview.yml",
-      ".github/workflows/03-release.yml",
       "docs/projektstatus.md",
-      "project-index.md"
+      "project-index.md",
+      "publishing/epub.css",
+      "publishing/fix-epub-after-pandoc.py",
+      "publishing/pdf-template.tex",
+      "scripts/validate_exports.py"
     ],
-    "operation": "PDF-export: installera Inkscape för vektorillustrationer",
-    "source_revision": 66
+    "operation": "Layoutjusteringar i EPUB och PDF",
+    "source_revision": 68
   },
-  "parent_revision": 66,
+  "parent_revision": 68,
   "project_id": "e3de759e-c3cf-4a30-9628-20931db7776b",
   "project_slug": "modern-dataarkitektur",
-  "revision": 67,
+  "revision": 69,
   "schema_version": 1,
   "template": false,
   "tracked_files": {
@@ -51,8 +53,8 @@
       "sha256": "56c504376f59ec4a5a7ab59ab29be43784f636f832af5c6e98f14b694c15afb7"
     },
     ".github/workflows/02-build-preview.yml": {
-      "bytes": 1187,
-      "sha256": "45cb9b090dc0c1edbaa06115a354693ea19120ad4e0a8fb0ab85e58f09fea690"
+      "bytes": 1203,
+      "sha256": "d431cdcc8f4f1677122b7da4697a909c752839a43296d6a0dff7031cfb092788"
     },
     ".github/workflows/03-release.yml": {
       "bytes": 1690,
@@ -299,8 +301,8 @@
       "sha256": "7a4640c8cc4d041e7f02699412277b360ffa711799dffddf2c774467d214d209"
     },
     "docs/projektstatus.md": {
-      "bytes": 2219,
-      "sha256": "a9140dd49004ec6825f354573dc2398bd4821f0a30fbcc571d74378216632508"
+      "bytes": 2726,
+      "sha256": "825fe21a5f7d00c6bf4334125620e1ec5868146a9d325ebaa81074280db74129"
     },
     "docs/quality-checklist.md": {
       "bytes": 2131,
@@ -495,32 +497,32 @@
       "sha256": "f46cb68df4c310e24d7ceb62ba1f6c4eed5c6bb9ff11c7c5ff85dd33b3094d58"
     },
     "project-index.md": {
-      "bytes": 3234,
-      "sha256": "397298a6d3a364dd9ec6a20937a2c1edcf884a817f27cb21a1c07b81545ddd0a"
+      "bytes": 3652,
+      "sha256": "04d40f8b0243ab71e77d7257b691a7502b7bf9a1995cfcd8470532f4ae3f2d47"
     },
     "publishing/build-notes.md": {
       "bytes": 439,
       "sha256": "41ea9b200a768f1f55a5fd86ee6a278907f994274ca548cf742225579e50202c"
     },
     "publishing/epub.css": {
-      "bytes": 569,
-      "sha256": "aee9b81d1a7fab1d266527b0cfd80675ff5b7bd8bca83ddae2c98bb86d2badef"
+      "bytes": 794,
+      "sha256": "e830478081c9b5f42e475e76cd1658f0e3d24476a3dd7387b4bf560a374798ec"
     },
     "publishing/fix-epub-after-pandoc.py": {
-      "bytes": 4105,
-      "sha256": "ccd52f3320b809eccc24d0e314893f7ec70681e145c4bfd94d3b23424451b0b3"
+      "bytes": 4095,
+      "sha256": "f5eceedd521ec860b305ca6f0586d2895b0ddaa8fc8a71cae5273f4fa39831ce"
     },
     "publishing/pdf-filter.lua": {
       "bytes": 2187,
       "sha256": "d1386495705a3f519f872f9e355869341e78b5bc0d47b6ed6137f86cc6229a65"
     },
     "publishing/pdf-template.tex": {
-      "bytes": 3006,
-      "sha256": "4fe482d302430c7962bc619147bf8d388e4466171e988db61fcf4664456241ec"
+      "bytes": 3035,
+      "sha256": "66859619a3dcb3e0f4525b77f70232db96721a336bda3ba6ea01337dbab98df7"
     },
     "revision-log.md": {
-      "bytes": 27201,
-      "sha256": "0a18d3adf35a70b26d0d81f298726d035172acdbaccecf97094e42b92a8d44ff"
+      "bytes": 27717,
+      "sha256": "7c170c228bda1e1c7777a02f24df47a9c83655a174a896067677ddefd4022971"
     },
     "scripts/book_references.py": {
       "bytes": 4622,
@@ -551,13 +553,13 @@
       "sha256": "ee5306ab35f78d5ab0baef4b5225bd92ae74b370cbc6d2586aee892dac7406c8"
     },
     "scripts/validate_exports.py": {
-      "bytes": 4467,
-      "sha256": "2bed75c2b92cd913908b0cd0c7e38924bde53ca153feebf8dd6f88ad4714dbb7"
+      "bytes": 6106,
+      "sha256": "26337dd217f694f9b2590727afbefe1ccc48ae5496c8de1bf4789e407bd7e50c"
     },
     "scripts/validate_project.py": {
       "bytes": 7832,
       "sha256": "7bfc4efda9947a855c979019864423f80d47e531d92855d02f64643a0887208a"
     }
   },
-  "updated_at": "2026-11-25T21:23:37Z"
+  "updated_at": "2026-11-25T21:50:50Z"
 }

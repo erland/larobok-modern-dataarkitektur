@@ -2,6 +2,7 @@
 """Structural publication checks on the actual EPUB and PDF artifacts."""
 from __future__ import annotations
 import posixpath
+import re
 import subprocess
 import sys
 import zipfile
@@ -49,6 +50,26 @@ def check_epub(path: Path) -> dict[str, int]:
                 parsed[name] = ET.fromstring(z.read(name))
         if not parsed:
             raise ValueError('EPUB saknar XHTML')
+        # Validera kapitelrubriker i den byggda EPUB-filen.
+        chapter_numbers = []
+        for name, tree in parsed.items():
+            for h1 in tree.iter(XHTML + 'h1'):
+                spans = list(h1)
+                numbers = [s for s in spans if s.tag == XHTML + 'span'
+                           and 'chapter-number' in s.attrib.get('class', '').split()]
+                titles = [s for s in spans if s.tag == XHTML + 'span'
+                          and 'chapter-title' in s.attrib.get('class', '').split()]
+                if numbers or titles:
+                    if len(numbers) != 1 or len(titles) != 1 or not (numbers[0].text or '').strip().isdigit() or not ''.join(titles[0].itertext()).strip():
+                        raise ValueError(f'EPUB-kapitelrubrik är felaktigt uppdelad: {name}')
+                    chapter_numbers.append(int(numbers[0].text.strip()))
+                elif re.match(r'^(?:\d+\.\s+|Kapitel\s+\d+:)', ''.join(h1.itertext()).strip(), re.I):
+                    raise ValueError(f'EPUB-kapitelrubrik saknar separata nummer-/titelrader: {name}')
+        if not chapter_numbers or sorted(chapter_numbers) != list(range(1, len(chapter_numbers) + 1)):
+            raise ValueError(f'EPUB-kapitelrubrikernas numrering är ofullständig: {chapter_numbers}')
+        css = '\n'.join(z.read(n).decode('utf-8') for n in names if n.endswith('.css'))
+        if 'h1 .chapter-number' not in css or 'h1 .chapter-title' not in css:
+            raise ValueError('EPUB saknar stilmallar för tvåradiga kapitelrubriker')
         anchors = {name: {node.attrib['id'] for node in tree.iter() if 'id' in node.attrib}
                    for name, tree in parsed.items()}
         checked = 0
@@ -67,7 +88,7 @@ def check_epub(path: Path) -> dict[str, int]:
                 if parts.fragment and target in anchors and unquote(parts.fragment) not in anchors[target]:
                     raise ValueError(f'EPUB-ankare saknas: {name} → {href}')
                 checked += 1
-        return {'xhtml': len(parsed), 'internal_links': checked}
+        return {'xhtml': len(parsed), 'internal_links': checked, 'chapters': len(chapter_numbers)}
 
 
 def check_pdf(path: Path) -> int:
@@ -91,7 +112,7 @@ def main() -> int:
     epub, pdf = map(Path, sys.argv[1:])
     summary = check_epub(epub)
     pages = check_pdf(pdf)
-    print(f"PASS: EPUB {summary['xhtml']} dokument, {summary['internal_links']} interna länkar; PDF {pages} sidor")
+    print(f"PASS: EPUB {summary['xhtml']} dokument, {summary['chapters']} delade kapitelrubriker, {summary['internal_links']} interna länkar; PDF {pages} sidor")
     return 0
 
 

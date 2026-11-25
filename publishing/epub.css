@@ -11,3 +11,7 @@ pre { white-space: pre-wrap; padding: 0.7em; }
 html, body { color: inherit; background: transparent; }
 h1 { break-before: auto; page-break-before: auto; }
 figure { margin: 1em 0; }
+
+/* Tvåradiga kapitelrubriker: nummer överst, titel därunder. */
+h1 .chapter-number { display: block; font-size: 0.72em; font-weight: normal; line-height: 1.2; margin-bottom: 0.3em; }
+h1 .chapter-title { display: block; }
