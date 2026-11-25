@@ -1,0 +1,3 @@
+# Helhetsgranskning del III
+
+Kapitel 9–11 har lästs tillsammans. Kapitel 9 behandlar mekanismer för informationsförsörjning och självbetjäning; kapitel 10 det förvaltade erbjudandet, ansvar och kontrakt; kapitel 11 konsumentens åtkomst, federering och gemensamma mått. Återkopplingar till aktualitet, historik, behörighet och semantik är motiverade eftersom de avser olika arkitekturgränser. Kapitel 11 skiljer gemensamma mått från källornas datakontrakt och direkt åtkomst från fysisk leverans. Referensmyndigheten är konsekvent fiktiv. Ingen ändring av tidigare godkända kapitel behövs. Plattformens realisering, organisationsmodell och regulatorisk fördjupning ligger kvar i senare kapitel. Del III internt redaktionellt godkänd; ingen oberoende vetenskaplig granskning.

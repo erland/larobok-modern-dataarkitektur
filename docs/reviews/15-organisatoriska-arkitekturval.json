@@ -1,0 +1,30 @@
+{
+  "blockers": [],
+  "chapter": "15-organisatoriska-arkitekturval.md",
+  "chapter_sha256": "38f8c46bb78be303e6893144c7154ba8edbd16621dea4808a853d97a0b215f02",
+  "check_notes": {
+    "consistency": "Kapitel 12–15 kompletterar varandra.",
+    "facts": "Avgränsad evidens; bankkrav överförs inte till myndighet.",
+    "sources": "K024 webbsammanfattning, K025 originalnyhetsbrev, K026/K027 abstract; tidigare K007-granskning återanvänd, K036 molnkontext."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Preciserat beslutsmandat och undantag.",
+    "Avgränsat BCBS-nyhetsbrev från kvantitativ uppföljning och tillsynsvägledning.",
+    "Preciserat FinOps-kontext och jämförbar utgångsnivå."
+  ],
+  "project_revision_at_review": 32,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Kapitel 15 korrigerat och återläst. Del IV helhetsgranskad. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T11:42:20+00:00"
+}

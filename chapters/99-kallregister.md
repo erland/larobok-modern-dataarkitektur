@@ -1,0 +1,90 @@
+# Källregister
+
+Källorna beskriver forskning, tekniska arkitekturförslag och erfarenheter från organisationer vid respektive publiceringstillfälle. Bokens arkitekturbedömningar är författarens syntes; de ska inte tolkas som resultat från en enskild studie.
+
+- **[K001]** Michael Armbrust, Ali Ghodsi, Reynold Xin och Matei Zaharia. *Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics*. CIDR, 2021. https://www.vldb.org/cidrdb/2021/lakehouse-a-new-generation-of-open-platforms-that-unify-data-warehousing-and-advanced-analytics.html
+- **[K002]** LHBench. *Lakehouse storage system benchmark*, resultat december 2022. https://lhbench.cs.berkeley.edu/
+- **[K003]** Chattopadhyay m.fl. (2023). *Shared Foundations: Modernizing Meta’s Data Lakehouse*. CIDR. https://vldb.org/cidrdb/2023/shared-foundations-modernizing-metas-data-lakehouse.html
+- **[K004]** Foidl, H., Golendukhina, V., Ramler, R. och Felderer, M. (2024). *Data pipeline quality: Influencing factors, root causes of data-related issues, and processing problem areas for developers*. Journal of Systems and Software 207, 111855. https://doi.org/10.1016/j.jss.2023.111855
+- **[K005]** Flores, J., Rabbani, K., Nadal, S., Gómez, C., Romero, O., Jamin, E. och Dasiopoulou, S. (2024). *Incremental schema integration for data wrangling via knowledge graphs*. Semantic Web, 15(3), 793–830. https://doi.org/10.3233/SW-233347
+- **[K006]** Abel Goedegebuure m.fl. *Data Mesh: A Systematic Gray Literature Review*. ACM Computing Surveys, 57(1), artikel 11, 2025 (online 2024). https://doi.org/10.1145/3687301
+- **[K007]** Bode, J., Kühl, N., Kreuzberger, D. och Holtmann, C. (2024). *Toward Avoiding the Data Mess: Industry Insights From Data Mesh Implementations*. IEEE Access, 12, 95402–95416. https://doi.org/10.1109/ACCESS.2024.3417291
+- **[K008]** Anna Gieß och Andreas Hutterer. *The Future of Data Management: A Delimitation of Data Platforms, Data Spaces, Data Meshes, and Data Fabrics*. Information Systems and e-Business Management, 23, 971–997, 2025. https://doi.org/10.1007/s10257-025-00707-4
+- **[K009]** Ahmed A. Harby och Farhana Zulkernine. *Data Lakehouse: A survey and experimental study*. Information Systems 127, 102460, 2025. https://www.sciencedirect.com/science/article/pii/S0306437924001182
+- **[K010]** Netflix Technology Blog (2026). *Data Bridge: How Netflix simplifies data movement*. https://netflixtechblog.medium.com/data-bridge-how-netflix-simplifies-data-movement-36d10d91c313
+- **[K011]** Uber Engineering (2024). *DataMesh: How Uber laid the foundations for the data lake cloud migration*. https://www.uber.com/us/en/blog/datamesh/
+- **[K012]** Lan, M., Adebajo, S. och Das, S. (2019-08-14). LinkedIn Engineering. *DataHub: A generalized metadata search & discovery tool*. https://www.linkedin.com/blog/engineering/archive/data-hub
+- **[K014]** National Audit Office. *Challenges in using data across government*. HC 2220, 21 juni 2019. https://www.nao.org.uk/wp-content/uploads/2019/06/Challenges-in-using-data-across-government.pdf
+- **[K015]** National Audit Office (2022-07-21). *Improving government data: A guide for senior leaders*. https://www.nao.org.uk/insights/improving-government-data-a-guide-for-senior-leaders/
+- **[K020]** Europaparlamentets och rådets förordning (EU) 2016/679 (GDPR). https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=SV
+- **[K021]** Riksarkivet. RA-FS 2009:1, föreskrifter och allmänna råd om elektroniska handlingar. https://foreskrifter.riksarkivet.se/rafs/105
+- **[K022]** Sambasivan, N. m.fl. (2021). *Everyone Wants to Do the Model Work, Not the Data Work: Data Cascades in High-Stakes AI*. CHI. https://doi.org/10.1145/3411764.3445518
+- **[K023]** Sculley, D. m.fl. (2015). *Hidden Technical Debt in Machine Learning Systems*. NeurIPS 28. https://proceedings.neurips.cc/paper_files/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html
+- **[K024]** Basel Committee on Banking Supervision. *Progress in adopting the Principles for effective risk data aggregation and risk reporting*. 28 november 2023. https://www.bis.org/bcbs/publ/d559.htm
+- **[K025]** Basel Committee on Banking Supervision (2026). *Implementation of the Principles for effective risk data aggregation and risk reporting (BCBS 239 Principles)*. BCBS Newsletter 36, 6 januari 2026. https://www.bis.org/publications/implementation-principles-effective-risk-data-aggregation-and-risk-reporting-bcbs-239-principles
+- **[K026]** Joshi, D., Pratik, S. och Rao, M. P. (2021). *Data Governance in Data Mesh Infrastructures: The Saxo Bank Case Study*. ICEB 2021 Proceedings, 52. https://aisel.aisnet.org/iceb2021/52/
+- **[K027]** Christensen, H. och Ramstad, E. A. (2023). *Data Mesh as a Framework: How to Strategize When Implementing Data Mesh*. Masteruppsats, Copenhagen Business School. https://research.cbs.dk/en/studentProjects/data-mesh-as-a-framework-how-to-strategize-when-implementing-data/
+- **[K029]** CERN Database and Analytics Blog. *ATLAS DCS Analysis with Apache Spark and Jupyter Notebooks*. https://db-blog.web.cern.ch/atlas-dcs-analysis-with-apache-spark-and-jupyter-notebooks/
+- **[K030]** CERN. *Evolving Data Stores Services for Big Data at CERN*. HEPiX Fall 2025 Workshop, november 2025. https://indico.cern.ch/event/1536836/contributions/6754898/
+- **[K031]** Mike Stonebraker m.fl. *C-Store: A Column-oriented DBMS*. VLDB, 2005, s. 553–564. https://www.vldb.org/archives/website/2005/program/paper/thu/p553-stonebraker.pdf
+- **[K032]** Jorge Oliveira e Sá, Renata Gonçalves och Claus Kaldeich. *Benchmark of Market Cloud Data Warehouse Technologies*. Procedia Computer Science 239, 1212–1219, 2024. https://www.sciencedirect.com/science/article/pii/S1877050924015321
+- **[K033]** Sarah Azzabi, Zakiya Alfughi och Abdelkader Ouda. *Data Lakes: A Survey of Concepts and Architectures*. Computers, 13(7), 183, 2024. https://doi.org/10.3390/computers13070183
+- **[K034]** Doulkifli Boukraa, Mahfoud Bala och Stefano Rizzi. *Metadata Management in Data Lake Environments: A Survey*. Journal of Library Metadata, 24(4), 215–274, 2024. https://doi.org/10.1080/19386389.2024.2359310
+- **[K036]** FinOps Foundation. *FinOps for Data Cloud Platforms: Context for Building a FinOps Practice*. https://www.finops.org/wg/finops-data-cloud-platforms/
+- **[K037]** Europaparlamentets och rådets förordning (EU) 2023/2854 (Data Act). https://eur-lex.europa.eu/eli/reg/2023/2854/oj
+- **[K038]** Confluent. *Schema Evolution and Compatibility*. https://docs.confluent.io/platform/current/schema-registry/fundamentals/schema-evolution.html
+- **[K040]** Alfons Kemper och Thomas Neumann. *HyPer: A Hybrid OLTP&OLAP Main Memory Database System Based on Virtual Memory Snapshots*. ICDE, 2011, s. 195–206. https://doi.org/10.1109/ICDE.2011.5767867
+- **[K041]** Oracle. *Introduction to Data Warehousing Concepts*, Database Data Warehousing Guide 26. https://docs.oracle.com/en/database/oracle/oracle-database/26/dwhsg/introduction-data-warehouse-concepts.html
+- **[K042]** Kimball Group. *Dimensional Modeling Techniques*. https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/
+- **[K043]** SAP Learning. *Selecting a Modeling Approach*. https://learning.sap.com/courses/sap-sql-data-warehousing/selecting-a-modeling-approach_b70cb558-56fe-49e7-9b45-386a596492ff
+- **[K044]** Snowflake. *Snowflake key concepts and architecture*. https://docs.snowflake.com/en/user-guide/intro-key-concepts
+- **[K045]** Datavault Builder. *Layer Concept*, dokumentation version 8.8.3.0, 28 oktober 2026. https://docs.datavault-builder.com/documentation/latest/_generalOverview/layerConcept
+- **[K046]** Apache Hadoop. *HDFS Architecture*, version 3.4.0. https://hadoop.apache.org/docs/r3.4.0/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html
+- **[K047]** Apache Hadoop. *Introduction: Hadoop FileSystem*, version 3.0.0. https://hadoop.apache.org/docs/r3.0.0/hadoop-project-dist/hadoop-common/filesystem/introduction.html
+- **[K048]** Apache Parquet. *Overview*. https://parquet.apache.org/docs/overview/
+- **[K049]** Apache Iceberg. *Table Specification*. https://iceberg.apache.org/spec/
+- **[K050]** Delta Lake. *Concurrency control*. https://docs.delta.io/concurrency-control/
+- **[K051]** Apache Hudi. *Table & Query Types*. https://hudi.apache.org/docs/table_types/
+- **[K052]** Databricks. *What is the medallion lakehouse architecture?* https://docs.databricks.com/aws/en/lakehouse/medallion
+- **[K053]** Delta Lake. *Delta Lake’s transaction log protocol and its implementations*. 7 juli 2023. https://delta.io/blog/2023-07-07-delta-lake-transaction-log-protocol/
+- **[K054]** Apache Spark. *Unified Engine for large-scale data analytics*. https://spark.apache.org/
+- **[K055]** Trino. *Distributed SQL query engine for big data*. https://trino.io/
+- **[K056]** Apache Iceberg. *Maintenance*. https://iceberg.apache.org/docs/latest/maintenance/
+- **[K057]** ClickHouse. *Real-Time Data Analytics Platform*. https://clickhouse.com/clickhouse
+- **[K058]** MongoDB. *Best Practices for Data Modeling in MongoDB*. https://www.mongodb.com/docs/manual/data-modeling/best-practices/
+- **[K059]** Elastic. *How full-text search works*. https://www.elastic.co/docs/solutions/search/full-text/how-full-text-works
+- **[K060]** Neo4j. *What is a graph database?* https://neo4j.com/docs/getting-started/graph-database/
+- **[K061]** pgvector. *README*. https://github.com/pgvector/pgvector
+- **[K062]** Feast. *Overview of components*. https://docs.feast.dev/getting-started/components/overview
+- **[K063]** IBM. *What is master data management?* https://www.ibm.com/think/topics/master-data-management
+- **[K064]** Stonebraker, M. och Çetintemel, U. (2005). *One Size Fits All: An Idea Whose Time Has Come and Gone*. ICDE. https://doi.org/10.1109/ICDE.2005.1
+- **[K065]** Oracle. *Introduction to Data Warehousing Concepts*, Database Data Warehousing Guide 21. https://docs.oracle.com/en/database/oracle/oracle-database/21/dwhsg/introduction-data-warehouse-concepts.html
+- **[K066]** Feast. *Point-in-time joins*, v0.43. https://docs.feast.dev/v0.43-branch/getting-started/concepts/point-in-time-joins
+- **[K067]** Debezium. *Debezium connector for PostgreSQL*. https://debezium.io/documentation/reference/connectors/postgresql.html
+- **[K068]** Digg. *Vägledning för att tillgängliggöra information*. https://www.digg.se/kunskap-och-stod/oppna-och-delade-data/vagledning-for-att-tillgangliggora-information
+- **[K069]** IBM. *What is ETL (Extract, Transform, Load)?* https://www.ibm.com/think/topics/etl
+- **[K070]** AWS Prescriptive Guidance. *Transactional outbox pattern*. https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/transactional-outbox.html
+- **[K071]** Apache Kafka. *Design: Message Delivery Semantics*, version 2.2. https://kafka.apache.org/22/design/design/
+- **[K072]** Bitol. *Open Data Contract Standard*, version 3.0.0. https://bitol-io.github.io/open-data-contract-standard/v3.0.0/
+- **[K073]** Gu, Z., Corcoglioniti, F., Lanti, D., Mosca, A., Xiao, G., Xiong, J. och Calvanese, D. (2024). *A systematic overview of data federation systems*. Semantic Web. https://doi.org/10.3233/SW-223201
+- **[K074]** Trino. *Pushdown*. https://trino.io/docs/current/optimizer/pushdown.html
+- **[K075]** Delta Lake. *Read Delta Sharing Tables*. https://docs.delta.io/delta-sharing/
+- **[K076]** dbt Labs. *dbt Semantic Layer*. https://docs.getdbt.com/docs/use-dbt-semantic-layer/dbt-sl
+- **[K077]** EU-kommissionen. *Common European data spaces*. https://digital-strategy.ec.europa.eu/en/policies/data-spaces
+- **[K078]** CNCF. *CNCF Platforms White Paper*. https://tag-app-delivery.cncf.io/whitepapers/platforms/
+- **[K079]** Uber Engineering (2024-02-01). *DataCentral: Uber’s Big Data Observability and Chargeback Platform*. https://www.uber.com/be/en/blog/datacentral-ubers-observability-and-chargeback-platform/
+- **[K080]** Dehghani, Z. (2020). *Data Mesh Principles and Logical Architecture*. https://martinfowler.com/articles/data-mesh-principles.html
+- **[K081]** Gartner. *What is Data Fabric?* https://www.gartner.com/en/data-analytics/topics/data-fabric
+- **[K082]** DataHub. *DataHub Architecture Overview*. https://docs.datahub.com/docs/architecture/architecture/
+- **[K083]** UK Government (2020). *The Government Data Quality Framework*. https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
+- **[K084]** OpenLineage. *Object Model*. https://openlineage.io/docs/spec/object-model/
+- **[K085]** Offentlighets- och sekretesslag (2009:400). https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/offentlighets-och-sekretesslag-2009400_sfs-2009-400/
+- **[K086]** Arkivlag (1990:782). https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/arkivlag-1990782_sfs-1990-782/
+- **[K087]** Riksarkivet. RA-FS 2024:3, ändring av RA-FS 2009:1. https://foreskrifter.riksarkivet.se/rafs/1175
+- **[K088]** Brottsdatalag (2018:1177). https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/brottsdatalag-20181177_sfs-2018-1177/
+- **[K089]** Tryckfrihetsförordning (1949:105). https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/tryckfrihetsforordning-1949105_sfs-1949-105/
+- **[K090]** IMY. *Överföring av personuppgifter till tredjeland*. https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/overforing-till-tredje-land
+- **[K091]** IMY (2022). *Användning av molntjänster inom offentlig sektor – en sammanställning av en undersökning av sju myndigheter*. https://www.imy.se/publikationer/anvandning-av-molntjanster-inom-offentlig-sektor--en-sammanstallning-av-en-undersokning-av-sju-myndigheter/
+- **[K092]** CNCF. *Cloud Native Definition v1.1*. https://github.com/cncf/toc/blob/main/DEFINITION.md
+- **[K093]** Apache Iceberg. *REST Catalog Spec*. https://iceberg.apache.org/rest-catalog-spec/
+- **[K094]** Lewis, P. m.fl. (2020). *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*. NeurIPS 33. https://papers.nips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html

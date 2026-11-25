@@ -1,0 +1,32 @@
+{
+  "blockers": [],
+  "chapter": "11-datadelning.md",
+  "chapter_sha256": "8e6ef9018af72aa870c35019d5b97927d9cd6887bba609799f591de72c38c0e4",
+  "check_notes": {
+    "consistency": "Kapitel 9–11 har separata ansvarsområden, fiktivt scenario bevarat.",
+    "editorial": "Koncentrerad läsarfärdig text.",
+    "facts": "Forskningsramverk, pushdown, protokoll, dbt-kontokrav och dataområden verifierade; beslutskriterier egen syntes.",
+    "sources": "K073 förlagets HTML, K074–K077 originaldokumentation; inte fullständig genomgång av 51 system."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Preciserat forskningsramverk och avgränsning.",
+    "Nyanserat återkallelse av åtkomst.",
+    "Förtydligat dbt-plattformskrav och reproducerbarhet.",
+    "Tillfört kontroll av kombinerade uppgifters skyddsvärde."
+  ],
+  "project_revision_at_review": 24,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Kapitel 11 korrigerat och återläst. Del III helhetsgranskad. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T10:58:29+00:00"
+}

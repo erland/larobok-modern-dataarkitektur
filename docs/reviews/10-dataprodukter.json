@@ -1,0 +1,33 @@
+{
+  "blockers": [],
+  "chapter": "10-dataprodukter.md",
+  "chapter_sha256": "206af899746716a0e6c99eee5a1be19550b727f667a5ca5a23aabad1679edb52",
+  "check_notes": {
+    "audience": "Anpassat till erfarna IT-arkitekter i reglerade organisationer, fiktiv referensmyndighet.",
+    "consistency": "Dataprodukt som förvaltat informationsåtagande oberoende av teknik, semantisk och strukturell kompatibilitet, versionering och livscykel.",
+    "editorial": "Läsarfärdig text; inga arbetsmarkörer eller nya innehållsöverlappningar identifierade.",
+    "facts": "K006, K038, K072: tidigare abstract och dokumentation för kompatibilitetsbegrepp och ODCS 3.0.0. Versionen anges som exempel, inte senaste. Nya exempel är villkorad arkitektursyntes, inte empiriska effektpåståenden. Ingen ytterligare korrigering; mottagningszon konsekvent med kapitel 9 och produkten är inte en överföringsteknik.",
+    "language": "Svenskt fackspråk och konsekvent terminologi; Ingen ytterligare korrigering; mottagningszon konsekvent med kapitel 9 och produkten är inte en överföringsteknik.",
+    "sources": "K006, K038, K072: tidigare abstract och dokumentation för kompatibilitetsbegrepp och ODCS 3.0.0. Versionen anges som exempel, inte senaste.",
+    "structure": "Dataprodukt som förvaltat informationsåtagande oberoende av teknik, semantisk och strukturell kompatibilitet, versionering och livscykel."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Ingen ytterligare korrigering; mottagningszon konsekvent med kapitel 9 och produkten är inte en överföringsteknik."
+  ],
+  "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
+  "project_revision_at_review": 50,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Förnyad intern redaktionell granskning i steg 7.3b, basrevision 50. Hela kapitel 10 genomläst mot bokplan, canon, terminologi, inledning och dokumenterad faktakontroll samt jämfört med godkänd revision 45. Tidigare externa källkontroller återanvänds; ingen ny extern fulltextgranskning eller oberoende faktagranskning.",
+  "updated_at": "2026-11-25T15:39:24+00:00"
+}

@@ -1,0 +1,3 @@
+# Helhetsgranskning del II
+
+Kapitel 4–8 har granskats avseende ämnestäckning, tekniskt djup och överlapp. Kapitel 4 behandlar informationsmodeller och DWH-struktur, 5 flexibel lagring och metadata, 6 tabellformat och drift, 7 specialiserade förmågor och 8 samlade vägval, ekonomi och verifiering. Viss återkoppling till tidigare beslutskriterier är motiverad i jämförelsekapitlet; inga tidigare kapitel ändras. Det finns inte stöd för en generell prestanda- eller kostnadsrangordning. Del II är internt redaktionellt godkänd, inte oberoende vetenskapligt granskad. Nästa kapitel: informationsförsörjning.

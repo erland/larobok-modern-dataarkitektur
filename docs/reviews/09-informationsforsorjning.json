@@ -1,0 +1,34 @@
+{
+  "blockers": [],
+  "chapter": "09-informationsforsorjning.md",
+  "chapter_sha256": "8407be328bc1381d1371798bd72f373c6e0b9b6ce21053f439c10b087129b05f",
+  "check_notes": {
+    "audience": "Anpassat till erfarna IT-arkitekter i reglerade organisationer, fiktiv referensmyndighet.",
+    "consistency": "Överföring, bearbetning och produktåtagande hålls åtskilda. De tre jämförda kedjorna är möjliga realiseringar, inte obligatoriska steg; leverans- och analysledtid skiljs åt.",
+    "editorial": "Läsarfärdig text; inga arbetsmarkörer eller nya innehållsöverlappningar identifierade.",
+    "facts": "K004, K010, K067–K071: tidigare dokumenterad granskning. K004 abstract, Netflix självrapporterad design, Kafka versionsbunden dokumentation. Ingen ny effektstudie. Nya exempel är villkorad arkitektursyntes, inte empiriska effektpåståenden. Preciserat att det är en redan registrerad uppgift som är ny för analysen; klargjort att ETL-teamets uppgifter gäller den illustrerade ansvarsfördelningen. I steg 8.7 tillkom endast en illustrativ figur med beskrivande bildtext utifrån kapitlet; tidigare sakgranskning återanvänds.",
+    "illustrations": "IMG-09-01: Tre kedjor, samma mottagningszon och olika förändringsansvar. SVG-validering och visuell kontroll i färg/gråskala vid gemensam förhandsbredd. Faktisk exportkontroll återstår.",
+    "language": "Svenskt fackspråk och konsekvent terminologi; Preciserat att det är en redan registrerad uppgift som är ny för analysen; klargjort att ETL-teamets uppgifter gäller den illustrerade ansvarsfördelningen.",
+    "sources": "K004, K010, K067–K071: tidigare dokumenterad granskning. K004 abstract, Netflix självrapporterad design, Kafka versionsbunden dokumentation. Ingen ny effektstudie. Källhänvisningar och löptext oförändrade; ingen ny extern granskning.",
+    "structure": "Överföring, bearbetning och produktåtagande hålls åtskilda. De tre jämförda kedjorna är möjliga realiseringar, inte obligatoriska steg; leverans- och analysledtid skiljs åt."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "passed",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Preciserat att det är en redan registrerad uppgift som är ny för analysen; klargjort att ETL-teamets uppgifter gäller den illustrerade ansvarsfördelningen.",
+    "Infogat IMG-09-01 med beskrivande bildtext enligt illustrationsplanen."
+  ],
+  "project_revision_at_review": 57,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Förnyat internt godkännande efter illustrationens integrering, steg 8.7. Förnyad intern redaktionell granskning i steg 7.3b, basrevision 50. Hela kapitel 9 genomläst mot bokplan, canon, terminologi, inledning och dokumenterad faktakontroll samt jämfört med godkänd revision 45. Tidigare externa källkontroller återanvänds; ingen ny extern fulltextgranskning eller oberoende faktagranskning.",
+  "updated_at": "2026-11-25T17:47:37+00:00"
+}

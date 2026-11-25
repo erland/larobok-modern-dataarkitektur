@@ -1,0 +1,35 @@
+{
+  "blockers": [],
+  "chapter": "00-inledning.md",
+  "chapter_sha256": "4e2b5e256326e9fcd684c61189f8d6af915df53cb9d27082d4c294c7d90bd195",
+  "check_notes": {
+    "audience": "Erfarna arkitekter, utan krav på specialistkunskaper om dataplattformar.",
+    "consistency": "Stämmer med bokspecifikation, innehålls-canon, terminologi och kapitelplan.",
+    "editorial": "Inga interna arbetsnoteringar, onödiga tekniska fördjupningar eller utfyllnadsavsnitt.",
+    "language": "Saklig svensk prosa, mindre preciseringar genomförda.",
+    "structure": "Anslag, syfte, målgrupp, kunskapsgrund och läsanvisning i sammanhängande ordning."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "not_applicable",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "not_applicable",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Förtydligat fiktivt scenario i anslaget.",
+    "Förtydligat kunskapsgrundens oberoende granskningar och lärdomar från framgångar och problem.",
+    "Ersatt uppslagsverk med referens för en mer precis beskrivning av läsanvändning."
+  ],
+  "fact_justification": "Inga externa verifieringskrävande faktapåståenden. Uppgifter om bokens innehåll och disposition kontrollerade mot bokspecifikation, canon och samtliga sex delar i kapitelplanen. Myndighetsexemplet är uttryckligen fiktivt.",
+  "illustration_justification": "Inga illustrationer används; överensstämmer med illustrationsplanen.",
+  "project_revision_at_review": 2,
+  "review_mode": "auto",
+  "source_justification": "Inledningen beskriver bokens avsedda kunskapsgrund, källkritiska metod och fiktiva scenario; den åberopar inga externa forskningsresultat, rättskällor, statistik eller andra källbundna sakuppgifter. Källinventeringens 39 kandidater är fortsatt preliminära.",
+  "status": "approved_auto",
+  "summary": "Hela inledningen har lästs före och efter en korrigeringsomgång. Språk och struktur är koncentrerade, målgruppen och förkunskaperna framgår, dispositionen stämmer med kapitelplanen, och texten är läsarfärdig. Inledningen markerar det fiktiva scenariot redan i anslaget, lyfter oberoende granskningar och både framgångar och problem samt använder referens i stället för uppslagsverk. Inga tekniska fördjupningar som hör hemma i senare kapitel har lagts till. Inga blockerare kvarstår för inledningen. Godkännandet är intern redaktionell granskning, inte oberoende faktagranskning.",
+  "updated_at": "2026-11-25T07:22:17+00:00"
+}

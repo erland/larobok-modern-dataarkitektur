@@ -1,0 +1,33 @@
+{
+  "blockers": [],
+  "chapter": "01-dataarkitekturens-utveckling.md",
+  "chapter_sha256": "0bd3dcae05c7fdfe339a9e7c665988b8a66791706f7b74e100096b7750946f5f",
+  "check_notes": {
+    "audience": "Anpassat till erfarna IT-arkitekter i reglerade organisationer, fiktiv referensmyndighet.",
+    "consistency": "Koncentreringen behåller drivkrafter, historisk överblick och NAO-exempel; specialistberoendet fördjupas i kapitel 9 och självbetjäning i 12.",
+    "editorial": "Läsarfärdig text; inga arbetsmarkörer eller nya innehållsöverlappningar identifierade.",
+    "facts": "K001, K008, K014 och K033: tidigare dokumenterad granskning återanvänds; inga nya externa påståenden. NAO avser brittisk förvaltning 2019 och CIDR-artikeln är ett arkitekturförslag. Nya exempel är villkorad arkitektursyntes, inte empiriska effektpåståenden. Förändringsförmåga anges som begränsning när samordningen faktiskt orsakar ledtid, inte en automatisk följd av en liten schemaändring.",
+    "language": "Svenskt fackspråk och konsekvent terminologi; Förändringsförmåga anges som begränsning när samordningen faktiskt orsakar ledtid, inte en automatisk följd av en liten schemaändring.",
+    "sources": "K001, K008, K014 och K033: tidigare dokumenterad granskning återanvänds; inga nya externa påståenden. NAO avser brittisk förvaltning 2019 och CIDR-artikeln är ett arkitekturförslag.",
+    "structure": "Koncentreringen behåller drivkrafter, historisk överblick och NAO-exempel; specialistberoendet fördjupas i kapitel 9 och självbetjäning i 12."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Förändringsförmåga anges som begränsning när samordningen faktiskt orsakar ledtid, inte en automatisk följd av en liten schemaändring."
+  ],
+  "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
+  "project_revision_at_review": 50,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Förnyad intern redaktionell granskning i steg 7.3b, basrevision 50. Hela kapitel 1 genomläst mot bokplan, canon, terminologi, inledning och dokumenterad faktakontroll samt jämfört med godkänd revision 45. Tidigare externa källkontroller återanvänds; ingen ny extern fulltextgranskning eller oberoende faktagranskning.",
+  "updated_at": "2026-11-25T15:39:05+00:00"
+}

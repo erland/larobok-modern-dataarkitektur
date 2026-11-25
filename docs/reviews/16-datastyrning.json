@@ -1,0 +1,31 @@
+{
+  "blockers": [],
+  "chapter": "16-datastyrning.md",
+  "chapter_sha256": "f44b1e7e5991da9f1d247ebca47851ce2bb70eedca46bc94d642fbdfce24642a",
+  "check_notes": {
+    "audience": "Erfarna IT-arkitekter i reglerade organisationer; fiktiv referensmyndighet.",
+    "consistency": "Mottagningszon harmoniserad; kvalitetsdimensioner och skillnaden mellan lineage och reproducerbarhet bevarade.",
+    "editorial": "Mottagningszon harmoniserad; kvalitetsdimensioner och skillnaden mellan lineage och reproducerbarhet bevarade.",
+    "facts": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Ingen ny extern fulltextgranskning.Mottagningszon harmoniserad; kvalitetsdimensioner och skillnaden mellan lineage och reproducerbarhet bevarade.",
+    "language": "Mottagningszon harmoniserad; kvalitetsdimensioner och skillnaden mellan lineage och reproducerbarhet bevarade.",
+    "sources": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Ingen ny extern fulltextgranskning.",
+    "structure": "Mottagningszon harmoniserad; kvalitetsdimensioner och skillnaden mellan lineage och reproducerbarhet bevarade."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [],
+  "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
+  "project_revision_at_review": 51,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Förnyad intern redaktionell granskning 7.3c, basrevision 51, kapitel 16. Jämförelse med revision 45 och dokumenterad faktakontroll.",
+  "updated_at": "2026-11-25T16:13:38+00:00"
+}

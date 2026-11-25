@@ -1,0 +1,34 @@
+{
+  "blockers": [],
+  "chapter": "05-data-lake.md",
+  "chapter_sha256": "b1414858ecf90f2e92863634e827386ed4203c29e9136a757090b7e9c38a2ba7",
+  "check_notes": {
+    "audience": "Anpassat till erfarna IT-arkitekter i reglerade organisationer, fiktiv referensmyndighet.",
+    "consistency": "Flexibel lagring, HDFS/objektlagring, schematolkning, zoner och metadata har tydliga avgränsningar mot kapitel 6 och 16.",
+    "editorial": "Läsarfärdig text; inga arbetsmarkörer eller nya innehållsöverlappningar identifierade.",
+    "facts": "K033, K034, K046, K047: tidigare kontrollerade avsnitt respektive abstract. K033:s omkastade schemaetiketter i tabell används inte. Ingen generell prestandagaranti. Nya exempel är villkorad arkitektursyntes, inte empiriska effektpåståenden. Ingen ytterligare korrigering; driftplats är förenlig med fastställd terminologi. I steg 8.7 tillkom endast en illustrativ figur med beskrivande bildtext utifrån kapitlet; tidigare sakgranskning återanvänds.",
+    "illustrations": "IMG-05-01: Gemensam lagring, logiska zoner och separata motorer; zonerna är exempel. SVG-validering och visuell kontroll i färg/gråskala vid gemensam förhandsbredd. Faktisk exportkontroll återstår.",
+    "language": "Svenskt fackspråk och konsekvent terminologi; Ingen ytterligare korrigering; driftplats är förenlig med fastställd terminologi.",
+    "sources": "K033, K034, K046, K047: tidigare kontrollerade avsnitt respektive abstract. K033:s omkastade schemaetiketter i tabell används inte. Ingen generell prestandagaranti. Källhänvisningar och löptext oförändrade; ingen ny extern granskning.",
+    "structure": "Flexibel lagring, HDFS/objektlagring, schematolkning, zoner och metadata har tydliga avgränsningar mot kapitel 6 och 16."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "passed",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Ingen ytterligare korrigering; driftplats är förenlig med fastställd terminologi.",
+    "Infogat IMG-05-01 med beskrivande bildtext enligt illustrationsplanen."
+  ],
+  "project_revision_at_review": 57,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Förnyat internt godkännande efter illustrationens integrering, steg 8.7. Förnyad intern redaktionell granskning i steg 7.3b, basrevision 50. Hela kapitel 5 genomläst mot bokplan, canon, terminologi, inledning och dokumenterad faktakontroll samt jämfört med godkänd revision 45. Tidigare externa källkontroller återanvänds; ingen ny extern fulltextgranskning eller oberoende faktagranskning.",
+  "updated_at": "2026-11-25T17:47:35+00:00"
+}

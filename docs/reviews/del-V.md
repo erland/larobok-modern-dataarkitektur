@@ -1,0 +1,3 @@
+# Helhetsgranskning del V
+
+Kapitel 16–18 har lästs tillsammans. Kapitel 16 behandlar ansvar, kvalitetskontroller, metadata och lineage; kapitel 17 rättsliga förutsättningar, säkerhetskontroller och informationslivscykel; kapitel 18 driftsplacering, externa beroenden och verifierad återetablering. Återkopplingen till behörigheter, metadata och gallring i flyttprovet är motiverad eftersom dessa kontroller måste överleva ett miljöbyte. Lineage och revisionsspår hålls isär. Referensmyndigheten är fiktiv. Rättsliga krav skiljs från arkitekturrekommendationer. Inga ytterligare ändringar av kapitel 16–17 bedöms nödvändiga. Del V internt redaktionellt godkänd, inte juridiskt expertgranskad.

@@ -1,0 +1,34 @@
+{
+  "blockers": [],
+  "chapter": "03-dataarkitekturens-dimensioner.md",
+  "chapter_sha256": "448d9ecf9faae153ca939668425056ec7c2876e196435f076390cc0f85b44622",
+  "check_notes": {
+    "audience": "Anpassat till erfarna IT-arkitekter i reglerade organisationer, fiktiv referensmyndighet.",
+    "consistency": "Fem arkitekturdimensioner och sex bedömningsdimensioner är bevarade. Kapitel 15 fördjupar organisatorisk centralisering.",
+    "editorial": "Läsarfärdig text; inga arbetsmarkörer eller nya innehållsöverlappningar identifierade.",
+    "facts": "K006, K008, K024: tidigare dokumenterad abstract-, artikelavsnitts- och sammanfattningsgranskning återanvänds. Banksektorn är jämförelseunderlag, inte svensk reglering. Nya exempel är villkorad arkitektursyntes, inte empiriska effektpåståenden. Ingen ytterligare textkorrigering behövs; koncentreringen har inte ändrat de källbelagda påståendena. I steg 8.7 tillkom endast en illustrativ figur med beskrivande bildtext utifrån kapitlet; tidigare sakgranskning återanvänds.",
+    "illustrations": "IMG-03-01: Fem samverkande dimensioner utan påstådd sekvens. SVG-validering och visuell kontroll i färg/gråskala vid gemensam förhandsbredd. Faktisk exportkontroll återstår.",
+    "language": "Svenskt fackspråk och konsekvent terminologi; Ingen ytterligare textkorrigering behövs; koncentreringen har inte ändrat de källbelagda påståendena.",
+    "sources": "K006, K008, K024: tidigare dokumenterad abstract-, artikelavsnitts- och sammanfattningsgranskning återanvänds. Banksektorn är jämförelseunderlag, inte svensk reglering. Källhänvisningar och löptext oförändrade; ingen ny extern granskning.",
+    "structure": "Fem arkitekturdimensioner och sex bedömningsdimensioner är bevarade. Kapitel 15 fördjupar organisatorisk centralisering."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "passed",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Ingen ytterligare textkorrigering behövs; koncentreringen har inte ändrat de källbelagda påståendena.",
+    "Infogat IMG-03-01 med beskrivande bildtext enligt illustrationsplanen."
+  ],
+  "project_revision_at_review": 57,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Förnyat internt godkännande efter illustrationens integrering, steg 8.7. Förnyad intern redaktionell granskning i steg 7.3b, basrevision 50. Hela kapitel 3 genomläst mot bokplan, canon, terminologi, inledning och dokumenterad faktakontroll samt jämfört med godkänd revision 45. Tidigare externa källkontroller återanvänds; ingen ny extern fulltextgranskning eller oberoende faktagranskning.",
+  "updated_at": "2026-11-25T17:47:32+00:00"
+}

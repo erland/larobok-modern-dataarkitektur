@@ -1,0 +1,31 @@
+{
+  "blockers": [],
+  "chapter": "21-stegvis-modernisering.md",
+  "chapter_sha256": "bc79a8499a33bd2fbff0e6bb1d300280746a70be3499c2883d91d625e0cc060d",
+  "check_notes": {
+    "audience": "Erfarna IT-arkitekter i reglerade organisationer; fiktiv referensmyndighet.",
+    "consistency": "Koncentreringen bibehåller etappvillkor, pilot, återgång, avveckling och nyttorealisering; finansiering hänvisar till kapitel 15.",
+    "editorial": "Koncentreringen bibehåller etappvillkor, pilot, återgång, avveckling och nyttorealisering; finansiering hänvisar till kapitel 15.",
+    "facts": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Ingen ny extern fulltextgranskning.Koncentreringen bibehåller etappvillkor, pilot, återgång, avveckling och nyttorealisering; finansiering hänvisar till kapitel 15.",
+    "language": "Koncentreringen bibehåller etappvillkor, pilot, återgång, avveckling och nyttorealisering; finansiering hänvisar till kapitel 15.",
+    "sources": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Ingen ny extern fulltextgranskning.",
+    "structure": "Koncentreringen bibehåller etappvillkor, pilot, återgång, avveckling och nyttorealisering; finansiering hänvisar till kapitel 15."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [],
+  "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
+  "project_revision_at_review": 51,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Förnyad intern redaktionell granskning 7.3c, basrevision 51, kapitel 21. Jämförelse med revision 45 och dokumenterad faktakontroll.",
+  "updated_at": "2026-11-25T16:13:45+00:00"
+}

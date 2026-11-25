@@ -1,0 +1,33 @@
+{
+  "blockers": [],
+  "chapter": "08-jamforande-analys.md",
+  "chapter_sha256": "35e9e05f8212531340cdb54726e63ac6eca68385a134d3406d141d90a2402024",
+  "check_notes": {
+    "audience": "Anpassat till erfarna IT-arkitekter i reglerade organisationer, fiktiv referensmyndighet.",
+    "consistency": "Kvalitativ jämförelse och beslutskriterier kompletteras med illustrativ femårskalkyl. Kapitel 20 använder samma bedömningsdimensioner.",
+    "editorial": "Läsarfärdig text; inga arbetsmarkörer eller nya innehållsöverlappningar identifierade.",
+    "facts": "K002, K009, K032, K036: tidigare dokumenterad granskning; K009/K032 inte fulltextgranskade. Testresultat i LHBench är historiska och avgränsade. Nya exempel är villkorad arkitektursyntes, inte empiriska effektpåståenden. Kontrollberäknat 41 och 51 mnkr vid 60 ändringar, 61 mnkr vid 160. Förändringskostnaden räknas inte dubbelt; antaganden, lika servicenivå och begränsningar tydliga. Ingen textändring behövs.",
+    "language": "Svenskt fackspråk och konsekvent terminologi; Kontrollberäknat 41 och 51 mnkr vid 60 ändringar, 61 mnkr vid 160. Förändringskostnaden räknas inte dubbelt; antaganden, lika servicenivå och begränsningar tydliga. Ingen textändring behövs.",
+    "sources": "K002, K009, K032, K036: tidigare dokumenterad granskning; K009/K032 inte fulltextgranskade. Testresultat i LHBench är historiska och avgränsade.",
+    "structure": "Kvalitativ jämförelse och beslutskriterier kompletteras med illustrativ femårskalkyl. Kapitel 20 använder samma bedömningsdimensioner."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Kontrollberäknat 41 och 51 mnkr vid 60 ändringar, 61 mnkr vid 160. Förändringskostnaden räknas inte dubbelt; antaganden, lika servicenivå och begränsningar tydliga. Ingen textändring behövs."
+  ],
+  "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
+  "project_revision_at_review": 50,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Förnyad intern redaktionell granskning i steg 7.3b, basrevision 50. Hela kapitel 8 genomläst mot bokplan, canon, terminologi, inledning och dokumenterad faktakontroll samt jämfört med godkänd revision 45. Tidigare externa källkontroller återanvänds; ingen ny extern fulltextgranskning eller oberoende faktagranskning.",
+  "updated_at": "2026-11-25T15:39:18+00:00"
+}

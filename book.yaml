@@ -1,0 +1,54 @@
+title: Modern dataarkitektur
+subtitle: Arkitekturval, dataplattformar och informationsförsörjning i stora reglerade
+  organisationer
+author: Erland Lindmark
+language: sv
+book_kind: factbook
+book_type: professional_reference
+difficulty: advanced
+audience: Erfarna IT-arkitekter i reglerade organisationer
+edition: '1'
+version: 0.1.0
+date: '2026-11-25'
+rights: All rights reserved
+publisher: ''
+cover_image: assets/cover/cover.png
+pdf_size: 170x240
+identifier: ''
+subject: Dataarkitektur
+description: Forsknings- och erfarenhetsbaserat beslutsstöd för arkitekturval.
+project_slug: modern-dataarkitektur
+chapters:
+- chapters/00-inledning.md
+- chapters/01-dataarkitekturens-utveckling.md
+- chapters/02-operativ-och-analytisk-datahantering.md
+- chapters/03-dataarkitekturens-dimensioner.md
+- chapters/04-data-warehouse.md
+- chapters/05-data-lake.md
+- chapters/06-data-lakehouse.md
+- chapters/07-specialiserade-datalager.md
+- chapters/08-jamforande-analys.md
+- chapters/09-informationsforsorjning.md
+- chapters/10-dataprodukter.md
+- chapters/11-datadelning.md
+- chapters/12-dataplattformar.md
+- chapters/13-data-mesh.md
+- chapters/14-data-fabric.md
+- chapters/15-organisatoriska-arkitekturval.md
+- chapters/16-datastyrning.md
+- chapters/17-informationssakerhet.md
+- chapters/18-driftsmiljoer.md
+- chapters/19-dataarkitektur-for-analys-och-ai.md
+- chapters/20-referensarkitekturer.md
+- chapters/21-stegvis-modernisering.md
+- chapters/99-kallregister.md
+exports:
+  epub:
+    enabled: true
+    include_text_toc: false
+    toc_depth: 1
+  pdf:
+    enabled: true
+    include_toc_before_introduction: true
+    toc_depth: 3
+

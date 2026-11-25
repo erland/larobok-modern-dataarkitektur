@@ -1,0 +1,32 @@
+{
+  "blockers": [],
+  "chapter": "07-specialiserade-datalager.md",
+  "chapter_sha256": "dedf597be256acb1b7b493953cb349b30697228a16e8b2a17612ac4f751f71f1",
+  "check_notes": {
+    "editorial": "HTAP kort med hänvisning till kapitel 2; AI-fördjupning i kapitel 19; beslutskriterier egen syntes.",
+    "facts": "Avgränsade tekniska egenskaper, inga generella effektpåståenden.",
+    "illustrations": "Inga illustrationer enligt bokplan.",
+    "sources": "K030 officiellt konferensabstract via tidtabell (direktlänk 403), K057–K063 relevanta originalavsnitt, K064 abstract, K065 och K066 originaldokumentation."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Stonebraker och Çetintemel argumenterade redan 2005 för att olika arbetslaster motiverar olika databasmotorer [K064]. Deras tes innebär inte att varje modernt användningsfall kräver en separat produkt. Specialisering är motiverad när",
+    "Ett Operational Data Store (ODS) används här som beteckning för ett integrerat lager med relativt aktuell operativ information. Oracle beskriver ODS som ett lager för den dagliga verksamheten med begränsat historiskt djup [K065].",
+    "Approximativa index kan ge kortare svarstid på bekostnad av att vissa av de närmaste vektorerna missas [K061]. Mät därför både svarstid och återfinningsgrad (recall) mot exakt sökning med samma avståndsmått och filter. Semantisk relevans behöver dessutom bedömas separat.",
+    "Vid träning måste informationen väljas så att den representerar vad som kunde vara känt vid den relevanta tidpunkten; annars kan framtida information läcka in i träningsunderlaget. Feast beskriver tidskorrekta kopplingar till historiska modellvariabler [K066]. För att även hantera sent registrerade uppgifter eller retroaktiva rättelser behöver organisationen säkerställa att uppgifternas faktiska tillgänglighetstid beaktas, inte enbart händelsetiden."
+  ],
+  "project_revision_at_review": 16,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Kapitel 7 granskat, korrigerat och återläst. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T09:03:52+00:00"
+}

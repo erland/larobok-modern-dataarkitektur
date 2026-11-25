@@ -1,0 +1,36 @@
+{
+  "blockers": [],
+  "chapter": "02-operativ-och-analytisk-datahantering.md",
+  "chapter_sha256": "434cc232009e9a9177d73a77e8ebecf56e179175089ebaa6362a50b6e397d91e",
+  "check_notes": {
+    "audience": "Beslutsorienterad för erfarna IT-arkitekter.",
+    "consistency": "Inledning och kapitel 1 bevarade; överföringsmönster och modellering hänvisas till kapitel 9 respektive 4.",
+    "editorial": "Ingen onödig repetition eller arbetsnotering i kapitlet.",
+    "facts": "Källpåståenden stöds av granskade avsnitt; rekommendationer och hypotetiska exempel skiljs från empiriska resultat. I steg 8.7 tillkom endast en illustrativ figur med beskrivande bildtext utifrån kapitlet; tidigare sakgranskning återanvänds.",
+    "illustrations": "IMG-02-01: Separerad arbetslast, transaktioner och analytiska frågor samt isolering som avvägning. SVG-validering och visuell kontroll i färg/gråskala vid gemensam förhandsbredd. Faktisk exportkontroll återstår.",
+    "language": "Preciserad resursterminologi.",
+    "sources": "K029 originalblogg avsnitt Data Storage och Extracting Data; K031 originalartikel s. 553 inklusive sidbild; K040 författarnas abstract i TUM:s register. Källhänvisningar och löptext oförändrade; ingen ny extern granskning.",
+    "structure": "OLTP/OLAP, isolering, historik, aktualitet och beslutskriterier i logisk ordning."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "passed",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Preciserat I/O-kapacitet.",
+    "Förtydligat asynkron replikfördröjning och CERN:s dagliga uppdatering.",
+    "Förtydligat att HTAP och konsistenta snapshots inte garanterar resursisolering eller svarstid.",
+    "Infogat IMG-02-01 med beskrivande bildtext enligt illustrationsplanen."
+  ],
+  "project_revision_at_review": 57,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Förnyat internt godkännande efter illustrationens integrering, steg 8.7. Hela kapitlet granskat mot bokplan, canon, inledning, kapitel 1 och källpolicy; originalkällornas relevanta avsnitt kontrollerade. Intern redaktionell granskning, inte oberoende vetenskaplig granskning.",
+  "updated_at": "2026-11-25T17:47:30+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "blockers": [],
+  "chapter": "13-data-mesh.md",
+  "chapter_sha256": "684e8dbfa91620559ce991519f4648a17846be3583c94405143a9ec9238d2208",
+  "check_notes": {
+    "audience": "Erfarna IT-arkitekter i reglerade organisationer; fiktiv referensmyndighet.",
+    "consistency": "Koncentreringen bevarar de fyra principerna, forskningsbegränsningarna och hänvisningarna till kapitel 15 och 21.",
+    "editorial": "Koncentreringen bevarar de fyra principerna, forskningsbegränsningarna och hänvisningarna till kapitel 15 och 21.",
+    "facts": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Ingen ny extern fulltextgranskning.Koncentreringen bevarar de fyra principerna, forskningsbegränsningarna och hänvisningarna till kapitel 15 och 21.",
+    "language": "Koncentreringen bevarar de fyra principerna, forskningsbegränsningarna och hänvisningarna till kapitel 15 och 21.",
+    "sources": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Ingen ny extern fulltextgranskning.",
+    "structure": "Koncentreringen bevarar de fyra principerna, forskningsbegränsningarna och hänvisningarna till kapitel 15 och 21."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [],
+  "illustration_justification": "Inga inre illustrationer enligt bokspecifikation.",
+  "project_revision_at_review": 51,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Förnyad intern redaktionell granskning 7.3c, basrevision 51, kapitel 13. Jämförelse med revision 45 och dokumenterad faktakontroll.",
+  "updated_at": "2026-11-25T16:13:34+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "blockers": [],
+  "chapter": "04-data-warehouse.md",
+  "chapter_sha256": "badac234a7a0f667586f40159c0fbf8013b331abc3b37922888c95f05b4bbb7e",
+  "check_notes": {
+    "audience": "Anpassat till erfarna IT-arkitekter i reglerade organisationer, fiktiv referensmyndighet.",
+    "consistency": "Mottagning, integrerat lager, Data Mart, tre modelleringsansatser och historik har olika funktioner. Kapitel 8 behåller den breda jämförelsen.",
+    "editorial": "Läsarfärdig text; inga arbetsmarkörer eller nya innehållsöverlappningar identifierade.",
+    "facts": "K041–K045: tidigare granskade metod- och produktbeskrivningar. Snowflake-exemplet återges som teknisk princip, inte produktval eller effektmätning. Nya exempel är villkorad arkitektursyntes, inte empiriska effektpåståenden. Ingen ytterligare korrigering; harmoniseringen till mottagningszon är semantiskt neutral. I steg 8.7 tillkom endast en illustrativ figur med beskrivande bildtext utifrån kapitlet; tidigare sakgranskning återanvänds.",
+    "illustrations": "IMG-04-01: Mottagning, integration, historik och Data Marts som logiska funktioner. SVG-validering och visuell kontroll i färg/gråskala vid gemensam förhandsbredd. Faktisk exportkontroll återstår.",
+    "language": "Svenskt fackspråk och konsekvent terminologi; Ingen ytterligare korrigering; harmoniseringen till mottagningszon är semantiskt neutral.",
+    "sources": "K041–K045: tidigare granskade metod- och produktbeskrivningar. Snowflake-exemplet återges som teknisk princip, inte produktval eller effektmätning. Källhänvisningar och löptext oförändrade; ingen ny extern granskning.",
+    "structure": "Mottagning, integrerat lager, Data Mart, tre modelleringsansatser och historik har olika funktioner. Kapitel 8 behåller den breda jämförelsen."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "passed",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Ingen ytterligare korrigering; harmoniseringen till mottagningszon är semantiskt neutral.",
+    "Infogat IMG-04-01 med beskrivande bildtext enligt illustrationsplanen."
+  ],
+  "project_revision_at_review": 57,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Förnyat internt godkännande efter illustrationens integrering, steg 8.7. Förnyad intern redaktionell granskning i steg 7.3b, basrevision 50. Hela kapitel 4 genomläst mot bokplan, canon, terminologi, inledning och dokumenterad faktakontroll samt jämfört med godkänd revision 45. Tidigare externa källkontroller återanvänds; ingen ny extern fulltextgranskning eller oberoende faktagranskning.",
+  "updated_at": "2026-11-25T17:47:33+00:00"
+}

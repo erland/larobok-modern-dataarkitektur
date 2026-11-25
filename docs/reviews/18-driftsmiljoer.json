@@ -1,0 +1,31 @@
+{
+  "blockers": [],
+  "chapter": "18-driftsmiljoer.md",
+  "chapter_sha256": "832e524d37b5d31f4da8d5f2552b89ab77590f584a9c9e20f64c7bba3e9fa5f2",
+  "check_notes": {
+    "consistency": "Kapitel 16–18 lästa tillsammans; inga ändringar av tidigare kapitel.",
+    "facts": "Skillnad mellan tjänstetyper, tredjelandsöverföring och verifierad återetablering preciserad. Ingen juridisk expertgranskning.",
+    "sources": "EUR-Lex indexerade originalutdrag och kommissionens vägledning; IMY, CNCF och Iceberg originalwebb. K091 endast rapportsammanfattning."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "not_applicable",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Preciserat Data Act artiklar 30–31.",
+    "Avgränsat GDPR och tredjelandsöverföring.",
+    "Skilt interoperabilitet från portabilitet och återetablering.",
+    "Kompletterat flyttprovet med livscykelkontroller."
+  ],
+  "project_revision_at_review": 38,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Kapitel 18 korrigerat och återläst; del V helhetsgranskad. Intern redaktionell granskning.",
+  "updated_at": "2026-11-25T13:21:33+00:00"
+}

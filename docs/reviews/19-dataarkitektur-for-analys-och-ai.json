@@ -1,0 +1,34 @@
+{
+  "blockers": [],
+  "chapter": "19-dataarkitektur-for-analys-och-ai.md",
+  "chapter_sha256": "8d162478a8459a5b30a058ba64dbc768d6d558766f0e90354b27b8bf148df5da",
+  "check_notes": {
+    "audience": "Erfarna IT-arkitekter i reglerade organisationer; fiktiv referensmyndighet.",
+    "consistency": "Fyra illustrativa informationsflöden skiljer historik, aktuella uppgifter, läsning och operativa åtgärder; preciserat hantering av osäkert utfall.",
+    "editorial": "Fyra illustrativa informationsflöden skiljer historik, aktuella uppgifter, läsning och operativa åtgärder; preciserat hantering av osäkert utfall.",
+    "facts": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Ingen ny extern fulltextgranskning.Fyra illustrativa informationsflöden skiljer historik, aktuella uppgifter, läsning och operativa åtgärder; preciserat hantering av osäkert utfall. I steg 8.7 tillkom endast en illustrativ figur med beskrivande bildtext utifrån kapitlet; tidigare sakgranskning återanvänds.",
+    "illustrations": "IMG-19-01: Fyra tillämpningar med separata läs- och åtgärdsvägar samt avgränsad AI-tjänst. SVG-validering och visuell kontroll i färg/gråskala vid gemensam förhandsbredd. Faktisk exportkontroll återstår.",
+    "language": "Fyra illustrativa informationsflöden skiljer historik, aktuella uppgifter, läsning och operativa åtgärder; preciserat hantering av osäkert utfall.",
+    "sources": "Tidigare dokumenterad källkontroll och matris 7.3a återanvänds; inga nya empiriska effektpåståenden. Ingen ny extern fulltextgranskning. Källhänvisningar och löptext oförändrade; ingen ny extern granskning.",
+    "structure": "Fyra illustrativa informationsflöden skiljer historik, aktuella uppgifter, läsning och operativa åtgärder; preciserat hantering av osäkert utfall."
+  },
+  "checks": {
+    "audience": "passed",
+    "consistency": "passed",
+    "editorial": "passed",
+    "facts": "passed",
+    "illustrations": "passed",
+    "language": "passed",
+    "sources": "passed",
+    "structure": "passed"
+  },
+  "corrections": [
+    "Fyra illustrativa informationsflöden skiljer historik, aktuella uppgifter, läsning och operativa åtgärder; preciserat hantering av osäkert utfall.",
+    "Infogat IMG-19-01 med beskrivande bildtext enligt illustrationsplanen."
+  ],
+  "project_revision_at_review": 57,
+  "review_mode": "auto",
+  "status": "approved_auto",
+  "summary": "Förnyat internt godkännande efter illustrationens integrering, steg 8.7. Förnyad intern redaktionell granskning 7.3c, basrevision 51, kapitel 19. Jämförelse med revision 45 och dokumenterad faktakontroll.",
+  "updated_at": "2026-11-25T17:47:40+00:00"
+}

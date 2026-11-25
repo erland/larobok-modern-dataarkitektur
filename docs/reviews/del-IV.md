@@ -1,0 +1,3 @@
+# Helhetsgranskning del IV
+
+Kapitel 12–15 har lästs tillsammans. Kapitel 12 behandlar tekniska förmågor och självbetjänade tjänster, kapitel 13 domänbaserat dataansvar och Data Mesh-principer, kapitel 14 metadataorienterad automation och Data Fabric, kapitel 15 val av ansvarsfördelning och finansiering. Återkopplingen till specialistberoenden och gemensamma tjänster i kapitel 15 behövs för att jämföra modellerna och återupprepar inte den tekniska realiseringen. Referensmyndigheten är fortsatt fiktiv. Organisatoriskt ansvar skiljs från fysisk lagring. Bankexempel avgränsas från myndighetskrav. Ingen ändring i tidigare godkända kapitel behövs. Del IV internt redaktionellt godkänd, inte oberoende vetenskapligt granskad.
